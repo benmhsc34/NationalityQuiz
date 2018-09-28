@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5733">
+
+    <LinearLayout
+        android:id="@+id/parent_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounder_corners"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imageViewCountryFlag"
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:background="@drawable/rounder_corners"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textViewCountryName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/rounder_corners"
+            android:textSize="15sp" />
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

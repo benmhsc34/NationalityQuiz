@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@drawable/rounder_cornes_questions"
+        >
+
+
+        <TextView
+            android:id="@+id/textViewOfCountry"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:background="@drawable/rounder_cornes_questions"
+            />
+
+        <android.support.v7.widget.CardView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:elevation="12dp"
+            android:id="@+id/view2"
+            app:cardCornerRadius="40dp"
+            android:innerRadius="0dp"
+            android:shape="ring"
+            android:thicknessRatio="1.9"
+            android:layout_marginLeft="15dp"
+            tools:ignore="UnusedAttribute"
+            android:layout_marginStart="15dp">
+
+        <ImageView
+            android:id="@+id/imageViewOfFlag"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+             />
+
+        </android.support.v7.widget.CardView>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
