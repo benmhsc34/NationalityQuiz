@@ -7,6 +7,8 @@ import android.content.SharedPreferences;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -14,7 +16,10 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import java.util.ArrayList;
+
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,8 +34,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-        ListView listMood = findViewById(R.id.listView);
+        ListView listMood = findViewById(R.id.recyclerView);
         listMood.setAdapter(new CustomAdapter(MainActivity.this, datesList, flagList));
     }
 
@@ -88,6 +92,4 @@ public class MainActivity extends AppCompatActivity {
             return view;
         }
     }
-
-
 }

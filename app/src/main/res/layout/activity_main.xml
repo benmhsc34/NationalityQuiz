@@ -5,18 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/rounder_cornes_questions"
+    android:background="@color/annoyingOrange"
     >
 
     <ListView
         android:layout_marginTop="5dp"
-        android:id="@+id/listView"
+        android:id="@+id/recyclerView"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:divider="@color/annoyingOrange"
+        android:fontFamily="@font/fatface"
         android:dividerHeight="5dp"
         android:listSelector="@android:color/transparent"
-        />
+        tools:ignore="UnusedAttribute" />
 
 
 </RelativeLayout>

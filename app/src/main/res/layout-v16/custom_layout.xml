@@ -17,8 +17,7 @@
             android:layout_width="110dp"
             android:layout_height="70dp"
             android:background="@drawable/rounder_corners"
-            tools:ignore="ContentDescription"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/textViewCountryName"
@@ -27,10 +26,11 @@
             android:layout_gravity="center"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            android:fontFamily="@font/fatface"
             android:background="@drawable/rounder_corners"
-            android:textSize="40sp"
-            tools:ignore="UnusedAttribute" />
+            android:textSize="20sp"
+            android:layout_marginRight="40dp"
+            android:textStyle="bold"
+            android:layout_marginEnd="40dp" />
 
 
     </LinearLayout>
