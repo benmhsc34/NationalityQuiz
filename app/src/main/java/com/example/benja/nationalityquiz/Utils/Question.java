@@ -2,7 +2,7 @@ package com.example.benja.nationalityquiz.Utils;
 
 import java.util.List;
 
-class Question {
+public class Question {
 
     private String mQuestion;
     private List<String> mChoiceList;

@@ -5,7 +5,7 @@ import com.example.benja.nationalityquiz.Utils.Question;
 import java.util.Collections;
 import java.util.List;
 
-class QuestionBank {
+public class QuestionBank {
     private List<Question> mQuestionList;
     private int mNextQuestionIndex;
 
