@@ -39,14 +39,15 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent">
 
+
         <TextView
             android:id="@+id/questionTextView"
             android:layout_width="fill_parent"
             android:layout_height="230dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:layout_marginBottom="8dp"
             android:layout_marginTop="75dp"
+            android:layout_marginBottom="8dp"
             android:background="@drawable/rounder_cornes_questions1"
             android:gravity="center"
             android:text="Question?"
@@ -54,40 +55,49 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
-
-        <Button
-            android:id="@+id/activity_game_answer1_btn"
-            android:layout_width="170dp"
-            android:layout_height="120dp"
-            android:layout_alignStart="@+id/questionTextView"
+        <LinearLayout
+            android:id="@+id/LL1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
             android:layout_below="@+id/questionTextView"
-            android:layout_margin="5dp"
-            android:background="@drawable/rounder_cornes_questions1"
-            android:text="Answer1"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:weightSum="2">
 
-        <Button
-            android:id="@+id/activity_game_answer2_btn"
-            android:layout_width="170dp"
-            android:layout_height="120dp"
-            android:layout_alignEnd="@+id/questionTextView"
-            android:layout_below="@+id/questionTextView"
-            android:layout_margin="5dp"
-            android:background="@drawable/rounder_cornes_questions1"
-            android:text="Answer2"
-            android:textColor="@color/colorPrimary"
-            android:textSize="20sp"
-            android:textStyle="bold"/>
+            <Button
+                android:id="@+id/activity_game_answer1_btn"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounder_cornes_questions1"
+                android:text="Answer1"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
 
+            <Button
+                android:id="@+id/activity_game_answer2_btn"
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:background="@drawable/rounder_cornes_questions1"
+                android:text="Answer2"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/LL2"
+            android:layout_below="@id/LL1"
+            android:weightSum="2">
         <Button
             android:id="@+id/activity_game_answer3_btn"
-            android:layout_width="170dp"
+            android:layout_width="match_parent"
             android:layout_height="120dp"
-            android:layout_alignStart="@+id/questionTextView"
-            android:layout_below="@+id/activity_game_answer2_btn"
             android:layout_margin="5dp"
+            android:layout_weight="1"
             android:background="@drawable/rounder_cornes_questions1"
             android:ellipsize="end"
             android:lines="1"
@@ -95,20 +105,20 @@
             android:text="Answer3"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <Button
             android:id="@+id/activity_game_answer4_btn"
-            android:layout_width="170dp"
+            android:layout_width="match_parent"
             android:layout_height="120dp"
-            android:layout_alignEnd="@+id/questionTextView"
-            android:layout_below="@+id/activity_game_answer2_btn"
             android:layout_margin="5dp"
+            android:layout_weight="1"
             android:background="@drawable/rounder_cornes_questions1"
             android:padding="2dp"
             android:text="Answer4"
             android:textColor="@color/colorPrimary"
             android:textSize="20sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
+        </LinearLayout>
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

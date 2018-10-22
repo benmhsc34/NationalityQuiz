@@ -3,7 +3,6 @@ package com.example.benja.nationalityquiz;
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.os.Build;
 import android.os.Handler;
@@ -16,9 +15,19 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
+import com.example.benja.nationalityquiz.Utils.Question;
+import com.example.benja.nationalityquiz.Utils.QuestionBank;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 
 public class QuestionActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -41,41 +50,35 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
 
     private boolean mEnableTouchEvents;
-
+    List<Question> questionList = new ArrayList<>();
     String name;
-
-
-    public static final String countryName = "KEY_1";
-    public static final String countryFlag = "KEY_2";
-    private SharedPreferences mPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question1);
 
-        SharedPreferences mPreferences = getSharedPreferences("country_data", MODE_PRIVATE);
-        String chosenCountry = mPreferences.getString(countryName, "");
-        int correspondingFlag = mPreferences.getInt(countryFlag, 0);
+        Intent intent = getIntent();
+        int number = intent.getIntExtra("countryFlag", 0);
+        String str = intent.getStringExtra("countryName");
+
 
         ImageView imageView = findViewById(R.id.imageViewOfFlag);
-        TextView textView =findViewById(R.id.textViewOfCountry);
+        TextView textView = findViewById(R.id.textViewOfCountry);
 
-        imageView.setImageResource(correspondingFlag);
-        textView.setText(chosenCountry);
-
-        name = getIntent().getStringExtra("name");
+        imageView.setImageResource(number);
+        textView.setText(str);
 
         System.out.println("QuestionActivity::onCreate()");
-
-        mQuestionBank = this.generateQuestions();
+        // switch if extra intent .equals"China" then get_json_china...
+        mQuestionBank = this.get_json();
 
         if (savedInstanceState != null) {
             mScore = savedInstanceState.getInt(BUNDLE_STATE_SCORE);
             mNumberOfQuestions = savedInstanceState.getInt(BUNDLE_STATE_QUESTION);
         } else {
             mScore = 0;
-            mNumberOfQuestions = 4;
+            mNumberOfQuestions = 10;
         }
 
         mEnableTouchEvents = true;
@@ -115,16 +118,16 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     public void onClick(View v) {
         final int responseIndex = (int) v.getTag();
 
-        if (mCurrentQuestion.getAnswerIndex() == 0){
+        if (mCurrentQuestion.getAnswerIndex() == 0) {
             mAnswerButton1.setBackgroundResource(R.drawable.rounder_cornes_questions_green);
             mAnswerButton1.setTextColor(Color.WHITE);
-        }else if (mCurrentQuestion.getAnswerIndex() == 1){
+        } else if (mCurrentQuestion.getAnswerIndex() == 1) {
             mAnswerButton2.setBackgroundResource(R.drawable.rounder_cornes_questions_green);
             mAnswerButton2.setTextColor(Color.WHITE);
-        }else if (mCurrentQuestion.getAnswerIndex() == 2){
+        } else if (mCurrentQuestion.getAnswerIndex() == 2) {
             mAnswerButton3.setBackgroundResource(R.drawable.rounder_cornes_questions_green);
             mAnswerButton3.setTextColor(Color.WHITE);
-        }else if (mCurrentQuestion.getAnswerIndex() == 3){
+        } else if (mCurrentQuestion.getAnswerIndex() == 3) {
             mAnswerButton4.setBackgroundResource(R.drawable.rounder_cornes_questions_green);
             mAnswerButton4.setTextColor(Color.WHITE);
         }
@@ -135,19 +138,19 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         } else {
 
 
-            if (responseIndex == 0){
+            if (responseIndex == 0) {
                 mAnswerButton1.setBackgroundResource(R.drawable.rounder_cornes_questions_red);
                 mAnswerButton1.setTextColor(Color.WHITE);
 
-            }else if (responseIndex == 1){
+            } else if (responseIndex == 1) {
                 mAnswerButton2.setBackgroundResource(R.drawable.rounder_cornes_questions_red);
                 mAnswerButton2.setTextColor(Color.WHITE);
 
-            }else if (responseIndex == 2){
+            } else if (responseIndex == 2) {
                 mAnswerButton3.setBackgroundResource(R.drawable.rounder_cornes_questions_red);
                 mAnswerButton3.setTextColor(Color.WHITE);
 
-            }else if (responseIndex == 3){
+            } else if (responseIndex == 3) {
                 mAnswerButton4.setBackgroundResource(R.drawable.rounder_cornes_questions_red);
                 mAnswerButton4.setTextColor(Color.WHITE);
 
@@ -227,53 +230,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         mAnswerButton4.setText(question.getChoiceList().get(3));
     }
 
-    private QuestionBank generateQuestions() {
-        Question question1 = new Question("What is the name of the current french president?",
-                Arrays.asList("François Hollande", "Emmanuel Macron", "Jacques Chirac", "François Mitterand"),
-                1);
 
-        Question question2 = new Question("How many countries are there in the European Union?",
-                Arrays.asList("15", "24", "28", "32"),
-                2);
-
-        Question question3 = new Question("Who is the creator of the Android operating system?",
-                Arrays.asList("Andy Rubin", "Steve Wozniak", "Jake Wharton", "Paul Smith"),
-                0);
-
-        Question question4 = new Question("When did the first man land on the moon?",
-                Arrays.asList("1958", "1962", "1967", "1969"),
-                3);
-
-        Question question5 = new Question("What is the capital of Romania?",
-                Arrays.asList("Bucarest", "Warsaw", "Budapest", "Berlin"),
-                0);
-
-        Question question6 = new Question("Who painted the Mona Lisa?",
-                Arrays.asList("Michelangelo", "Leonardo Da Vinci", "Raphael", "Carravagio"),
-                1);
-
-        Question question7 = new Question("In which city is the composer Frédéric Chopin buried?",
-                Arrays.asList("Strasbourg", "Warsaw", "Paris", "Moscow"),
-                2);
-
-        Question question8 = new Question("What is the country top-level domain of Belgium?",
-                Arrays.asList(".bg", ".bm", ".bl", ".be"),
-                3);
-
-        Question question9 = new Question("What is the house number of The Simpsons?",
-                Arrays.asList("42", "101", "666", "742"),
-                3);
-
-        return new QuestionBank(Arrays.asList(question1,
-                question2,
-                question3,
-                question4,
-                question5,
-                question6,
-                question7,
-                question8,
-                question9));
-    }
 
     @Override
     protected void onStart() {
@@ -310,5 +267,31 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         super.onDestroy();
 
         System.out.println("GameActivity::onDestroy()");
+    }
+
+    public QuestionBank get_json() {
+        String json;
+        try {
+            InputStream is = getAssets().open("a.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i=0; i<jsonArray.length(); i++){
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
     }
 }

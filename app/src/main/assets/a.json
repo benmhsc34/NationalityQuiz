@@ -1,0 +1,30 @@
+﻿[
+	{"question":"What is the name of the current french president????",
+	 "answer0":"Ben C",
+	 "answer1":"Macron",
+	 "answer2":"Yoan D",
+	 "answer3":"Yo Mama",
+      "answerIndex":"1"
+	},
+  {"question":"What is the name of the current dutch president????",
+    "answer0":"Ben C",
+    "answer1":"the correcet one",
+    "answer2":"Yoan D",
+    "answer3":"Yo Mama",
+    "answerIndex":"1"
+  },
+  {"question":"What is the name of the current arab president????",
+    "answer0":"Ben C",
+    "answer1":"daza",
+    "answer2":"Yoan D",
+    "answer3":"This one",
+    "answerIndex":"3"
+  },
+  {"question":"What is the name of the current ocean president????",
+    "answer0":"Ben C",
+    "answer1":"Macron",
+    "answer2":"Yoan D",
+    "answer3":"Wave",
+    "answerIndex":"3"
+  }
+]
