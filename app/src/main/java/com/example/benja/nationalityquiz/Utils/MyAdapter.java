@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.example.benja.nationalityquiz.QuestionActivity;
@@ -40,7 +40,8 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
         viewHolder.textViewName.setText(listItem.getName());
         Picasso.with(context).load(listItem.getFlag()).into(viewHolder.imageViewFlag);
-        viewHolder.linearLayout.setOnClickListener(new View.OnClickListener() {
+        viewHolder.textViewStats.setText(listItem.getStats());
+        viewHolder.relativeLayout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(context, QuestionActivity.class);
@@ -60,14 +61,16 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
         public TextView textViewName;
         public ImageView imageViewFlag;
-        public LinearLayout linearLayout;
+        public RelativeLayout relativeLayout;
+        public TextView textViewStats;
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
 
             textViewName = itemView.findViewById(R.id.textViewCountryName);
             imageViewFlag = itemView.findViewById(R.id.imageViewCountryFlag);
-            linearLayout = itemView.findViewById(R.id.parent_layout);
+            relativeLayout = itemView.findViewById(R.id.parent_layout);
+            textViewStats = itemView.findViewById(R.id.textViewStats);
         }
     }
 }

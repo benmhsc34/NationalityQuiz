@@ -2,10 +2,11 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="6dp"
     android:background="#FF5733">
 
-    <LinearLayout
+    <RelativeLayout
         android:id="@+id/parent_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -17,23 +18,40 @@
             android:layout_width="110dp"
             android:layout_height="70dp"
             android:background="@drawable/rounder_corners"
-            tools:ignore="ContentDescription"
-            />
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/textViewCountryName"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
             android:layout_gravity="center"
-            android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            android:fontFamily="@font/fatface"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/imageViewCountryFlag"
             android:background="@drawable/rounder_corners"
-            android:textSize="40sp"
-            tools:ignore="UnusedAttribute" />
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:textSize="30sp"
+            tools:ignore="UnusedAttribute"
+            android:layout_toEndOf="@+id/imageViewCountryFlag" />
+
+        <TextView
+            android:id="@+id/textViewStats"
+            android:layout_width="wrap_content"
+            android:layout_height="70dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/rounder_corners"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:textSize="30sp"
+            tools:ignore="UnusedAttribute"
+            android:layout_alignParentEnd="true" />
 
 
-    </LinearLayout>
+    </RelativeLayout>
 
 
 </android.support.constraint.ConstraintLayout>

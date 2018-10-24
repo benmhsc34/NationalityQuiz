@@ -7,8 +7,23 @@
     android:background="@color/annoyingOrange"
     tools:context=".MainActivity">
 
+    <TextView
+        android:id="@+id/playHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/rounder_cornes_questions_blue_top"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_marginBottom="5dp"
+        android:text="HELLO TEST %"
+        android:textSize="30sp" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
+        android:layout_below="@+id/playHeader"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 

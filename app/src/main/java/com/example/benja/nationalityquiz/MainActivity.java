@@ -27,8 +27,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         recyclerView = findViewById(R.id.recyclerView);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -36,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         listItems = new ArrayList<>();
 
         for (int i = 0; i < datesList.length; i++) {
-            ListItem listItemb = new ListItem(flagList[i], datesList[i]);
+            ListItem listItemb = new ListItem(flagList[i], datesList[i], "");
 
             listItems.add(listItemb);
         }

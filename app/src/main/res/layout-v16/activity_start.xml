@@ -16,8 +16,8 @@
             android:layout_height="wrap_content">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
@@ -27,7 +27,7 @@
         <ImageView
             android:id="@+id/bigLogo"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="250dp"
             android:layout_below="@id/relativeLayoutSettings"
             android:layout_centerHorizontal="true"
             android:src="@drawable/nq" />
@@ -42,6 +42,7 @@
             android:paddingRight="50dp">
 
             <Button
+                android:id="@+id/playButton"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:background="@drawable/rounder_cornes_questions_green"
@@ -62,6 +63,7 @@
             android:paddingRight="50dp">
 
             <Button
+                android:id="@+id/statsButton"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:background="@drawable/rounder_cornes_questions_green"
@@ -80,6 +82,7 @@
             android:weightSum="2">
 
             <Button
+                android:id="@+id/moreAppsButton"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginRight="2dp"
@@ -90,6 +93,7 @@
                 android:textColor="#FFF" />
 
             <Button
+                android:id="@+id/rateUs"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="2dp"

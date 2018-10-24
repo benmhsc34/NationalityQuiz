@@ -28,10 +28,14 @@ public class StartActivity extends AppCompatActivity {
             }
         });
 
-        Button statsButton = findViewById(R.id.stats);
-        RelativeLayout relativeLayout = findViewById(R.id.relativeLayout);
-
-        statsButton.setHeight(relativeLayout.getHeight());
+        Button statsButton = findViewById(R.id.statsButton);
+        statsButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(StartActivity.this, StatsActivity.class);
+                StartActivity.this.startActivity(myIntent);
+            }
+        });
 
 
     }
