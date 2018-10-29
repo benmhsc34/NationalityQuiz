@@ -4,6 +4,8 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
@@ -21,9 +23,13 @@ public class StartActivity extends AppCompatActivity {
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Button playButton = findViewById(R.id.playButton);
 
+                Animation scaleAnim = AnimationUtils.loadAnimation(StartActivity.this, R.anim.animation);
+                playButton.startAnimation( scaleAnim );
                 Intent myIntent = new Intent(StartActivity.this, MainActivity.class);
                 StartActivity.this.startActivity(myIntent);
+
 
             }
         });

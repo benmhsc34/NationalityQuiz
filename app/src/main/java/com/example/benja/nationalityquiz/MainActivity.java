@@ -14,7 +14,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
-    String datesList[] = {"Great Britain", "France", "USA", "Spain", "China", "Japan", "Germany", "Australia"};
+    String datesList[] = {"England", "France", "USA", "Spain", "China", "Japan", "Germany", "Australia"};
     Integer flagList[] = {R.drawable.gb, R.drawable.fr, R.drawable.us, R.drawable.es, R.drawable.cn, R.drawable.jp, R.drawable.de, R.drawable.au};
 
     private RecyclerView recyclerView;
@@ -40,6 +40,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         adapter = new MyAdapter(listItems, this);
+
+
 
         recyclerView.setAdapter(adapter);
     }

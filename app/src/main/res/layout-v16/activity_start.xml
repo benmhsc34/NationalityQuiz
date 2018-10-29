@@ -3,6 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="#000"
     android:layout_height="match_parent"
     tools:context=".StartActivity">
 
@@ -21,7 +22,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/ic_settings_icon" />
+                android:background="#FFF"
+                android:src="@drawable/settings" />
         </RelativeLayout>
 
         <ImageView
@@ -45,12 +47,13 @@
                 android:id="@+id/playButton"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
-                android:background="@drawable/rounder_cornes_questions_green"
+                android:background="@drawable/rounder_cornes_questions1"
                 android:fontFamily="sans-serif-smallcaps"
                 android:text="Start"
                 android:textAllCaps="false"
-                android:textColor="#FFF"
-                android:textSize="40sp" />
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:textSize="60sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -66,10 +69,12 @@
                 android:id="@+id/statsButton"
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
-                android:background="@drawable/rounder_cornes_questions_green"
+                android:background="@drawable/rounder_cornes_questions1"
                 android:fontFamily="sans-serif-smallcaps"
-                android:text="Statistics"
-                android:textColor="#FFF" />
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:text="Stats"
+                android:textColor="#000" />
         </LinearLayout>
 
         <LinearLayout
@@ -87,10 +92,12 @@
                 android:layout_height="match_parent"
                 android:layout_marginRight="2dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounder_cornes_questions_green"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/rounder_cornes_questions1"
                 android:fontFamily="sans-serif-smallcaps"
                 android:text="More Apps"
-                android:textColor="#FFF" />
+                android:textColor="#000" />
 
             <Button
                 android:id="@+id/rateUs"
@@ -98,10 +105,12 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="2dp"
                 android:layout_weight="1"
-                android:background="@drawable/rounder_cornes_questions_green"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:background="@drawable/rounder_cornes_questions1"
                 android:fontFamily="sans-serif-smallcaps"
                 android:text="Rate us"
-                android:textColor="#FFF" />
+                android:textColor="#000" />
 
         </LinearLayout>
 

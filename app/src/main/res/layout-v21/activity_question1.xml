@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/annoyingOrange"
+    android:background="#0089ff"
     tools:context=".QuestionActivity">
 
     <RelativeLayout
@@ -19,9 +19,8 @@
             android:layout_height="match_parent"
             android:layout_alignParentTop="true"
             android:background="@drawable/rounder_cornes_questions"
-            android:fontFamily="@font/fatface"
             android:gravity="center"
-            android:textColor="@color/annoyingOrange"
+            android:textColor="#0089ff"
             android:textSize="35sp"
             android:textStyle="bold" />
 
@@ -51,7 +50,7 @@
             android:background="@drawable/rounder_cornes_questions1"
             android:gravity="center"
             android:text="Question?"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#696969"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -68,9 +67,9 @@
                 android:layout_width="match_parent"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
+                android:textColor="#696969"
                 android:background="@drawable/rounder_cornes_questions1"
                 android:text="Answer1"
-                android:textColor="@color/colorPrimary"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
@@ -82,7 +81,7 @@
                 android:layout_margin="5dp"
                 android:background="@drawable/rounder_cornes_questions1"
                 android:text="Answer2"
-                android:textColor="@color/colorPrimary"
+                android:textColor="#696969"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -103,7 +102,7 @@
             android:lines="1"
             android:padding="2dp"
             android:text="Answer3"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#696969"
             android:textSize="20sp"
             android:textStyle="bold" />
 
@@ -116,7 +115,7 @@
             android:background="@drawable/rounder_cornes_questions1"
             android:padding="2dp"
             android:text="Answer4"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#696969"
             android:textSize="20sp"
             android:textStyle="bold" />
         </LinearLayout>

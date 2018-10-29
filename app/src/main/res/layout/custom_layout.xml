@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_marginBottom="6dp"
-    android:background="#FF5733">
+    android:background="#000">
 
     <RelativeLayout
         android:id="@+id/parent_layout"
@@ -29,7 +29,8 @@
             android:layout_marginLeft="10dp"
             android:layout_toRightOf="@+id/imageViewCountryFlag"
             android:background="@drawable/rounder_corners"
-            android:fontFamily="casual"
+            android:textStyle="bold"
+            android:textColor="#000"
             android:gravity="center"
             android:textSize="30sp"
             tools:ignore="UnusedAttribute"
@@ -44,7 +45,6 @@
             android:layout_marginLeft="10dp"
             android:layout_alignParentRight="true"
             android:background="@drawable/rounder_corners"
-            android:fontFamily="casual"
             android:gravity="center"
             android:textSize="30sp"
             tools:ignore="UnusedAttribute"

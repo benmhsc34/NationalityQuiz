@@ -1,0 +1,401 @@
+﻿[
+  {
+    "question": "En quelle année sort le film de Luc Besson le Grand Bleu",
+    "answer0": "1988",
+    "answer1": "1992",
+    "answer2": "1985",
+    "answer3": "1983",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Dans quelle ville Jeanne d’Arc est-elle brûlé vive?",
+    "answer0": "Amiens",
+    "answer1": "Rouen",
+    "answer2": "Paris",
+    "answer3": "Lyon",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Jacques Chirac est née à? ",
+    "answer0": "Paris",
+    "answer1": "Lyon",
+    "answer2": "Marseille",
+    "answer3": "Bordeaux",
+    "answerIndex": "0"
+  },
+  {
+    "question": "En quelle année a été inauguré DisneyLand Paris",
+    "answer0": "1985",
+    "answer1": "1995",
+    "answer2": "1990",
+    "answer3": "1992",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel est la hauteur du sommet du Mont Blanc",
+    "answer0": "4215m",
+    "answer1": "4730m",
+    "answer2": "4810m",
+    "answer3": "4986m",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel est le prénom de la femme d’Emmanuel Macron",
+    "answer0": "Ségolène",
+    "answer1": "Elisabeth",
+    "answer2": "Marine",
+    "answer3": "Brigitte",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Qui était le président de la République en 2008",
+    "answer0": "Jacques Chirac",
+    "answer1": "Nicolas Sarkozy",
+    "answer2": "François Hollande",
+    "answer3": "Emmanuel Macron",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel est le plus gros succès du cinéma français au box office français",
+    "answer0": "Bienvenue chez les Ch’tis",
+    "answer1": "Intouchables",
+    "answer2": "Astérix et Obélix: Mission Cléopâtre",
+    "answer3": "Taken",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Dans quel ville peut-on trouver la Cathérale Notre Dame?",
+    "answer0": "Paris",
+    "answer1": "Versailles",
+    "answer2": "Lyon",
+    "answer3": "Marseille",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Lequel de ces quatres lieux n’est pas inscrit au patrimoine de l’unesco",
+    "answer0": "Pont du Gard",
+    "answer1": "Arles, monuments romains",
+    "answer2": "Basilique et colline de Vézelay",
+    "answer3": "Arc de triomphe de Montpellier",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel est le dernier club français à avoir gagné la Champions League?",
+    "answer0": "OL",
+    "answer1": "OM",
+    "answer2": "PSG",
+    "answer3": "FC Nantes",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Qui est le dernier cycliste français a avoir gagné le Tour de france?",
+    "answer0": "Bernard Hinault",
+    "answer1": "Christopher Froome",
+    "answer2": "Lance Armstrong",
+    "answer3": "Geraint Thomas",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel est le club de rugby le plus titré de france?",
+    "answer0": "ASM Clermont",
+    "answer1": "MHR",
+    "answer2": "RC Toulon",
+    "answer3": "Stade Toulousain",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel est le club de foot qui a gagné le plus de Ligue1:",
+    "answer0": " AS Saint-Etienne",
+    "answer1": "OM",
+    "answer2": "OL",
+    "answer3": "PSG",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Qui est le chanteur français qui a vendu le plus de disque?",
+    "answer0": "Johnny Hallyday",
+    "answer1": "Michel Sardou",
+    "answer2": "David Guetta",
+    "answer3": "Mylène Farmer",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel est la capitale de l’occitanie",
+    "answer0": "Montpellier",
+    "answer1": "Toulouse",
+    "answer2": "Narbonne",
+    "answer3": "Perpignan",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Qui est l’inventeur de l’appareil photo",
+    "answer0": "Léonard de Vinci",
+    "answer1": "Nicéphore Niépce",
+    "answer2": "Thomas Edison",
+    "answer3": "Isaac Newton",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Comment peut-on surnommer la France?",
+    "answer0": "Le polygone",
+    "answer1": "L’octogone",
+    "answer2": "L’héxagone",
+    "answer3": "l’heptagone",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Où se trouve le Mont-Saint-Michel",
+    "answer0": "Pays de la Loire",
+    "answer1": "Nouvelle-Aquitaine",
+    "answer2": "Bretagne",
+    "answer3": "Normandie",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Où se situe la côte d’azur?",
+    "answer0": "Sud-ouest",
+    "answer1": "Ouest",
+    "answer2": "Sud-est de la France",
+    "answer3": "Nord-Ouest",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel est le fleuve/ rivière le plus long de France?",
+    "answer0": "Le Rhin",
+    "answer1": "La Garonne",
+    "answer2": "Le Rhône",
+    "answer3": "La Loire",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Le plus haut sommet d’Europe est le ?",
+    "answer0": "Mont Elbrouz",
+    "answer1": "Mont Blanc",
+    "answer2": "Pointe Dufour",
+    "answer3": "Cervin",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Combien de région la France compte-t-elle?",
+    "answer0": "15",
+    "answer1": "13",
+    "answer2": "17",
+    "answer3": "18",
+    "answerIndex": "3"
+  },
+  {
+    "question": "La france a une frontière terrestre avec?",
+    "answer0": "7 territoires indépendants",
+    "answer1": "8 territoires indépendants",
+    "answer2": "6 territoires indépendants",
+    "answer3": "5 territoires indépendants",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Laquelle de ces îles n’est pas Française?",
+    "answer0": "La Guadeloupe",
+    "answer1": "La Martinique",
+    "answer2": "Mayotte",
+    "answer3": "La Sardaigne",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Combien de mers et océans la France compte-elle autour d’elle?",
+    "answer0": "2",
+    "answer1": "3",
+    "answer2": "4",
+    "answer3": "5",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Lors des jeux olympiques d’été de rio en 2016, la France a gagné:",
+    "answer0": "7  médailles d’or",
+    "answer1": "10 médailles d’or",
+    "answer2": "12  médailles d’or",
+    "answer3": "19  médailles d’or",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Où le rugby est-il traditionnellement joué?",
+    "answer0": "Dans le Sud Ouest",
+    "answer1": "Dans le Sud Est",
+    "answer2": "Dans le Nord Ouest",
+    "answer3": "Dans le Nord Est",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Le stade de France peut accueillir:",
+    "answer0": "81 338 personnes",
+    "answer1": "89 521 personnes",
+    "answer2": "75 269 personnes",
+    "answer3": "72 845 personnes",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel était le jeu le plus populaire au XVe siècle?",
+    "answer0": "Le jeu de quilles",
+    "answer1": "La soule",
+    "answer2": "Le jeu de paume",
+    "answer3": "Le football",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Qui est le dernier français à avoir gagné Roland-Garros?",
+    "answer0": "Yannick Noah",
+    "answer1": "Jo-Wilfried Tsonga",
+    "answer2": "Gaël Monfils",
+    "answer3": "Lucas Pouille",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Dans quelle ville a eu lieu pour la dernière fois les JO d’hiver en France?",
+    "answer0": "Alpe d’Huez",
+    "answer1": "Genoble",
+    "answer2": "Chamonix",
+    "answer3": "Albertville",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel discipline a historiquement rapporté le plus  de médaille olympique à la France?",
+    "answer0": "Le judo",
+    "answer1": "Le football",
+    "answer2": "Lea natation",
+    "answer3": "L’escrime",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel sport compte le plus grand nombre de licencié en France?",
+    "answer0": "Le football",
+    "answer1": "Le rugby",
+    "answer2": "Le tennis",
+    "answer3": "Le handball",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Zidane n’a pas joué à :",
+    "answer0": "Turin",
+    "answer1": "Marseille",
+    "answer2": "Madrid",
+    "answer3": "Cannes",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Comment appelle-t-on la cueillette des raisins",
+    "answer0": "La raisinine",
+    "answer1": "La relève",
+    "answer2": "Les vendanges",
+    "answer3": "La vignation",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel est le jour de repos habituel en France?",
+    "answer0": "Le samedi",
+    "answer1": "Le vendredi",
+    "answer2": "Le lundi",
+    "answer3": "Le dimanche",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Combien y a-t-il de jour férié en France?",
+    "answer0": "11",
+    "answer1": "15",
+    "answer2": "8",
+    "answer3": "6",
+    "answerIndex": "0"
+  },
+  {
+    "question": "En France à quel heure a lieu la pause déjeuné?",
+    "answer0": "10h à 12h ",
+    "answer1": "12h à 14h",
+    "answer2": "14h à 16h",
+    "answer3": "11h à 13h",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quelle est la durée légale hebdomadaire du travail en France?",
+    "answer0": "39 heures",
+    "answer1": "41 heures",
+    "answer2": "35 heures",
+    "answer3": "45 heures",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Les Vieilles Charrues est un festival qui se déroule:",
+    "answer0": "En Bretagne",
+    "answer1": "En Normandie",
+    "answer2": "En Occitanie",
+    "answer3": "Nouvelle-Aquitaine",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Il existe un quota minimum de diffusion de chansons françaises sur les radios en France de",
+    "answer0": "60%",
+    "answer1": "50%",
+    "answer2": "45%",
+    "answer3": "40%",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel est le titre de la reprise anglaise de la chanson Comme d’habitude de Claude Françoiset Gilles Thibault",
+    "answer0": "Get it",
+    "answer1": "On my way",
+    "answer2": "My move",
+    "answer3": "My Way",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel joueur de tennis se consacre à la chanson depuis les années 90?",
+    "answer0": "Jo-Wilfried Tsonga",
+    "answer1": "Yannick Noah",
+    "answer2": "Rafael Nadal",
+    "answer3": "David Guetta",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel est le nom de scène de la chanteuse Isabelle Geffroy",
+    "answer0": "Zaz",
+    "answer1": "Shy’m",
+    "answer2": "Tal",
+    "answer3": "Alizée",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel DJ a composé l’hymne de l’Euro 2016?",
+    "answer0": "Bob Sinclar",
+    "answer1": "Martin Garrix",
+    "answer2": "David Guetta",
+    "answer3": "Dj Snake",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Teh artist est un film français avec:",
+    "answer0": "Jean du Jardin",
+    "answer1": "Gérard Depardieu",
+    "answer2": "Dany Boon",
+    "answer3": "Omar Sy",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quelle est la plus haute récompense décerné par le jury du festival de Cannes",
+    "answer0": "La coupe d’or",
+    "answer1": "Le Ballon d’or",
+    "answer2": "L’Oscar",
+    "answer3": "La Palme d’or",
+    "answerIndex": "3"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

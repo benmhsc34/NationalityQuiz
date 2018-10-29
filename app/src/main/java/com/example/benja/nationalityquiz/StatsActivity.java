@@ -10,7 +10,10 @@ import android.widget.TextView;
 import com.example.benja.nationalityquiz.Utils.ListItem;
 import com.example.benja.nationalityquiz.Utils.MyAdapter;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class StatsActivity extends AppCompatActivity {
@@ -29,9 +32,11 @@ public class StatsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_stats);
 
+
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-        int usa_games = prefs.getInt("usa_games", -1);
-        int usa_score = prefs.getInt("usa_score", 0);
+        float usa_games = prefs.getInt("usa_games", -1);
+        float usa_score = prefs.getInt("usa_score", 0);
+
 
         int england_games = prefs.getInt("england_games", -1);
         int england_score = prefs.getInt("england_score", 0);
@@ -54,28 +59,29 @@ public class StatsActivity extends AppCompatActivity {
         int australia_games = prefs.getInt("australia_games", -1);
         int australia_score = prefs.getInt("australia_score", 0);
 
-        String englandPourcentage = (england_score / england_games) * 10 + "%";
+
+        String englandPourcentage = Math.round((england_score / england_games) * 10) + "%";
         if (england_games == -1) {
             englandPourcentage = "N/A";
-        } String francePourcentage = (france_score / france_games) * 10 + "%";
+        } String francePourcentage = Math.round((france_score / france_games)) * 10 + "%";
         if (france_games == -1) {
             francePourcentage = "N/A";
-        } String usaPourcentage = (usa_score / usa_games) * 10 + "%";
+        } String usaPourcentage = Math.round((usa_score / usa_games) * 10) + "%";
         if (usa_games == -1) {
             usaPourcentage = "N/A";
-        } String australiaPourcentage = (australia_score / australia_games) * 10 + "%";
+        } String australiaPourcentage = Math.round((australia_score / australia_games)) * 10 + "%";
         if (australia_games == -1) {
             australiaPourcentage = "N/A";
-        } String chinaPourcentage = (china_score / china_games) * 10 + "%";
+        } String chinaPourcentage = Math.round((china_score / china_games)) * 10 + "%";
         if (china_games == -1) {
             chinaPourcentage = "N/A";
-        } String japanPourcentage = (japan_score / japan_games) * 10 + "%";
+        } String japanPourcentage = Math.round((japan_score / japan_games)) * 10 + "%";
         if (japan_games == -1) {
             japanPourcentage = "N/A";
-        } String spainPourcentage = (spain_score / spain_games) * 10 + "%";
+        } String spainPourcentage = Math.round((spain_score / spain_games)) * 10 + "%";
         if (spain_games == -1) {
             spainPourcentage = "N/A";
-        } String germanyPourcentage = (germany_score / germany_games) * 10 + "%";
+        } String germanyPourcentage = Math.round((germany_score / germany_games)) * 10 + "%";
         if (germany_games == -1) {
             germanyPourcentage = "N/A";
         }

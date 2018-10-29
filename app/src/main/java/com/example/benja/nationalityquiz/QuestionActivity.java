@@ -72,7 +72,15 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
         System.out.println("QuestionActivity::onCreate()");
         // switch if extra intent .equals"China" then get_json_china...
-        mQuestionBank = this.get_json();
+        if (str.equals("France")) {
+            mQuestionBank = this.get_json_france();
+        }if (str.equals("England")) {
+            mQuestionBank = this.get_json_england();
+        }if (str.equals("USA")) {
+            mQuestionBank = this.get_json_usa();
+        }if (str.equals("Spain")) {
+            mQuestionBank = this.get_json_spain();
+        }
 
         if (savedInstanceState != null) {
             mScore = savedInstanceState.getInt(BUNDLE_STATE_SCORE);
@@ -240,6 +248,17 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.putInt("france_score", score + mScore);
             editor.putInt("france_games", games + 1);
             editor.apply();
+        }if (str.equals("Spain")) {
+
+            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+            int games = prefs.getInt("spain_games", 0);
+            int score = prefs.getInt("spain_score", 0);
+
+
+            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+            editor.putInt("spain_score", score + mScore);
+            editor.putInt("spain_games", games + 1);
+            editor.apply();
         }if (str.equals("Germany")) {
 
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
@@ -352,10 +371,85 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         System.out.println("GameActivity::onDestroy()");
     }
 
-    public QuestionBank get_json() {
+    public QuestionBank get_json_france() {
         String json;
         try {
-            InputStream is = getAssets().open("a.json");
+            InputStream is = getAssets().open("france.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+    public QuestionBank get_json_england() {
+        String json;
+        try {
+            InputStream is = getAssets().open("england.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+    public QuestionBank get_json_usa() {
+        String json;
+        try {
+            InputStream is = getAssets().open("france.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+    public QuestionBank get_json_spain() {
+        String json;
+        try {
+            InputStream is = getAssets().open("france.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);

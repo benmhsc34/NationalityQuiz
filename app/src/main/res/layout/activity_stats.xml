@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/annoyingOrange"
+    android:background="#000"
     tools:context=".StatsActivity">
 
     <RelativeLayout
@@ -18,7 +18,7 @@
             android:padding="10dp"
             android:layout_alignParentTop="true"
             android:background="@drawable/rounder_cornes_questions_blue_top"
-            android:textColor="#FFF"
+            android:textColor="#000"
             android:textStyle="bold"
             android:layout_marginBottom="5dp"
             android:textSize="30sp" />
@@ -29,7 +29,7 @@
             android:layout_alignParentRight="true"
             android:text="Score"
             android:padding="10dp"
-            android:textColor="#FFF"
+            android:textColor="#000"
             android:textStyle="bold"
             android:textSize="30sp"
             android:layout_alignParentTop="true"
