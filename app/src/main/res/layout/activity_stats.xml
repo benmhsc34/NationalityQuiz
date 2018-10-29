@@ -32,6 +32,7 @@
             android:textColor="#000"
             android:textStyle="bold"
             android:textSize="30sp"
+            android:fontFamily="@font/lato"
             android:layout_alignParentTop="true"
             android:layout_alignParentEnd="true" />
 

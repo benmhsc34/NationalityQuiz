@@ -25,8 +25,6 @@ public class StartActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Button playButton = findViewById(R.id.playButton);
 
-                Animation scaleAnim = AnimationUtils.loadAnimation(StartActivity.this, R.anim.animation);
-                playButton.startAnimation( scaleAnim );
                 Intent myIntent = new Intent(StartActivity.this, MainActivity.class);
                 StartActivity.this.startActivity(myIntent);
 

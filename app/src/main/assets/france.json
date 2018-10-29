@@ -104,7 +104,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel est le club de foot qui a gagné le plus de Ligue1:",
+    "question": "Quel est le club de foot qui a gagné le plus de Ligue1?",
     "answer0": " AS Saint-Etienne",
     "answer1": "OM",
     "answer2": "OL",
@@ -144,18 +144,18 @@
     "answerIndex": "2"
   },
   {
-    "question": "Où se trouve le Mont-Saint-Michel",
+    "question": "Où se trouve le Mont-Saint-Michel?",
     "answer0": "Pays de la Loire",
-    "answer1": "Nouvelle-Aquitaine",
+    "answer1": "Aquitaine",
     "answer2": "Bretagne",
     "answer3": "Normandie",
     "answerIndex": "3"
   },
   {
-    "question": "Où se situe la côte d’azur?",
+    "question": "Où se situe la côte d’azur en France?",
     "answer0": "Sud-ouest",
     "answer1": "Ouest",
-    "answer2": "Sud-est de la France",
+    "answer2": "Sud-est",
     "answer3": "Nord-Ouest",
     "answerIndex": "2"
   },

@@ -34,6 +34,18 @@
             android:layout_centerHorizontal="true"
             android:src="@drawable/nq" />
 
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/bigLogo"
+            android:text="International Knowledge ®"
+            android:textColor="#FFF"
+            android:fontFamily="@font/lato"
+            android:textStyle="italic"
+            android:textSize="20sp"
+            android:layout_marginBottom="25dp"
+            android:gravity="center"/>
+
         <LinearLayout
             android:id="@+id/playButtonLL"
             android:layout_width="match_parent"
