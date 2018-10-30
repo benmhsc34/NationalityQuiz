@@ -1,4 +1,13 @@
 <resources>
-    <string name="app_name">Nationality Quiz</string>
-    <string name="todo">TODO</string>
+    <string name="app_name" translatable="false">International Knowledge</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="playButton">Start</string>
+    <string name="moreAppsButton">More apps</string>
+    <string name="rateUs">Rate us!</string>
+    <string name="stats">Statistics</string>
+    
+    <string-array name="languages">
+        <item>English</item>
+        <item>Français</item>
+    </string-array>
 </resources>

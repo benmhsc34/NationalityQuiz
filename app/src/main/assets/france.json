@@ -51,7 +51,7 @@
     "question": "Qui était le président de la République en 2008",
     "answer0": "Jacques Chirac",
     "answer1": "Nicolas Sarkozy",
-    "answer2": "François Hollande",
+    "answer2": "François  Hollande",
     "answer3": "Emmanuel Macron",
     "answerIndex": "1"
   },
@@ -105,7 +105,7 @@
   },
   {
     "question": "Quel est le club de foot qui a gagné le plus de Ligue1?",
-    "answer0": " AS Saint-Etienne",
+    "answer0": "Saint-Etienne",
     "answer1": "OM",
     "answer2": "OL",
     "answer3": "PSG",
@@ -184,11 +184,11 @@
     "answerIndex": "3"
   },
   {
-    "question": "La france a une frontière terrestre avec?",
-    "answer0": "7 territoires indépendants",
-    "answer1": "8 territoires indépendants",
-    "answer2": "6 territoires indépendants",
-    "answer3": "5 territoires indépendants",
+    "question": "La france a une frontière avec?",
+    "answer0": "10 pays",
+    "answer1": "8 pays",
+    "answer2": "6 pays",
+    "answer3": "4 pays",
     "answerIndex": "1"
   },
   {
@@ -210,7 +210,7 @@
   {
     "question": "Lors des jeux olympiques d’été de rio en 2016, la France a gagné:",
     "answer0": "7  médailles d’or",
-    "answer1": "10 médailles d’or",
+    "answer1": "10  médailles d’or",
     "answer2": "12  médailles d’or",
     "answer3": "19  médailles d’or",
     "answerIndex": "1"
@@ -219,7 +219,7 @@
     "question": "Où le rugby est-il traditionnellement joué?",
     "answer0": "Dans le Sud Ouest",
     "answer1": "Dans le Sud Est",
-    "answer2": "Dans le Nord Ouest",
+    "answer2": "Dans le \n Nord Ouest",
     "answer3": "Dans le Nord Est",
     "answerIndex": "0"
   },
@@ -336,7 +336,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel est le titre de la reprise anglaise de la chanson Comme d’habitude de Claude Françoiset Gilles Thibault",
+    "question": "Quel est le titre de la reprise anglaise de la chanson Comme d’habitude de Claude François et Gilles Thibault",
     "answer0": "Get it",
     "answer1": "On my way",
     "answer2": "My move",

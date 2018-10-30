@@ -63,6 +63,14 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         int number = intent.getIntExtra("countryFlag", 0);
         String str = intent.getStringExtra("countryName");
 
+        Button backButton = findViewById(R.id.backButton);
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+            }
+        });
+
 
         ImageView imageView = findViewById(R.id.imageViewOfFlag);
         TextView textView = findViewById(R.id.textViewOfCountry);
@@ -189,10 +197,10 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                     mAnswerButton3.setBackgroundResource(R.drawable.rounder_cornes_questions1);
                     mAnswerButton2.setBackgroundResource(R.drawable.rounder_cornes_questions1);
                     mAnswerButton1.setBackgroundResource(R.drawable.rounder_cornes_questions1);
-                    mAnswerButton4.setTextColor(getResources().getColor(R.color.colorPrimary));
-                    mAnswerButton3.setTextColor(getResources().getColor(R.color.colorPrimary));
-                    mAnswerButton2.setTextColor(getResources().getColor(R.color.colorPrimary));
-                    mAnswerButton1.setTextColor(getResources().getColor(R.color.colorPrimary));
+                    mAnswerButton4.setTextColor(Color.parseColor("#696969"));
+                    mAnswerButton3.setTextColor(Color.parseColor("#696969"));
+                    mAnswerButton2.setTextColor(Color.parseColor("#696969"));
+                    mAnswerButton1.setTextColor(Color.parseColor("#696969"));
 
 
                 }

@@ -33,7 +33,7 @@
             android:fontFamily="@font/lato"
             android:gravity="center"
             android:textColor="#000"
-            android:textSize="40sp"
+            android:textSize="30sp"
             android:textStyle="bold"
             tools:ignore="UnusedAttribute" />
 

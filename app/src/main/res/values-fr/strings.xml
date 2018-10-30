@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">International Knowledge</string>
+    <string name="playButton">Jouer</string>
+    <string name="moreAppsButton">Plus d\'apps</string>
+    <string name="rateUs">Notez nous!</string>
+    <string name="stats">Statistiques</string>
+</resources>

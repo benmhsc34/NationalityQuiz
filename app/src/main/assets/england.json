@@ -83,8 +83,8 @@
     "question": "Which football club won the Premier League in the 2015/2016 season?",
     "answer0": "Chelsea",
     "answer1": "Leicester",
-    "answer2": "Manshester United",
-    "answer3": "Manshester City",
+    "answer2": "Manchester United",
+    "answer3": "Manchester City",
     "answerIndex": "1"
   },
   {
@@ -128,7 +128,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Which famous brand was not created by in England",
+    "question": "Which famous brand was not created in England",
     "answer0": "Durex",
     "answer1": "Walmart",
     "answer2": "Easyjet",
@@ -136,7 +136,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "In what year did Queen Elizabeth the II get her diamond jubilee?",
+    "question": "In what year did Queen Elizabeth II celebrate her diamond jubilee?",
     "answer0": "1956",
     "answer1": "2012",
     "answer2": "1982",
@@ -150,5 +150,213 @@
     "answer2": "London",
     "answer3": "Glastonbury",
     "answerIndex": "3"
+  },
+  {
+    "question": "Who did Queen Elizabeth II inherit the throne from?",
+    "answer0": "Queen Victoria",
+    "answer1": "King Edward",
+    "answer2": "King George V",
+    "answer3": "King George VI",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What does BBC stand for?",
+    "answer0": "British Bafta Ceremony",
+    "answer1": "British Broadcasting Corporation",
+    "answer2": "Baked Bean Company",
+    "answer3": "Big Ben Commercials",
+    "answerIndex": "1"
+  },
+  {
+    "question": "When is Guy Fawkes' night?",
+    "answer0": "January 31st",
+    "answer1": "July 4th",
+    "answer2": "November 5th",
+    "answer3": "December 6th",
+    "answerIndex": "2"
+  },
+  {
+    "question": "When is Boxing day?",
+    "answer0": "the day when Joshua fights",
+    "answer1": "Christmas day",
+    "answer2": "26th December",
+    "answer3": "21st September",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Which position did One Direction finish in the X-Factor?",
+    "answer0": "1st",
+    "answer1": "2nd",
+    "answer2": "3rd",
+    "answer3": "4th",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the name of the highest mountain in England?",
+    "answer0": "Scafell Pike",
+    "answer1": "Mount Snowden",
+    "answer2": "Ben Nevis",
+    "answer3": "The old man of Hoy",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What happens at Ascot?",
+    "answer0": "Formula 1 racing",
+    "answer1": "Golf Competition",
+    "answer2": "Tennis Tournament",
+    "answer3": "Horse Racing",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Who was the first female Prime Minister?",
+    "answer0": "Nicola Sturgeon",
+    "answer1": "Theresa May",
+    "answer2": "Margaret Thatcher",
+    "answer3": "Elizabeth I",
+    "answerIndex": "2"
+  },
+  {
+    "question": "How many Teletubbies are there?",
+    "answer0": "4",
+    "answer1": "3",
+    "answer2": "8",
+    "answer3": "5",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the second line of the National Anthem?",
+    "answer0": "Long to reign over us",
+    "answer1": "Long live our noble Queen",
+    "answer2": "Send her victorious",
+    "answer3": "Happy and glorious",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the NHS",
+    "answer0": "National Health Service",
+    "answer1": "National Hospital Service",
+    "answer2": "New Hope Singers",
+    "answer3": "National Heeling Service",
+    "answerIndex": "0"
+  },
+  {
+    "question": "When was Stonehenge constructed",
+    "answer0": "about 5000 years ago",
+    "answer1": "about 1000 years ago",
+    "answer2": "about 100 years ago",
+    "answer3": "about 50 years ago",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which city is more North?",
+    "answer0": "Manchester",
+    "answer1": "Liverpool",
+    "answer2": "Middlesbrough",
+    "answer3": "London",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What was the first ever James Bond movie called?",
+    "answer0": "Casino Royale",
+    "answer1": "Skyfall",
+    "answer2": "Doctor No",
+    "answer3": "Golden eye",
+    "answerIndex": "2"
+  },
+  {
+    "question": "In Doctor Who, what gadget does he always have in his pocket?",
+    "answer0": "Electric pen",
+    "answer1": "Electronic Compass",
+    "answer2": "Sonic Screwdriver",
+    "answer3": "Accelerated pencil sharpener",
+    "answerIndex": "2"
+  },
+  {
+    "question": "In the Doctor Who series, what gadget does the Doctor always have in his pocket?",
+    "answer0": "Electric pen",
+    "answer1": "Electronic Compass",
+    "answer2": "Sonic Screwdriver",
+    "answer3": "Accelerated pencil sharpener",
+    "answerIndex": "2"
+  },
+  {
+    "question": "On average, how many days rain does England have in a year?",
+    "answer0": "206 days",
+    "answer1": "56 days",
+    "answer2": "106 days",
+    "answer3": "306 days",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Who is the BBC's biggest competitor in England?",
+    "answer0": "ITV",
+    "answer1": "Channel 4",
+    "answer2": "E4",
+    "answer3": "CBBC",
+    "answerIndex": "0"
+  },
+  {
+    "question": "How many people watched Meghan Markle and Prince Harry's wedding?",
+    "answer0": "30 million",
+    "answer1": "1 billion",
+    "answer2": "100 million",
+    "answer3": "2 billion",
+    "answerIndex": "3"
+  },
+  {
+    "question": "In what year did John Lennon die?",
+    "answer0": "1980",
+    "answer1": "1970",
+    "answer2": "1990",
+    "answer3": "2000",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In England, what is the furthest distance you can be from the sea?",
+    "answer0": "115km",
+    "answer1": "515km",
+    "answer2": "55km",
+    "answer3": "715km",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is England's busiest airport?",
+    "answer0": "London Heathrow",
+    "answer1": "London Gatwick",
+    "answer2": "London City Airport",
+    "answer3": "London Luton",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which of these scientists is not english?",
+    "answer0": "Stephen Hawkins",
+    "answer1": "Isaaw Newton",
+    "answer2": "Charles Darwin",
+    "answer3": "Neil deGrasse Tyson",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which football team won the Champions League in 2012?",
+    "answer0": "Manchester United",
+    "answer1": "Liverpool",
+    "answer2": "Chelsea",
+    "answer3": "Arsenal",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Which sport is played during the Ashes?",
+    "answer0": "Cricket",
+    "answer1": "Hockey",
+    "answer2": "Tennis",
+    "answer3": "Football",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is England's national animal?",
+    "answer0": "Unicorn",
+    "answer1": "Lion",
+    "answer2": "Eagle",
+    "answer3": "Dolphin",
+    "answerIndex": "1"
   }
 ]

@@ -12,6 +12,22 @@
         android:layout_height="60dp"
         android:background="@drawable/rounder_cornes_questions">
 
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/backbuttonblue"
+            android:paddingStart="7dp"
+            android:paddingLeft="7dp"
+            android:text="← "
+            android:textAlignment="center"
+            android:textColor="#FFF"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry"
+            android:layout_margin="5dp"/>
+
 
         <TextView
             android:id="@+id/textViewOfCountry"
@@ -29,6 +45,7 @@
             android:id="@+id/imageViewOfFlag"
             android:layout_width="91dp"
             android:layout_height="51dp"
+            android:layout_alignParentEnd="true"
             android:layout_centerVertical="true" />
 
 
@@ -50,6 +67,7 @@
             android:background="@drawable/rounder_cornes_questions1"
             android:gravity="center"
             android:text="Question?"
+            android:padding="10dp"
             android:textColor="#696969"
             android:textSize="20sp"
             android:textStyle="bold" />
@@ -63,61 +81,61 @@
 
             <Button
                 android:id="@+id/activity_game_answer1_btn"
-                android:layout_height="match_parent"
                 android:layout_width="match_parent"
+                android:layout_height="120dp"
                 android:layout_margin="5dp"
                 android:layout_weight="1"
-                android:textColor="#696969"
                 android:background="@drawable/rounder_cornes_questions1"
                 android:text="Answer1"
+                android:textColor="#696969"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 
             <Button
                 android:id="@+id/activity_game_answer2_btn"
                 android:layout_width="match_parent"
-                android:layout_weight="1"
                 android:layout_height="120dp"
                 android:layout_margin="5dp"
+                android:layout_weight="1"
                 android:background="@drawable/rounder_cornes_questions1"
                 android:text="Answer2"
                 android:textColor="#696969"
                 android:textSize="20sp"
                 android:textStyle="bold" />
         </LinearLayout>
+
         <LinearLayout
+            android:id="@+id/LL2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:id="@+id/LL2"
             android:layout_below="@id/LL1"
             android:weightSum="2">
-        <Button
-            android:id="@+id/activity_game_answer3_btn"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:background="@drawable/rounder_cornes_questions1"
-            android:ellipsize="end"
-            android:lines="1"
-            android:padding="2dp"
-            android:text="Answer3"
-            android:textColor="#696969"
-            android:textSize="20sp"
-            android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/activity_game_answer4_btn"
-            android:layout_width="match_parent"
-            android:layout_height="120dp"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:background="@drawable/rounder_cornes_questions1"
-            android:padding="2dp"
-            android:text="Answer4"
-            android:textColor="#696969"
-            android:textSize="20sp"
-            android:textStyle="bold" />
+            <Button
+                android:id="@+id/activity_game_answer3_btn"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounder_cornes_questions1"
+                android:padding="2dp"
+                android:text="Answer3"
+                android:textColor="#696969"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/activity_game_answer4_btn"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounder_cornes_questions1"
+                android:padding="2dp"
+                android:text="Answer4"
+                android:textColor="#696969"
+                android:textSize="20sp"
+                android:textStyle="bold" />
         </LinearLayout>
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

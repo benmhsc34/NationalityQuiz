@@ -7,10 +7,26 @@
     android:background="#000"
     tools:context=".MainActivity">
 
-
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/round_button"
+        android:textColor="#000"
+        android:text="← "
+        android:textAlignment="center"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:paddingLeft="7dp"
+        android:textSize="30sp"
+        android:paddingStart="7dp"
+        android:paddingBottom="2dp"
+        tools:ignore="RtlSymmetry" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerView"
+        android:layout_below="@+id/backButton"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
