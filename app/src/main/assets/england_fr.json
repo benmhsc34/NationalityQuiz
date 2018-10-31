@@ -1,6 +1,6 @@
 ﻿[
   {
-    "question": "In which year did the Great Fire of London occur?",
+    "question": "En quelle année a eu lieu le Grand Incendie de Londres",
     "answer0": "1966",
     "answer1": "1996",
     "answer2": "1666",
@@ -8,7 +8,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "What large WWII battle cruiser is permanently docked on the south side of the River Thames?",
+    "question": "Quel grand croiseur de la Seconde Guerre mondiale est amarré en permanence sur le côté sud de la Tamise?",
     "answer0": "HMS Belfast",
     "answer1": "HMS Great Battler",
     "answer2": "Titanic",
@@ -16,7 +16,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Which bridge marks the oldest crossing of the River Thames?",
+    "question": "Quel est le plus vieux pont qui traverse la Tamise?",
     "answer0": "London Bridge",
     "answer1": "Tower Bridge",
     "answer2": "Westminster Bridge",
@@ -24,23 +24,23 @@
     "answerIndex": "0"
   },
   {
-    "question": "Which of these was known as the official London residence of Queen Elizabeth II?",
+    "question": "Lequel de ces lieux est le lieu d'habitation officiel de la Reine Elizabeth II à Londres?",
     "answer0": "Buckingham Palace",
-    "answer1": "The White House",
+    "answer1": "Le White House",
     "answer2": "Big Ben",
-    "answer3": "Tower of London",
+    "answer3": "La tour de Londres",
     "answerIndex": "0"
   },
   {
-    "question": "King William III of England suffered from which of these conditions?",
-    "answer0": "Diabetes",
+    "question": "Le roi William III souffrait de quelle maladie?",
+    "answer0": "Diabete",
     "answer1": "Cancer",
-    "answer2": "Asthma",
-    "answer3": "Dyspraxia",
+    "answer2": "Asthme",
+    "answer3": "Dyspraxie",
     "answerIndex": "2"
   },
   {
-    "question": "How many underground stations were in London in 2007",
+    "question": "Combien de station de metro y'avait t-il à Londres en 2007?",
     "answer0": "275",
     "answer1": "0",
     "answer2": "35",
@@ -48,15 +48,15 @@
     "answerIndex": "0"
   },
   {
-    "question": "What country borders England to the north?",
-    "answer0": "Wales",
-    "answer1": "Scotland",
-    "answer2": "Ireland",
-    "answer3": "France",
+    "question": "Quel pays se trouve à la frontière Nord de l'Angleterre?",
+    "answer0": "Le Pays de Galles",
+    "answer1": "l'Ecosse",
+    "answer2": "L'Irland",
+    "answer3": "La France",
     "answerIndex": "1"
   },
   {
-    "question": "In 2011, how many counties existed in England?",
+    "question": "En 2011, combien de région comptait l'Angleterre?",
     "answer0": "37",
     "answer1": "67",
     "answer2": "17",
@@ -64,15 +64,15 @@
     "answerIndex": "1"
   },
   {
-    "question": "What is England's national sport?",
-    "answer0": "Football",
-    "answer1": "Cricket",
-    "answer2": "Beer drinking",
-    "answer3": "Hockey",
+    "question": "Quel est le sport national en Angleterre?",
+    "answer0": "Le football",
+    "answer1": "Le cricket",
+    "answer2": "Le Cheese-Rolling",
+    "answer3": "Le Hockey",
     "answerIndex": "1"
   },
   {
-    "question": "Which football club won the Premier League in the 2015/2016 season?",
+    "question": "Quel club de foot était champion d'Angleterre lors de la saison 2011/2012?",
     "answer0": "Chelsea",
     "answer1": "Leicester",
     "answer2": "Manchester United",
@@ -80,7 +80,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Which tennis grand-slam is played in England",
+    "question": "Quel Grand-Chlem de Tennis se joue en Angleterre",
     "answer0": "Queens",
     "answer1": "Wimbledon",
     "answer2": "Rolland-Garros",
@@ -88,7 +88,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Which city do the Beatles come from?",
+    "question": "De quelle ville sont originaires les Beatles?",
     "answer0": "Birmingham",
     "answer1": "Liverpool",
     "answer2": "Brighton",
@@ -96,7 +96,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Who won the golden boot in the 2018 FIFA World Cup",
+    "question": "Quelle joueur a remporté le Golden Boot lors de la Coupe du Monde FIFA 2018",
     "answer0": "David Beckham",
     "answer1": "Harry Kane",
     "answer2": "Wayne Rooney",
@@ -104,15 +104,15 @@
     "answerIndex": "1"
   },
   {
-    "question": "What is the tallest building in England?",
-    "answer0": "The Shard",
+    "question": "Quel est le plus haut bâtiment en Angleterre?",
+    "answer0": "Le Shard",
     "answer1": "Big Ben",
     "answer2": "BT Tower",
     "answer3": "Tate Modern",
     "answerIndex": "0"
   },
   {
-    "question": "In which year did england win the FIFA World Cup?",
+    "question": "En quelle année l'Angleterre a-t-elle gagnée la Coupe du Monde de Football?",
     "answer0": "2002",
     "answer1": "1978",
     "answer2": "1998",
@@ -120,7 +120,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Which famous brand was not created in England",
+    "question": "Quelle célèbre marque n'a pas été créee en Angleterre?",
     "answer0": "Durex",
     "answer1": "Walmart",
     "answer2": "Easyjet",
@@ -128,7 +128,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "In what year did Queen Elizabeth II celebrate her diamond jubilee?",
+    "question": "En quelle année la Reine Elizabeth a-t-elle célébrée son jubilée de diamand pour ses 60 de reigne?",
     "answer0": "1956",
     "answer1": "2012",
     "answer2": "1982",
@@ -136,7 +136,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Which city is famous for festivals?",
+    "question": "Quelle ville est connue pour ces festivals",
     "answer0": "Birmingham",
     "answer1": "Leeds",
     "answer2": "London",
@@ -144,15 +144,15 @@
     "answerIndex": "3"
   },
   {
-    "question": "Who did Queen Elizabeth II inherit the throne from?",
-    "answer0": "Queen Victoria",
-    "answer1": "King Edward",
-    "answer2": "King George V",
-    "answer3": "King George VI",
+    "question": "De qui la reine Elizabeth II a-t-elle hérité du trône?",
+    "answer0": "Reine Victoria",
+    "answer1": "Roi Edward",
+    "answer2": "Roi George V",
+    "answer3": "Roi George VI",
     "answerIndex": "3"
   },
   {
-    "question": "What does BBC stand for?",
+    "question": "Que signifie BBC?",
     "answer0": "British Bafta Ceremony",
     "answer1": "British Broadcasting Corporation",
     "answer2": "Baked Bean Company",
@@ -160,31 +160,31 @@
     "answerIndex": "1"
   },
   {
-    "question": "When is Guy Fawkes' night?",
-    "answer0": "January 31st",
-    "answer1": "July 4th",
-    "answer2": "November 5th",
-    "answer3": "December 6th",
+    "question": "Quand est la nuit de Guy Fawkes?",
+    "answer0": "31 janvier",
+    "answer1": "4 juillet",
+    "answer2": "5 novembre",
+    "answer3": "6 decembre",
     "answerIndex": "2"
   },
   {
-    "question": "When is Boxing day?",
-    "answer0": "the day when Joshua fights",
-    "answer1": "Christmas day",
-    "answer2": "26th December",
-    "answer3": "21st September",
+    "question": "Quel jour a lieu le Boxing Day?",
+    "answer0": "le jour quand Joshua a un match de boxe",
+    "answer1": "Noël",
+    "answer2": "26 decembre",
+    "answer3": "21 septembre",
     "answerIndex": "2"
   },
   {
-    "question": "Which position did One Direction finish in the X-Factor?",
-    "answer0": "1st",
+    "question": "En quelle position le groupe One Direction a-t-il fini lors de la compétition X-Factor?",
+    "answer0": "1er",
     "answer1": "2nd",
-    "answer2": "3rd",
-    "answer3": "4th",
+    "answer2": "3eme",
+    "answer3": "4eme",
     "answerIndex": "2"
   },
   {
-    "question": "What is the name of the highest mountain in England?",
+    "question": "Quelle est le nom de la plus haute montagne en Angleterre?",
     "answer0": "Scafell Pike",
     "answer1": "Mount Snowden",
     "answer2": "Ben Nevis",
@@ -192,15 +192,15 @@
     "answerIndex": "0"
   },
   {
-    "question": "What happens at Ascot?",
-    "answer0": "Formula 1 racing",
-    "answer1": "Golf Competition",
-    "answer2": "Tennis Tournament",
-    "answer3": "Horse Racing",
+    "question": "Que se passe-t-il lors de l'Ascot?",
+    "answer0": "Une course de Fomula 1",
+    "answer1": "Une compétition de golf",
+    "answer2": "Un tournois de Tennis",
+    "answer3": "Une course de cheval",
     "answerIndex": "3"
   },
   {
-    "question": "Who was the first female Prime Minister?",
+    "question": "Qui était la première femme Premier Ministre en Angleterre?",
     "answer0": "Nicola Sturgeon",
     "answer1": "Theresa May",
     "answer2": "Margaret Thatcher",
@@ -208,7 +208,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "How many Teletubbies are there?",
+    "question": "Combien y'a t-il de Teletubbies?",
     "answer0": "4",
     "answer1": "3",
     "answer2": "8",
@@ -216,7 +216,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "What is the second line of the National Anthem?",
+    "question": "Quelle est la deuxième phrase de l'hymne nationale de l'Angleterre?",
     "answer0": "Long to reign over us",
     "answer1": "Long live our noble Queen",
     "answer2": "Send her victorious",
@@ -224,7 +224,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "What is the NHS",
+    "question": "Que signifie NHS?",
     "answer0": "National Health Service",
     "answer1": "National Hospital Service",
     "answer2": "New Hope Singers",
@@ -232,15 +232,15 @@
     "answerIndex": "0"
   },
   {
-    "question": "When was Stonehenge constructed",
-    "answer0": "about 5000 years ago",
-    "answer1": "about 1000 years ago",
-    "answer2": "about 100 years ago",
-    "answer3": "about 50 years ago",
+    "question": "Quand le Stonehenge a-t-il été construit?",
+    "answer0": "il y a environ 5000ans",
+    "answer1": "il y a environ 1000ans",
+    "answer2": "il y a environ 100ans",
+    "answer3": "il y a environ 50ans",
     "answerIndex": "0"
   },
   {
-    "question": "Which city is more North?",
+    "question": "Quelle ville se trouve plus au Nord?",
     "answer0": "Manchester",
     "answer1": "Liverpool",
     "answer2": "Middlesbrough",
@@ -248,7 +248,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "What was the first ever James Bond movie called?",
+    "question": "Comment s'appelle le premier film James Bond?",
     "answer0": "Casino Royale",
     "answer1": "Skyfall",
     "answer2": "Doctor No",
@@ -256,23 +256,23 @@
     "answerIndex": "2"
   },
   {
-    "question": "In the Doctor Who series, what gadget does the Doctor always have in his pocket?",
-    "answer0": "Electric pen",
-    "answer1": "Electronic Compass",
-    "answer2": "Sonic Screwdriver",
-    "answer3": "Accelerated pencil sharpener",
+    "question": "Dans la série Doctor Who, quel gadget a-t-il toujours dans sa poche?",
+    "answer0": "style électrique",
+    "answer1": "boussole électronique",
+    "answer2": "tournevis supersonic",
+    "answer3": "taille crayon acceleré",
     "answerIndex": "2"
   },
   {
-    "question": "On average, how many days rain does England have in a year?",
-    "answer0": "206 days",
-    "answer1": "56 days",
-    "answer2": "106 days",
-    "answer3": "306 days",
+    "question": "En moyenne, combien y'a t-il de jour de pluie par an en Angletter?",
+    "answer0": "206 jours",
+    "answer1": "56 jours",
+    "answer2": "106 jours",
+    "answer3": "306 jours",
     "answerIndex": "2"
   },
   {
-    "question": "Who is the BBC's biggest competitor in England?",
+    "question": "Qui est le grand rival de la BBC en Angleterre?",
     "answer0": "ITV",
     "answer1": "Channel 4",
     "answer2": "E4",
@@ -280,15 +280,15 @@
     "answerIndex": "0"
   },
   {
-    "question": "How many people watched Meghan Markle and Prince Harry's wedding?",
+    "question": "Combien de personnes ont regardé le mariage de Megan Markle et Prince Harry?",
     "answer0": "30 million",
-    "answer1": "1 billion",
+    "answer1": "1 milliard",
     "answer2": "100 million",
-    "answer3": "2 billion",
+    "answer3": "2 milliard",
     "answerIndex": "3"
   },
   {
-    "question": "In what year did John Lennon die?",
+    "question": "En quelle année est mort John Lennon?",
     "answer0": "1980",
     "answer1": "1970",
     "answer2": "1990",
@@ -296,7 +296,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "In England, what is the furthest distance you can be from the sea?",
+    "question": "En Angleterre, quelle est la distance la plus éloignée de la mer?",
     "answer0": "115km",
     "answer1": "515km",
     "answer2": "55km",
@@ -304,7 +304,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "What is England's busiest airport?",
+    "question": "Quel est l'aéroport le plus fréquenté d'Angleterre?",
     "answer0": "London Heathrow",
     "answer1": "London Gatwick",
     "answer2": "London City Airport",
@@ -312,7 +312,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Which of these scientists is not english?",
+    "question": "Lequel de ces scientifiques n'est pas anglais?",
     "answer0": "Stephen Hawkins",
     "answer1": "Isaaw Newton",
     "answer2": "Charles Darwin",
@@ -320,7 +320,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Which football team won the Champions League in 2012?",
+    "question": "Quelle équipe a gagné la Champions League en 2012?",
     "answer0": "Manchester United",
     "answer1": "Liverpool",
     "answer2": "Chelsea",
@@ -328,7 +328,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Which sport is played during the Ashes?",
+    "question": "Quel sport est joué durant The Ashes",
     "answer0": "Cricket",
     "answer1": "Hockey",
     "answer2": "Tennis",
@@ -336,11 +336,23 @@
     "answerIndex": "0"
   },
   {
-    "question": "What is England's national animal?",
-    "answer0": "Unicorn",
+    "question": "Quel est l'animal national de l'Angleterre",
+    "answer0": "Licorne",
     "answer1": "Lion",
-    "answer2": "Eagle",
-    "answer3": "Dolphin",
+    "answer2": "Aigle",
+    "answer3": "Dauphin",
     "answerIndex": "1"
   }
 ]
+
+
+
+
+
+
+
+
+
+
+
+

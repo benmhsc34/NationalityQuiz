@@ -20,16 +20,19 @@
         <activity
             android:name=".StartActivity"
             android:screenOrientation="portrait">
+
+        </activity>
+        <activity
+            android:name=".StatsActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SettingsActivity" />
+        <activity android:name=".Utils.LogoActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".StatsActivity"
-            android:screenOrientation="portrait" />
-        <activity android:name=".SettingsActivity"></activity>
     </application>
 
 </manifest>

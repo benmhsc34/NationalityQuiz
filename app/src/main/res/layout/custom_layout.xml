@@ -50,7 +50,7 @@
             android:fontFamily="@font/lato"
             android:gravity="center"
             android:textSize="30sp"
-            tools:ignore="UnusedAttribute" />
+            tools:targetApi="jelly_bean" />
 
 
     </RelativeLayout>

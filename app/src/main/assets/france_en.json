@@ -1,0 +1,401 @@
+﻿[
+  {
+    "question": "In which year was the film Le Grand Bleu by Luc Besson released?",
+    "answer0": "1988",
+    "answer1": "1968",
+    "answer2": "1948",
+    "answer3": "1928",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In which town was Jeanne d'Arc burnt alive?",
+    "answer0": "Amiens",
+    "answer1": "Rouen",
+    "answer2": "Paris",
+    "answer3": "Lyon",
+    "answerIndex": "1"
+  },
+  {
+    "question": "In which city was Jacques Chirac born?",
+    "answer0": "Paris",
+    "answer1": "Lyon",
+    "answer2": "Marseille",
+    "answer3": "Bordeaux",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In what year was DisneyLand Paris inaugurated",
+    "answer0": "1985",
+    "answer1": "1995",
+    "answer2": "1990",
+    "answer3": "1992",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What is the height of the Mont Blanc?",
+    "answer0": "about 4200m",
+    "answer1": "about 4500m",
+    "answer2": "about 4800m",
+    "answer3": "about 5000m",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is Emmanuel Macron's wife's firstname?",
+    "answer0": "Ségolène",
+    "answer1": "Elisabeth",
+    "answer2": "Marine",
+    "answer3": "Brigitte",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Who was president of France in 2008?",
+    "answer0": "Jacques Chirac",
+    "answer1": "Nicolas Sarkozy",
+    "answer2": "François  Hollande",
+    "answer3": "Emmanuel Macron",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What was the biggest success of french cinema for the french box office?",
+    "answer0": "Bienvenue chez les Ch’tis",
+    "answer1": "Intouchables",
+    "answer2": "Astérix et Obélix: Mission Cléopâtre",
+    "answer3": "Taken",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In which city can you find Cathérale Notre Dame?",
+    "answer0": "Paris",
+    "answer1": "Versailles",
+    "answer2": "Lyon",
+    "answer3": "Marseille",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which of these four are not part in the Unesco heritage",
+    "answer0": "Pont du Gard",
+    "answer1": "Arles, monuments romains",
+    "answer2": "Basilique et colline de Vézelay",
+    "answer3": "Arc de triomphe de Montpellier",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Who was the last french team to win the Champions League?",
+    "answer0": "OL",
+    "answer1": "OM",
+    "answer2": "PSG",
+    "answer3": "FC Nantes",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Who was the last frenchman to win the Tour de France?",
+    "answer0": "Bernard Hinault",
+    "answer1": "Christopher Froome",
+    "answer2": "Lance Armstrong",
+    "answer3": "Geraint Thomas",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which rugby club has been champion of France the most?",
+    "answer0": "ASM Clermont",
+    "answer1": "MHR",
+    "answer2": "RC Toulon",
+    "answer3": "Stade Toulousain",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which football team has won the most Ligue 1 titles?",
+    "answer0": "Saint-Etienne",
+    "answer1": "OM",
+    "answer2": "OL",
+    "answer3": "PSG",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which french sing has sold more albums?",
+    "answer0": "Johnny Hallyday",
+    "answer1": "Michel Sardou",
+    "answer2": "David Guetta",
+    "answer3": "Mylène Farmer",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the capital of the Occitanie region?",
+    "answer0": "Montpellier",
+    "answer1": "Toulouse",
+    "answer2": "Narbonne",
+    "answer3": "Perpignan",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Who invented the camera?",
+    "answer0": "Léonard de Vinci",
+    "answer1": "Nicéphore Niépce",
+    "answer2": "Thomas Edison",
+    "answer3": "Isaac Newton",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What geometrical shape is France known as?",
+    "answer0": "the polygone",
+    "answer1": "the octogone",
+    "answer2": "the hexagone",
+    "answer3": "the heptagone",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Where is the Mont-Saint-Michel located?",
+    "answer0": "Pays de la Loire",
+    "answer1": "Aquitaine",
+    "answer2": "Bretagne",
+    "answer3": "Normandie",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Where is the Côte d'Azure in France?",
+    "answer0": "South-West",
+    "answer1": "West",
+    "answer2": "South-East",
+    "answer3": "North-East",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the longest river in France?",
+    "answer0": "The Rhine",
+    "answer1": "The Garonne",
+    "answer2": "The Rhône",
+    "answer3": "The Loire",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the highest mountain peak in Europe?",
+    "answer0": "Mont Elbrouz",
+    "answer1": "Mont Blanc",
+    "answer2": "Pointe Dufour",
+    "answer3": "Cervin",
+    "answerIndex": "0"
+  },
+  {
+    "question": "How many different regions does France have",
+    "answer0": "38",
+    "answer1": "28",
+    "answer2": "8",
+    "answer3": "18",
+    "answerIndex": "3"
+  },
+  {
+    "question": "How many countries does France have a border with?",
+    "answer0": "10 countries",
+    "answer1": "8 countries",
+    "answer2": "6 countries",
+    "answer3": "4 countries",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Which of these islands is not French?",
+    "answer0": "Guadeloupe",
+    "answer1": "Martinique",
+    "answer2": "Mayotte",
+    "answer3": "Sardinia",
+    "answerIndex": "3"
+  },
+  {
+    "question": "How many different oceans and seas does France have?",
+    "answer0": "2",
+    "answer1": "3",
+    "answer2": "4",
+    "answer3": "5",
+    "answerIndex": "2"
+  },
+  {
+    "question": "During the summer Olympics in Rio 2016, France won:",
+    "answer0": "5  gold medals",
+    "answer1": "10  gold medals",
+    "answer2": "15  gold medals",
+    "answer3": "20  gold medals",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Which part of France is the most involved in rugby?",
+    "answer0": "South-West",
+    "answer1": "South-East",
+    "answer2": "North-West",
+    "answer3": "Nort-East",
+    "answerIndex": "0"
+  },
+  {
+    "question": "The Stade de France can hold:",
+    "answer0": "about 80 000 people",
+    "answer1": "about 90 000 people",
+    "answer2": "about 70 000 people",
+    "answer3": "about 60 000 people",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which sport was the most popular in the XVth century?",
+    "answer0": "Bowling",
+    "answer1": "The soule",
+    "answer2": "Palm Tennis",
+    "answer3": "Football",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Who was the last frenchman to win Roland-Garros?",
+    "answer0": "Yannick Noah",
+    "answer1": "Jo-Wilfried Tsonga",
+    "answer2": "Gaël Monfils",
+    "answer3": "Lucas Pouille",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In what town were the last winter Olympics to be held in France (1992)?",
+    "answer0": "Alpe d’Huez",
+    "answer1": "Grenoble",
+    "answer2": "Paris",
+    "answer3": "Albertville",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Since the start of the Olympics, which event has given the most Olympic medals to France?",
+    "answer0": "judo",
+    "answer1": "football",
+    "answer2": "swimming",
+    "answer3": "fencing",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which sport has the most number of licensees in France?",
+    "answer0": "football",
+    "answer1": "rugby",
+    "answer2": "tennis",
+    "answer3": "handball",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What club did Zinédine Zidane not play for?",
+    "answer0": "Turin",
+    "answer1": "Marseille",
+    "answer2": "Madrid",
+    "answer3": "Cannes",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What name is given to grape picking?",
+    "answer0": "The raisinine",
+    "answer1": "The relève",
+    "answer2": "The vendanges",
+    "answer3": "The vignation",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What day are shops closed in France?",
+    "answer0": "saturday",
+    "answer1": "friday",
+    "answer2": "monday",
+    "answer3": "sunday",
+    "answerIndex": "3"
+  },
+  {
+    "question": "How many bank holidays on there in France?",
+    "answer0": "11",
+    "answer1": "15",
+    "answer2": "8",
+    "answer3": "6",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What time is the official lunch break in France?",
+    "answer0": "10am to 12pm ",
+    "answer1": "12pm to 2pm",
+    "answer2": "2pm to 4pm",
+    "answer3": "11am to 1pm",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the length of the legal weekly number of hours in France?",
+    "answer0": "39 hours",
+    "answer1": "41 hours",
+    "answer2": "35 hours",
+    "answer3": "45 hours",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Les Vieilles Charrues is a festival that is held in:",
+    "answer0": "Bretagne",
+    "answer1": "Normandie",
+    "answer2": "Occitanie",
+    "answer3": "Nouvelle-Aquitaine",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Legally, what ratio must French songs be played by French radio stations?",
+    "answer0": "60%",
+    "answer1": "50%",
+    "answer2": "45%",
+    "answer3": "40%",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What is the name of the english cover of Comme d’habitude by Claude François and Gilles Thibault",
+    "answer0": "Get it",
+    "answer1": "On my way",
+    "answer2": "My move",
+    "answer3": "My Way",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which tennis player started making music in the 90s",
+    "answer0": "Jo-Wilfried Tsonga",
+    "answer1": "Yannick Noah",
+    "answer2": "Rafael Nadal",
+    "answer3": "David Guetta",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is Isabelle Geffroy's stage name?",
+    "answer0": "Zaz",
+    "answer1": "Shy’m",
+    "answer2": "Tal",
+    "answer3": "Alizée",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which DJ wrote the Euro 2016 anthem?",
+    "answer0": "Avicii",
+    "answer1": "Martin Garrix",
+    "answer2": "David Guetta",
+    "answer3": "DJ Snake",
+    "answerIndex": "2"
+  },
+  {
+    "question": "The artist is a french film starring:",
+    "answer0": "Jean du Jardin",
+    "answer1": "Gérard Depardieu",
+    "answer2": "Dany Boon",
+    "answer3": "Omar Sy",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the highest prize given out by the jury during the Festival de Cannes?",
+    "answer0": "La coupe d’or",
+    "answer1": "Le Ballon d’or",
+    "answer2": "L’Oscar",
+    "answer3": "La Palme d’or",
+    "answerIndex": "3"
+  }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

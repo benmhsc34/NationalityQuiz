@@ -32,13 +32,21 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(this);
+
+
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+        int position = prefs.getInt("position", 0);
+        spinner.setSelection(position, true);
     }
 
     @Override
     public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
         String language = adapterView.getItemAtPosition(i).toString();
+        Spinner spinner = findViewById(R.id.spinner);
+        int selected_item = spinner.getSelectedItemPosition();
         SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
         editor.putString("language", language);
+        editor.putInt("position", selected_item);
         editor.apply();
     }
 

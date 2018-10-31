@@ -75,20 +75,33 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         ImageView imageView = findViewById(R.id.imageViewOfFlag);
         TextView textView = findViewById(R.id.textViewOfCountry);
 
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+        String language = prefs.getString("language", "english");
+
         imageView.setImageResource(number);
         textView.setText(str);
 
         System.out.println("QuestionActivity::onCreate()");
         // switch if extra intent .equals"China" then get_json_china...
-        if (str.equals("France")) {
+        if (str.equals("France") && language.equals("Français")) {
             mQuestionBank = this.get_json_france();
-        }if (str.equals("England")) {
+        }if (str.equals("France") && language.equals("English")) {
+            mQuestionBank = this.get_json_france_en();
+        }  if (str.equals("England") && language.equals("Français")) {
+            mQuestionBank = this.get_json_england_fr();
+        }if (str.equals("England") && language.equals("English")) {
             mQuestionBank = this.get_json_england();
-        }if (str.equals("USA")) {
-            mQuestionBank = this.get_json_usa();
-        }if (str.equals("Spain")) {
-            mQuestionBank = this.get_json_spain();
+        }  if (str.equals("USA") && language.equals("Français")) {
+            mQuestionBank = this.get_json_france();
+        }if (str.equals("USA") && language.equals("English")) {
+            mQuestionBank = this.get_json_france();
+        }  if (str.equals("Spain") && language.equals("Français")) {
+            mQuestionBank = this.get_json_france();
+        }if (str.equals("Spain") && language.equals("English")) {
+            mQuestionBank = this.get_json_france();
         }
+
+
 
         if (savedInstanceState != null) {
             mScore = savedInstanceState.getInt(BUNDLE_STATE_SCORE);
@@ -273,7 +286,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             int games = prefs.getInt("germany_games", 0);
             int score = prefs.getInt("germany_score", 0);
 
-
             SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
             editor.putInt("germany_score", score + mScore);
             editor.putInt("germany_games", games + 1);
@@ -283,7 +295,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
             int games = prefs.getInt("japan_games", 0);
             int score = prefs.getInt("japan_score", 0);
-
 
             SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
             editor.putInt("japan_score", score + mScore);
@@ -295,7 +306,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             int games = prefs.getInt("china_games", 0);
             int score = prefs.getInt("china_score", 0);
 
-
             SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
             editor.putInt("china_score", score + mScore);
             editor.putInt("china_games", games + 1);
@@ -305,7 +315,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
             int games = prefs.getInt("australia_games", 0);
             int score = prefs.getInt("australia_score", 0);
-
 
             SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
             editor.putInt("australia_score", score + mScore);
@@ -404,10 +413,61 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
+    public QuestionBank get_json_france_en() {
+        String json;
+        try {
+            InputStream is = getAssets().open("france_en.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
     public QuestionBank get_json_england() {
         String json;
         try {
             InputStream is = getAssets().open("england.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+    public QuestionBank get_json_england_fr() {
+        String json;
+        try {
+            InputStream is = getAssets().open("england_fr.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);

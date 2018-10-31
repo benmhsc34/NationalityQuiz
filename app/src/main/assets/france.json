@@ -2,9 +2,9 @@
   {
     "question": "En quelle année sort le film de Luc Besson le Grand Bleu",
     "answer0": "1988",
-    "answer1": "1992",
-    "answer2": "1985",
-    "answer3": "1983",
+    "answer1": "1968",
+    "answer2": "1948",
+    "answer3": "1928",
     "answerIndex": "0"
   },
   {
@@ -120,7 +120,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Quel est la capitale de l’occitanie",
+    "question": "Quel est la capitale de la région Occitanie?",
     "answer0": "Montpellier",
     "answer1": "Toulouse",
     "answer2": "Narbonne",
@@ -177,9 +177,9 @@
   },
   {
     "question": "Combien de région la France compte-t-elle?",
-    "answer0": "15",
-    "answer1": "13",
-    "answer2": "17",
+    "answer0": "38",
+    "answer1": "28",
+    "answer2": "8",
     "answer3": "18",
     "answerIndex": "3"
   },
@@ -208,11 +208,11 @@
     "answerIndex": "2"
   },
   {
-    "question": "Lors des jeux olympiques d’été de rio en 2016, la France a gagné:",
-    "answer0": "7  médailles d’or",
+    "question": "Lors des jeux olympiques d’été de Rio en 2016, la France a gagné:",
+    "answer0": "5  médailles d’or",
     "answer1": "10  médailles d’or",
-    "answer2": "12  médailles d’or",
-    "answer3": "19  médailles d’or",
+    "answer2": "15  médailles d’or",
+    "answer3": "20  médailles d’or",
     "answerIndex": "1"
   },
   {
@@ -224,11 +224,11 @@
     "answerIndex": "0"
   },
   {
-    "question": "Le stade de France peut accueillir:",
-    "answer0": "81 338 personnes",
-    "answer1": "89 521 personnes",
-    "answer2": "75 269 personnes",
-    "answer3": "72 845 personnes",
+    "question": "Le Stade de France peut accueillir:",
+    "answer0": "environ 80 000 personnes",
+    "answer1": "environ 90 000 personnes",
+    "answer2": "environ 70 000 personnes",
+    "answer3": "envrion 60 000 personnes",
     "answerIndex": "0"
   },
   {
@@ -250,8 +250,8 @@
   {
     "question": "Dans quelle ville a eu lieu pour la dernière fois les JO d’hiver en France?",
     "answer0": "Alpe d’Huez",
-    "answer1": "Genoble",
-    "answer2": "Chamonix",
+    "answer1": "Grenoble",
+    "answer2": "Paris",
     "answer3": "Albertville",
     "answerIndex": "3"
   },
@@ -259,7 +259,7 @@
     "question": "Quel discipline a historiquement rapporté le plus  de médaille olympique à la France?",
     "answer0": "Le judo",
     "answer1": "Le football",
-    "answer2": "Lea natation",
+    "answer2": "La natation",
     "answer3": "L’escrime",
     "answerIndex": "3"
   },
@@ -361,14 +361,14 @@
   },
   {
     "question": "Quel DJ a composé l’hymne de l’Euro 2016?",
-    "answer0": "Bob Sinclar",
+    "answer0": "Avicii",
     "answer1": "Martin Garrix",
     "answer2": "David Guetta",
     "answer3": "Dj Snake",
     "answerIndex": "2"
   },
   {
-    "question": "Teh artist est un film français avec:",
+    "question": "The artist est un film français avec:",
     "answer0": "Jean du Jardin",
     "answer1": "Gérard Depardieu",
     "answer2": "Dany Boon",

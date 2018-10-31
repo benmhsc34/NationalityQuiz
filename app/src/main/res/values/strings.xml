@@ -5,7 +5,7 @@
     <string name="moreAppsButton">More apps</string>
     <string name="rateUs">Rate us!</string>
     <string name="stats">Statistics</string>
-    
+
     <string-array name="languages">
         <item>English</item>
         <item>Français</item>
