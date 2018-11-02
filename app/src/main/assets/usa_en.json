@@ -1,0 +1,410 @@
+﻿[
+  {
+    "question": "What is the American national anthem called?",
+    "answer0": "The Star-Spangled Banner",
+    "answer1": "God save the Queen",
+    "answer2": "La marseillaise",
+    "answer3": "We are the World",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the most watched sporting event in the US",
+    "answer0": "The Olympics",
+    "answer1": "the FIFA World Cup",
+    "answer2": "The Super Bowl",
+    "answer3": "The Ryder Cup",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Which of these brands is not American?",
+    "answer0": "Coca-Cola",
+    "answer1": "Red Bull",
+    "answer2": "Pepsi",
+    "answer3": "Dr Pepper",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Which of these celebrities was not born in the US?",
+    "answer0": "Madonna",
+    "answer1": "Elvis Presley",
+    "answer2": "Steven Spielberg",
+    "answer3": "Natalie Portman",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Jimmy Carter was the:",
+    "answer0": "39th president",
+    "answer1": "29th president",
+    "answer2": "49th president",
+    "answer3": "19th president",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In which city is located the University of Princeton",
+    "answer0": "Miami",
+    "answer1": "Los Angeles",
+    "answer2": "New York",
+    "answer3": "New Jersey",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What is a BosWash?",
+    "answer0": "A tv show",
+    "answer1": "An airport at Los Angeles",
+    "answer2": "A group of urban areas in the North East of the United States",
+    "answer3": "A monument in New York",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Where is located the Mall of America, the second biggest mall in the country?",
+    "answer0": "California",
+    "answer1": "Ohio",
+    "answer2": "Mississippi",
+    "answer3": "Minnesota",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which of these brands do not come from the US?",
+    "answer0": "Calvin Klein",
+    "answer1": "Nike",
+    "answer2": "Levi’s",
+    "answer3": "Gucci",
+    "answerIndex": "3"
+  },
+  {
+    "question": "How many red and white strips are there on the American flag?",
+    "answer0": "13",
+    "answer1": "15",
+    "answer2": "9",
+    "answer3": "12",
+    "answerIndex": "0"
+  },
+  {
+    "question": "How many stars are there on the American flag?",
+    "answer0": "52",
+    "answer1": "54",
+    "answer2": "50",
+    "answer3": "47",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the capital of the United States?",
+    "answer0": "New York City",
+    "answer1": "Washington DC",
+    "answer2": "Los Angeles",
+    "answer3": "Chicago",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quelle est la plus grande ville des Etats-Unis?",
+    "answer0": "New York",
+    "answer1": "Miami",
+    "answer2": "Los Angeles",
+    "answer3": "Chicago",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the total surface of ​​the United States?",
+    "answer0": "119,8 million km²",
+    "answer1": "19,8 million km²",
+    "answer2": "1,8 million km²",
+    "answer3": "9,8 million km²",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What is the population of the US in 2018?",
+    "answer0": "163 million inhabitants",
+    "answer1": "463 million inhabitants",
+    "answer2": "363 million inhabitants",
+    "answer3": "263 million inhabitants",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What are the 2 oceans in contact with the US?",
+    "answer0": "Atlantic et Pacific",
+    "answer1": "Atlantic et Indian",
+    "answer2": "Pacific et Indian",
+    "answer3": "Arctic et Indian",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the name of the American state located to the North-West of Canada?",
+    "answer0": "Alabama",
+    "answer1": "Nebraska",
+    "answer2": "Arkansas",
+    "answer3": "Alaska",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Who became president of America in 2008?",
+    "answer0": "Donald Trump",
+    "answer1": "Barack Obama",
+    "answer2": "George W. Bush",
+    "answer3": "Ronald Reagan",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Which of these Fast-Food restaurants is not American?",
+    "answer0": "McDonald’s",
+    "answer1": "Burger King",
+    "answer2": "KFC",
+    "answer3": "Quick",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What monument is visible at the entrance to the port of New York City?",
+    "answer0": "The Statue of Liberty",
+    "answer1": "The Empire State Building",
+    "answer2": "Central Park",
+    "answer3": "Mont Rushmore",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the Liberty Bell?",
+    "answer0": "An american copy of the bell in the Cathedrale Notre-Dame in Paris",
+    "answer1": "The bell that rung just after the Declaration of Independence",
+    "answer2": "The bell that rung after the abolition of slavery",
+    "answer3": "The biggest bell in the world",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What do the 13 strips on the American flag represent?",
+    "answer0": "The 13 main cities of the country",
+    "answer1": "The 13 first presidents of the country",
+    "answer2": "The 13 founding states of the country",
+    "answer3": "The first 13 official American men",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Who was the first president of the US?",
+    "answer0": "Franklin Roosevelt",
+    "answer1": "Abraham Lincoln",
+    "answer2": "Thomas Jefferson",
+    "answer3": "George Washington",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which town is associated to the Hornets basketball team?",
+    "answer0": "Miami",
+    "answer1": "Charlotte",
+    "answer2": "Detroit",
+    "answer3": "Atlanta",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Who sold Louisianna to the US?",
+    "answer0": "The king of Spain",
+    "answer1": "The king of England",
+    "answer2": "The king of France",
+    "answer3": "The king of Italy",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Which city is often refered as the Windy City?",
+    "answer0": "Chicago",
+    "answer1": "Cincinnati",
+    "answer2": "Portland",
+    "answer3": "Oklahoma",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the Grand Ole Opry House",
+    "answer0": "A blues concert hall in Memphis",
+    "answer1": "A country concert hall in Nashville",
+    "answer2": "Barack Obama's current place of residence",
+    "answer3": "Bruce Lee's house?",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What does NFL stand for?",
+    "answer0": "National Federal League",
+    "answer1": "North America Football League",
+    "answer2": "North America Federal League",
+    "answer3": "National Football League",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Where is the Cap Canaveral situated?",
+    "answer0": "En Floride",
+    "answer1": "A Hawaï",
+    "answer2": "En Californie",
+    "answer3": "En Oregon",
+    "answerIndex": "0"
+  },
+  {
+    "question": "When was the Declaration of Independence in the US?",
+    "answer0": "4th July 1776",
+    "answer1": "4th July 1777",
+    "answer2": "4th July 1786",
+    "answer3": "4th July 1787",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In which city is the Metropolitan Museum of Art located?",
+    "answer0": "Washington",
+    "answer1": "Chicago",
+    "answer2": "New York",
+    "answer3": "Boston",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the capital of Texas?",
+    "answer0": "Saint Paul",
+    "answer1": "Denver",
+    "answer2": "Trenton",
+    "answer3": "Austin",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What was the last state to join the Union in 1959",
+    "answer0": "Arizona",
+    "answer1": "Hawaï",
+    "answer2": "Alaska",
+    "answer3": "New-Mexico",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What singer is known as The Boss?",
+    "answer0": "Elvis Presley",
+    "answer1": "Bruce Springsteen",
+    "answer2": "Michael Jackson",
+    "answer3": "Stevie Wonder",
+    "answerIndex": "1"
+  },
+  {
+    "question": "In what city did the 1996 summer Olympics take place?",
+    "answer0": "Los Angeles",
+    "answer1": "Denver",
+    "answer2": "Atlanta",
+    "answer3": "Chicago",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Who has the highest number of albums sales in the US?",
+    "answer0": "Michael Jackson",
+    "answer1": "Garth Brooks",
+    "answer2": "Eagles",
+    "answer3": "Elvis Presley",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What is the longest river in the US?",
+    "answer0": "Mississippi",
+    "answer1": "Missouri",
+    "answer2": "Yukon",
+    "answer3": "Rio Grande",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Who served as a model for Uncle Sam?",
+    "answer0": "Abraham Lincoln",
+    "answer1": "Andrew Jackson",
+    "answer2": "George Washington",
+    "answer3": "A chief of war",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Who are the 4 presidents to be engraved in the Mount Rushmore ",
+    "answer0": "Lincoln, Jefferson, Washington and T. Roosevelt",
+    "answer1": "Lincoln, Jefferson, Washington and F. Roosevelt",
+    "answer2": "Lincoln, Adams, Jefferson and Washington",
+    "answer3": "Lincoln, T.Roosevelt, Washington and Eisenhower",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In which states is the highest point of the United States?",
+    "answer0": "Nebraska",
+    "answer1": "Nevada",
+    "answer2": "Alaska",
+    "answer3": "Oregon",
+    "answerIndex": "2"
+  },
+  {
+    "question": "For what purpose has the Hollywood motto been installed?",
+    "answer0": "Advertise for subdivisions under construction",
+    "answer1": "Attract young talent in movie studios",
+    "answer2": "Allow helicopters to easily spot the neighborhood ",
+    "answer3": "To attract tourist",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In which city was John F Kennedy assassinated?",
+    "answer0": "Chicago",
+    "answer1": "Washington",
+    "answer2": "Phoenix",
+    "answer3": "Dallas",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Who is on the 1 dollar bill?",
+    "answer0": "Jefferson",
+    "answer1": "T. Roosevelt",
+    "answer2": "Lincoln",
+    "answer3": "Washington",
+    "answerIndex": "3"
+  },
+  {
+    "question": "When did the McDonald brothers open their first restaurant?",
+    "answer0": "1900",
+    "answer1": "1910",
+    "answer2": "1940",
+    "answer3": "1950",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the first recipe of Coca Cola?",
+    "answer0": "Coca, kola and damiana",
+    "answer1": "Coca et kola",
+    "answer2": "Coca et cacao",
+    "answer3": "Kola et cacao",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Marilyn Monroe was:",
+    "answer0": "a dancer",
+    "answer1": "an actress",
+    "answer2": "a gymnast",
+    "answer3": "a president",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Who's signature features on the Converse All-Star",
+    "answer0": "Tiger Woods'",
+    "answer1": "Chuck Taylor's",
+    "answer2": "Michael Jordan's",
+    "answer3": "Mohamed Ali's",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is Apple's slogan?",
+    "answer0": "Come as you are",
+    "answer1": "Just do it",
+    "answer2": "Do what you can't",
+    "answer3": "Think different",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which of Michael Jackson's album was the most sold?",
+    "answer0": "King of Pop",
+    "answer1": "Bad",
+    "answer2": "Thriller",
+    "answer3": "Dangerous",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Who created the Simpsons?",
+    "answer0": "Matt Groening",
+    "answer1": "Ben Hardaway",
+    "answer2": "Linwood Boomer",
+    "answer3": "Mike Barker",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Who is the all-time high-scoring NBA player?",
+    "answer0": "Kobe Bryant",
+    "answer1": "Kareem-Abdul-Jabbar",
+    "answer2": "Michael Jordan",
+    "answer3": "LeBron James",
+    "answerIndex": "1"
+  }
+]

@@ -92,9 +92,9 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }if (str.equals("England") && language.equals("English")) {
             mQuestionBank = this.get_json_england();
         }  if (str.equals("USA") && language.equals("Français")) {
-            mQuestionBank = this.get_json_france();
+            mQuestionBank = this.get_json_usa();
         }if (str.equals("USA") && language.equals("English")) {
-            mQuestionBank = this.get_json_france();
+            mQuestionBank = this.get_json_usa_en();
         }  if (str.equals("Spain") && language.equals("Français")) {
             mQuestionBank = this.get_json_france();
         }if (str.equals("Spain") && language.equals("English")) {
@@ -413,7 +413,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
-
     public QuestionBank get_json_france_en() {
         String json;
         try {
@@ -492,7 +491,32 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     public QuestionBank get_json_usa() {
         String json;
         try {
-            InputStream is = getAssets().open("france.json");
+            InputStream is = getAssets().open("usa.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+    public QuestionBank get_json_usa_en() {
+        String json;
+        try {
+            InputStream is = getAssets().open("usa_en.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
