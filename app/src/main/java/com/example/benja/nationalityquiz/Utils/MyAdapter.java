@@ -35,6 +35,11 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }
 
     @Override
+    public int getItemViewType(int position) {
+        return super.getItemViewType(position);
+    }
+
+    @Override
     public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
         final ListItem listItem = listItems.get(i);
 

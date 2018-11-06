@@ -17,6 +17,12 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
+
+
 import com.example.benja.nationalityquiz.Utils.Question;
 import com.example.benja.nationalityquiz.Utils.QuestionBank;
 
@@ -53,11 +59,17 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     private boolean mEnableTouchEvents;
     List<Question> questionList = new ArrayList<>();
     String name;
+    AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question1);
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544~3347511713");
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().addTestDevice(AdRequest.DEVICE_ID_EMULATOR).build();
+        mAdView.loadAd(adRequest);
+
 
         Intent intent = getIntent();
         int number = intent.getIntExtra("countryFlag", 0);
@@ -76,7 +88,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         TextView textView = findViewById(R.id.textViewOfCountry);
 
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-        String language = prefs.getString("language", "english");
+        String language = prefs.getString("language", "English");
 
         imageView.setImageResource(number);
         textView.setText(str);

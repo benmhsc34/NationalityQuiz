@@ -1,11 +1,13 @@
 package com.example.benja.nationalityquiz;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -16,6 +18,7 @@ import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class StatsActivity extends AppCompatActivity {
@@ -26,7 +29,6 @@ public class StatsActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
     private List<ListItem> listItems;
-
 
 
     @Override
@@ -70,35 +72,82 @@ public class StatsActivity extends AppCompatActivity {
         int australia_score = prefs.getInt("australia_score", 0);
 
 
-        String englandPourcentage = Math.round((england_score / england_games) * 10) + "%";
+        String englandPourcentage = (england_score / england_games) * 10 + "%";
         if (england_games == -1) {
             englandPourcentage = "N/A";
-        } String francePourcentage = Math.round((france_score / france_games)) * 10 + "%";
+        }
+        String francePourcentage = ((france_score / france_games)) * 10 + "%";
         if (france_games == -1) {
             francePourcentage = "N/A";
-        } String usaPourcentage = Math.round((usa_score / usa_games) * 10) + "%";
+        }
+        String usaPourcentage = Math.round((usa_score / usa_games) * 10) + "%";
         if (usa_games == -1) {
             usaPourcentage = "N/A";
-        } String australiaPourcentage = Math.round((australia_score / australia_games)) * 10 + "%";
+        }
+        String australiaPourcentage = Math.round((australia_score / australia_games)) * 10 + "%";
         if (australia_games == -1) {
             australiaPourcentage = "N/A";
-        } String chinaPourcentage = Math.round((china_score / china_games)) * 10 + "%";
+        }
+        String chinaPourcentage = Math.round((china_score / china_games)) * 10 + "%";
         if (china_games == -1) {
             chinaPourcentage = "N/A";
-        } String japanPourcentage = Math.round((japan_score / japan_games)) * 10 + "%";
+        }
+        String japanPourcentage = Math.round((japan_score / japan_games)) * 10 + "%";
         if (japan_games == -1) {
             japanPourcentage = "N/A";
-        } String spainPourcentage = Math.round((spain_score / spain_games)) * 10 + "%";
+        }
+        String spainPourcentage = Math.round((spain_score / spain_games)) * 10 + "%";
         if (spain_games == -1) {
             spainPourcentage = "N/A";
-        } String germanyPourcentage = Math.round((germany_score / germany_games)) * 10 + "%";
+        }
+        String germanyPourcentage = Math.round((germany_score / germany_games)) * 10 + "%";
         if (germany_games == -1) {
             germanyPourcentage = "N/A";
         }
 
-        String datesList[] = {"England", "France", "USA", "Spain", "China", "Japan", "Germany", "Australia"};
-        String statsList[] = {englandPourcentage, francePourcentage, usaPourcentage, spainPourcentage, chinaPourcentage, japanPourcentage, germanyPourcentage, australiaPourcentage};
-        Integer flagList[] = {R.drawable.gb, R.drawable.fr, R.drawable.us, R.drawable.es, R.drawable.cn, R.drawable.jp, R.drawable.de, R.drawable.au};
+
+        List<String> pourcentage = Arrays.asList(englandPourcentage, francePourcentage, usaPourcentage, spainPourcentage);
+
+        String zero = pourcentage.get(0);
+        String un = pourcentage.get(1);
+        String deux = pourcentage.get(2);
+        String trois = pourcentage.get(3);
+
+        Collections.sort(pourcentage);
+        Collections.reverse(pourcentage);
+
+        String statsList[] = {pourcentage.get(0), pourcentage.get(1), pourcentage.get(2), pourcentage.get(3)};
+
+        int zzero = 0;
+        int uun = 1;
+        int ddeux = 2;
+        int ttrois = 3;
+
+        for (int i = 0; i < statsList.length; i++) {
+            if (statsList[i].equals(zero)) {
+                zzero = (i);
+            }
+            if (statsList[i].equals(un)) {
+                uun = (i);
+            }
+            if (statsList[i].equals(deux)) {
+                ddeux = (i);
+            }
+            if (statsList[i].equals(trois)) {
+                ttrois = (i);
+            }
+        }
+        String[] arrayCountries = new String[4];
+        arrayCountries[zzero] = "England";
+        arrayCountries[uun] = "France";
+        arrayCountries[ddeux] = "USA";
+        arrayCountries[ttrois] = "Spain";
+
+        int[] arrayFlags = new int[4];
+        arrayFlags[zzero] = R.drawable.gb;
+        arrayFlags[uun] = R.drawable.fr;
+        arrayFlags[ddeux] = R.drawable.us;
+        arrayFlags[ttrois] = R.drawable.es;
 
 
         recyclerView = findViewById(R.id.recyclerView);
@@ -107,8 +156,8 @@ public class StatsActivity extends AppCompatActivity {
 
         listItems = new ArrayList<>();
 
-        for (int i = 0; i < datesList.length; i++) {
-            ListItem listItemb = new ListItem(flagList[i], datesList[i], statsList[i]);
+        for (int i = 0; i < arrayCountries.length; i++) {
+            ListItem listItemb = new ListItem(arrayFlags[i], arrayCountries[i], statsList[i]);
 
             listItems.add(listItemb);
         }
@@ -116,10 +165,5 @@ public class StatsActivity extends AppCompatActivity {
         adapter = new MyAdapter(listItems, this);
 
         recyclerView.setAdapter(adapter);
-
-
-
-
-
     }
 }
