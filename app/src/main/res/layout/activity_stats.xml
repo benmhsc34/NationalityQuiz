@@ -27,7 +27,6 @@
                 android:layout_height="50dp"
                 android:layout_alignParentTop="true"
                 android:background="@drawable/backbuttonblack"
-                android:text=" ← "
                 android:textAlignment="center"
                 android:textColor="#FFF"
                 android:textSize="30sp"
@@ -58,4 +57,11 @@
 
         </android.support.v7.widget.RecyclerView>
     </RelativeLayout>
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:text=" ← "
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:gravity="center"/>
 </android.support.constraint.ConstraintLayout>

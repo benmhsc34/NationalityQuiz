@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         listItems = new ArrayList<>();
 
         for (int i = 0; i < datesList.length; i++) {
-            ListItem listItemb = new ListItem(flagList[i], datesList[i], "");
+            ListItem listItemb = new ListItem(flagList[i], datesList[i]);
 
             listItems.add(listItemb);
         }

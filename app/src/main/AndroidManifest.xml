@@ -6,6 +6,13 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
 
+    <supports-screens
+        android:largeScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true"
+        android:normalScreens="true"
+        />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -16,7 +23,8 @@
         tools:ignore="GoogleAppIndexingWarning">
         <meta-data
             android:name="com.google.android.gms.ads.ca-app-pub-7146853836816464~9147761003"
-            android:value="true"/>
+            android:value="[ca-app-pub-7146853836816464/9346113690]"/>
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />

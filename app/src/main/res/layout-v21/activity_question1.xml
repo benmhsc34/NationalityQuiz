@@ -12,6 +12,8 @@
         android:layout_height="60dp"
         android:background="@drawable/rounder_cornes_questions">
 
+
+
         <Button
             android:id="@+id/backButton"
             android:layout_width="50dp"
@@ -19,13 +21,11 @@
             android:layout_alignParentTop="true"
             android:layout_margin="5dp"
             android:background="@drawable/backbuttonblue"
-            android:paddingStart="7dp"
-            android:paddingLeft="7dp"
-            android:text="← "
             android:textColor="#FFF"
             android:textSize="30sp"
             android:textStyle="bold"
             tools:ignore="RtlSymmetry" />
+
 
 
         <TextView
@@ -49,6 +49,14 @@
 
 
     </RelativeLayout>
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:text=" ← "
+        android:textColor="#FFF"
+        android:textSize="30sp"
+        android:gravity="center"/>
 
     <RelativeLayout
         android:layout_width="fill_parent"
@@ -139,18 +147,17 @@
 
         </LinearLayout>
 
+
         <com.google.android.gms.ads.AdView
             xmlns:ads="http://schemas.android.com/apk/res-auto"
             android:id="@+id/adView"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            ads:adUnitId="ca-app-pub-7146853836816464/9346113690">
         </com.google.android.gms.ads.AdView>
-
-
 
     </RelativeLayout>
 

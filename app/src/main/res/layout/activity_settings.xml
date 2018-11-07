@@ -18,10 +18,9 @@
             android:layout_height="50dp"
             android:background="@drawable/round_button"
             android:textColor="#000"
-            android:text="← "
             android:textAlignment="center"
             android:layout_alignParentTop="true"
-            android:layout_margin="10dp"
+            android:layout_margin="5dp"
             android:textStyle="bold"
             android:paddingLeft="7dp"
             android:textSize="30sp"
@@ -64,5 +63,11 @@
 
         </RelativeLayout>
     </RelativeLayout>
-
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="45dp"
+        android:text=" ← "
+        android:textColor="#000"
+        android:textSize="30sp"
+        android:gravity="center"/>
 </android.support.constraint.ConstraintLayout>

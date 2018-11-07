@@ -8,8 +8,13 @@
     tools:context=".StartActivity">
 
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <RelativeLayout
             android:id="@+id/relativeLayoutSettings"
@@ -26,11 +31,12 @@
                 android:background="#FFF"
                 android:src="@drawable/settings" />
         </RelativeLayout>
+
         <ImageView
             android:layout_width="230dp"
             android:layout_height="60dp"
             android:layout_marginTop="15dp"
-            android:src="@drawable/bubbleimage1"/>
+            android:src="@drawable/bubbleimage1" />
 
         <ImageView
             android:id="@+id/bigLogo"
@@ -44,7 +50,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignBottom="@+id/bigLogo"
-            android:layout_marginBottom="25dp"
+            android:layout_marginTop="25dp"
             android:fontFamily="@font/lato"
             android:gravity="center"
             android:text="International Knowledge ®"
@@ -67,10 +73,10 @@
                 android:layout_height="160dp"
                 android:background="@drawable/rounder_cornes_questions1"
                 android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/playButton"
                 android:textAllCaps="false"
                 android:textColor="#000"
                 android:textSize="60sp"
-                android:text="@string/playButton"
                 android:textStyle="bold" />
         </LinearLayout>
 
@@ -89,8 +95,8 @@
                 android:layout_height="70dp"
                 android:background="@drawable/rounder_cornes_questions1"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textColor="#000"
                 android:text="@string/stats"
+                android:textColor="#000"
                 android:textSize="30sp"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -112,9 +118,9 @@
                 android:layout_weight="1"
                 android:background="@drawable/rounder_cornes_questions1"
                 android:fontFamily="sans-serif-smallcaps"
+                android:text="@string/moreAppsButton"
                 android:textColor="#000"
                 android:textSize="20sp"
-                android:text="@string/moreAppsButton"
                 android:textStyle="bold" />
 
             <Button
@@ -125,8 +131,8 @@
                 android:layout_weight="1"
                 android:background="@drawable/rounder_cornes_questions1"
                 android:fontFamily="sans-serif-smallcaps"
-                android:textColor="#000"
                 android:text="@string/rateUs"
+                android:textColor="#000"
                 android:textSize="20sp"
                 android:textStyle="bold" />
 

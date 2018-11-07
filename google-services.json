@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "902116396544",
+    "firebase_url": "https://international-knowledge.firebaseio.com",
+    "project_id": "international-knowledge",
+    "storage_bucket": "international-knowledge.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902116396544:android:c67c765611129bbb",
+        "android_client_info": {
+          "package_name": "com.example.benja.nationalityquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902116396544-ljo1j007dourm2njn2tjsdsrb6jhj514.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMY1Qp3snHjUiaH0Wr3w7B3Z2jjaEgMu8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

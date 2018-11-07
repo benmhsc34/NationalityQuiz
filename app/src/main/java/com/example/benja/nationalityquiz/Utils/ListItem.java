@@ -4,12 +4,10 @@ public class ListItem {
 
     private int flag;
     private String name;
-    private String stats;
 
-    public ListItem(int flag, String name, String stats) {
+    public ListItem(int flag, String name) {
         this.flag = flag;
         this.name = name;
-        this.stats = stats;
     }
 
     public int getFlag() {
@@ -19,6 +17,4 @@ public class ListItem {
     public String getName() {
         return name;
     }
-
-    public String getStats() { return stats; }
 }
