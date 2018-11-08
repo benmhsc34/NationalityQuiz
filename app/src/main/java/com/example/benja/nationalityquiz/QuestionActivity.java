@@ -11,13 +11,12 @@ import android.support.annotation.RequiresApi;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-
 
 
 import com.example.benja.nationalityquiz.Utils.Question;
@@ -32,10 +31,13 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.google.android.gms.ads.InterstitialAd;
+
 
 public class QuestionActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -61,13 +63,15 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     List<Question> questionList = new ArrayList<>();
     String name;
     private AdView mAdView;
+    private InterstitialAd mInterstitialAd;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question1);
-        MobileAds.initialize(this, "ca-app-pub-7146853836816464/9346113690");
+
+        MobileAds.initialize(this, "ca-app-pub-7146853836816464~9147761003");
         AdView adView = new AdView(this);
         adView.setAdSize(AdSize.BANNER);
         adView.setAdUnitId("ca-app-pub-7146853836816464/9346113690");
@@ -75,6 +79,17 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+        String payment = prefs.getString("payment", "NOT");
+        if (!(payment.equals("OK"))) {
+            mAdView.setVisibility(View.VISIBLE);
+
+        } else {
+            mAdView.setVisibility(View.INVISIBLE);
+        }
+        mInterstitialAd = new InterstitialAd(this);
+        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
 
         Intent intent = getIntent();
@@ -93,7 +108,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         ImageView imageView = findViewById(R.id.imageViewOfFlag);
         TextView textView = findViewById(R.id.textViewOfCountry);
 
-        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         String language = prefs.getString("language", "English");
 
         imageView.setImageResource(number);
@@ -103,22 +117,28 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         // switch if extra intent .equals"China" then get_json_china...
         if (str.equals("France") && language.equals("Français")) {
             mQuestionBank = this.get_json_france();
-        }if (str.equals("France") && language.equals("English")) {
+        }
+        if (str.equals("France") && language.equals("English")) {
             mQuestionBank = this.get_json_france_en();
-        }  if (str.equals("England") && language.equals("Français")) {
+        }
+        if (str.equals("England") && language.equals("Français")) {
             mQuestionBank = this.get_json_england_fr();
-        }if (str.equals("England") && language.equals("English")) {
+        }
+        if (str.equals("England") && language.equals("English")) {
             mQuestionBank = this.get_json_england();
-        }  if (str.equals("USA") && language.equals("Français")) {
+        }
+        if (str.equals("USA") && language.equals("Français")) {
             mQuestionBank = this.get_json_usa();
-        }if (str.equals("USA") && language.equals("English")) {
+        }
+        if (str.equals("USA") && language.equals("English")) {
             mQuestionBank = this.get_json_usa_en();
-        }  if (str.equals("Spain") && language.equals("Français")) {
-            mQuestionBank = this.get_json_france();
-        }if (str.equals("Spain") && language.equals("English")) {
+        }
+        if (str.equals("Spain") && language.equals("Français")) {
             mQuestionBank = this.get_json_france();
         }
-
+        if (str.equals("Spain") && language.equals("English")) {
+            mQuestionBank = this.get_json_france();
+        }
 
 
         if (savedInstanceState != null) {
@@ -265,7 +285,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.putInt("england_score", score + mScore);
             editor.putInt("england_games", games + 1);
             editor.apply();
-        }   if (str.equals("USA")) {
+        }
+        if (str.equals("USA")) {
 
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
             int games = prefs.getInt("usa_games", 0);
@@ -276,7 +297,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.putInt("usa_score", score + mScore);
             editor.putInt("usa_games", games + 1);
             editor.apply();
-        }if (str.equals("France")) {
+        }
+        if (str.equals("France")) {
 
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
             int games = prefs.getInt("france_games", 0);
@@ -287,7 +309,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.putInt("france_score", score + mScore);
             editor.putInt("france_games", games + 1);
             editor.apply();
-        }if (str.equals("Spain")) {
+        }
+        if (str.equals("Spain")) {
 
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
             int games = prefs.getInt("spain_games", 0);
@@ -298,7 +321,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.putInt("spain_score", score + mScore);
             editor.putInt("spain_games", games + 1);
             editor.apply();
-        }if (str.equals("Germany")) {
+        }
+        if (str.equals("Germany")) {
 
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
             int games = prefs.getInt("germany_games", 0);
@@ -308,7 +332,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.putInt("germany_score", score + mScore);
             editor.putInt("germany_games", games + 1);
             editor.apply();
-        }if (str.equals("Japan")) {
+        }
+        if (str.equals("Japan")) {
 
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
             int games = prefs.getInt("japan_games", 0);
@@ -318,7 +343,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.putInt("japan_score", score + mScore);
             editor.putInt("japan_games", games + 1);
             editor.apply();
-        }if (str.equals("China")) {
+        }
+        if (str.equals("China")) {
 
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
             int games = prefs.getInt("china_games", 0);
@@ -328,7 +354,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.putInt("china_score", score + mScore);
             editor.putInt("china_games", games + 1);
             editor.apply();
-        }if (str.equals("Australia")) {
+        }
+        if (str.equals("Australia")) {
 
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
             int games = prefs.getInt("australia_games", 0);
@@ -352,6 +379,11 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                         data.putExtra(BUNDLE_EXTRA_SCORE, mScore);
                         data.putExtra(BUNDLE_EXTRA_NAME, name);
                         setResult(RESULT_OK, data);
+                        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+                        String payment = prefs.getString("payment", "NOT");
+                        if (mInterstitialAd.isLoaded() && !(payment.equals("OK"))) {
+                            mInterstitialAd.show();
+                        }
                         finish();
                     }
                 })
@@ -362,10 +394,10 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
     private void displayQuestion(final Question question) {
         mQuestionTextView.setText(question.getQuestion());
-        mAnswerButton1.setText(question.getChoiceList().get(0));
-        mAnswerButton2.setText(question.getChoiceList().get(1));
-        mAnswerButton3.setText(question.getChoiceList().get(2));
-        mAnswerButton4.setText(question.getChoiceList().get(3));
+        mAnswerButton1.setText(question.getChoiceList().get(0).trim());
+        mAnswerButton2.setText(question.getChoiceList().get(1).trim());
+        mAnswerButton3.setText(question.getChoiceList().get(2).trim());
+        mAnswerButton4.setText(question.getChoiceList().get(3).trim());
     }
 
 
@@ -431,6 +463,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
     public QuestionBank get_json_france_en() {
         String json;
         try {
@@ -456,6 +489,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
     public QuestionBank get_json_england() {
         String json;
         try {
@@ -481,6 +515,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
     public QuestionBank get_json_england_fr() {
         String json;
         try {
@@ -506,6 +541,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
     public QuestionBank get_json_usa() {
         String json;
         try {
@@ -531,6 +567,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
     public QuestionBank get_json_usa_en() {
         String json;
         try {
@@ -556,6 +593,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
     public QuestionBank get_json_spain() {
         String json;
         try {

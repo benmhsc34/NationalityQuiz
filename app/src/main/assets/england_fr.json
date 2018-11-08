@@ -67,7 +67,7 @@
     "question": "Quel est le sport national en Angleterre?",
     "answer0": "Le football",
     "answer1": "Le cricket",
-    "answer2": "Le Cheese-Rolling",
+    "answer2": "Le Cheese Rolling",
     "answer3": "Le Hockey",
     "answerIndex": "1"
   },
@@ -213,7 +213,7 @@
     "answer1": "3",
     "answer2": "8",
     "answer3": "5",
-    "answerIndex": "1"
+    "answerIndex": "0"
   },
   {
     "question": "Quelle est la deuxième phrase de l'hymne nationale de l'Angleterre?",
@@ -264,7 +264,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "En moyenne, combien y'a t-il de jour de pluie par an en Angletter?",
+    "question": "En moyenne, combien y'a t-il de jour de pluie par an en Angleterre?",
     "answer0": "206 jours",
     "answer1": "56 jours",
     "answer2": "106 jours",

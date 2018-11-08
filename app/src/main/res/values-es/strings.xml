@@ -4,5 +4,6 @@
     <string name="stats">Estadística</string>
     <string name="playButton">Jugar</string>
     <string name="rateUs">" ¡Nos califica!"</string>
-    <string name="moreAppsButton">¡Más aplicaciones!</string>
+    <string name="moreAppsButton">No anuncios 🚫</string>
+    <string name="moreApps">mas aplicaciones !</string>
 </resources>

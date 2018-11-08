@@ -13,7 +13,6 @@
         android:background="@drawable/rounder_cornes_questions">
 
 
-
         <Button
             android:id="@+id/backButton"
             android:layout_width="50dp"
@@ -25,7 +24,6 @@
             android:textSize="30sp"
             android:textStyle="bold"
             tools:ignore="RtlSymmetry" />
-
 
 
         <TextView
@@ -53,22 +51,28 @@
     <TextView
         android:layout_width="60dp"
         android:layout_height="45dp"
+        android:gravity="center"
         android:text=" ← "
         android:textColor="#FFF"
-        android:textSize="30sp"
-        android:gravity="center"/>
-
+        android:textSize="30sp" />
     <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/adView"
+        android:weightSum="2">
 
 
         <TextView
             android:id="@+id/questionTextView"
-            android:layout_width="fill_parent"
-            android:layout_height="230dp"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
             android:layout_marginTop="75dp"
             android:layout_marginBottom="8dp"
             android:background="@drawable/rounder_cornes_questions1"
@@ -80,74 +84,87 @@
             android:textStyle="bold" />
 
         <LinearLayout
-            android:id="@+id/LL1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/questionTextView"
-            android:weightSum="2">
-
-            <Button
-                android:id="@+id/activity_game_answer1_btn"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounder_cornes_questions1"
-                android:text="Answer1"
-                android:textColor="#696969"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-
-            <Button
-                android:id="@+id/activity_game_answer2_btn"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_margin="5dp"
-                android:layout_weight="1"
-                android:background="@drawable/rounder_cornes_questions1"
-                android:text="Answer2"
-                android:textColor="#696969"
-                android:textSize="20sp"
-                android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/LL2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_below="@id/LL1"
+            android:layout_weight="1"
+            android:orientation="horizontal"
             android:weightSum="2">
 
-            <Button
-                android:id="@+id/activity_game_answer3_btn"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_margin="5dp"
+            <LinearLayout
+                android:id="@+id/LL1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/rounder_cornes_questions1"
-                android:padding="2dp"
-                android:text="Answer3"
-                android:textColor="#696969"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:orientation="vertical"
+                android:weightSum="2">
 
-            <Button
-                android:id="@+id/activity_game_answer4_btn"
-                android:layout_width="match_parent"
-                android:layout_height="120dp"
-                android:layout_margin="5dp"
+                <Button
+                    android:id="@+id/activity_game_answer1_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounder_cornes_questions1"
+                    android:text="Answer1"
+                    android:textColor="#696969"
+                    android:padding="4dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/activity_game_answer3_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounder_cornes_questions1"
+                    android:padding="4dp"
+                    android:text="Answer3"
+                    android:textColor="#696969"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/LL2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:background="@drawable/rounder_cornes_questions1"
-                android:padding="2dp"
-                android:text="Answer4"
-                android:textColor="#696969"
-                android:textSize="20sp"
-                android:textStyle="bold" />
+                android:orientation="vertical"
+                android:weightSum="2">
+
+                <Button
+                    android:id="@+id/activity_game_answer4_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounder_cornes_questions1"
+                    android:padding="4dp"
+                    android:text="Answer4"
+                    android:textColor="#696969"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/activity_game_answer2_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_margin="7dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rounder_cornes_questions1"
+                    android:text="Answer2"
+                    android:textColor="#696969"
+                    android:padding="4dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
 
 
+            </LinearLayout>
         </LinearLayout>
-
-
+    </LinearLayout>
         <com.google.android.gms.ads.AdView
             xmlns:ads="http://schemas.android.com/apk/res-auto"
             android:id="@+id/adView"
@@ -155,10 +172,9 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:layout_alignParentBottom="true"
+            android:layout_marginTop="20dp"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-7146853836816464/9346113690">
+            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
         </com.google.android.gms.ads.AdView>
-
     </RelativeLayout>
-
 </android.support.constraint.ConstraintLayout>

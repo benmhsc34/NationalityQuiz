@@ -25,6 +25,7 @@
             android:name="com.google.android.gms.ads.ca-app-pub-7146853836816464~9147761003"
             android:value="[ca-app-pub-7146853836816464/9346113690]"/>
 
+
         <activity
             android:name=".MainActivity"
             android:screenOrientation="portrait" />
@@ -48,5 +49,7 @@
             </intent-filter>
         </activity>
     </application>
+    
+    <uses-permission android:name="com.android.vending.BILLING" />
 
 </manifest>
