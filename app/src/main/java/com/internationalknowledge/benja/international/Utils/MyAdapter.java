@@ -1,4 +1,4 @@
-package com.example.benja.nationalityquiz.Utils;
+package com.internationalknowledge.benja.international.Utils;
 
 import android.content.Context;
 import android.content.Intent;
@@ -10,27 +10,26 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import com.example.benja.nationalityquiz.QuestionActivity;
-import com.example.benja.nationalityquiz.R;
+import com.internationalknowledge.benja.international.QuestionActivity;
+import com.internationalknowledge.benja.international.R;
 import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
-public class MyStatsAdapter extends RecyclerView.Adapter<MyStatsAdapter.ViewHolder> {
+public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
-    private List<ListStatsItems> listItems;
+    private List<ListItem> listItems;
     private Context context;
 
-    public MyStatsAdapter(List<ListStatsItems> listItems, Context context) {
+    public MyAdapter(List<ListItem> listItems, Context context) {
         this.listItems = listItems;
         this.context = context;
     }
 
     @NonNull
     @Override
-    public MyStatsAdapter.ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
+    public ViewHolder onCreateViewHolder(@NonNull ViewGroup viewGroup, int i) {
         View v = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.custom_layout, viewGroup, false);
         return new ViewHolder(v);
     }
@@ -41,13 +40,20 @@ public class MyStatsAdapter extends RecyclerView.Adapter<MyStatsAdapter.ViewHold
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder viewHolder, final int i) {
-        final ListStatsItems listItem = listItems.get(i);
+    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
+        final ListItem listItem = listItems.get(i);
 
-        viewHolder.textViewName.setText(listItem.getCountry());
+        viewHolder.textViewName.setText(listItem.getName());
         Picasso.with(context).load(listItem.getFlag()).into(viewHolder.imageViewFlag);
-        viewHolder.textViewStats.setText(listItem.getStats());
-
+        viewHolder.relativeLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(context, QuestionActivity.class);
+                myIntent.putExtra("countryName", listItem.getName());
+                myIntent.putExtra("countryFlag", listItem.getFlag());
+                context.startActivity(myIntent);
+            }
+        });
     }
 
     @Override
@@ -55,13 +61,11 @@ public class MyStatsAdapter extends RecyclerView.Adapter<MyStatsAdapter.ViewHold
         return listItems.size();
     }
 
-    public class ViewHolder extends RecyclerView.ViewHolder {
+    public class ViewHolder extends RecyclerView.ViewHolder{
 
         public TextView textViewName;
         public ImageView imageViewFlag;
         public RelativeLayout relativeLayout;
-        public TextView textViewStats;
-
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
@@ -69,7 +73,6 @@ public class MyStatsAdapter extends RecyclerView.Adapter<MyStatsAdapter.ViewHold
             textViewName = itemView.findViewById(R.id.textViewCountryName);
             imageViewFlag = itemView.findViewById(R.id.imageViewCountryFlag);
             relativeLayout = itemView.findViewById(R.id.parent_layout);
-            textViewStats = itemView.findViewById(R.id.textViewStats);
         }
     }
 }

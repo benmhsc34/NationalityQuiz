@@ -24,7 +24,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Which of these was known as the official London residence of Queen Elizabeth II?",
+    "question": "Which of these is the official London residence of Queen Elizabeth II?",
     "answer0": "Buckingham Palace",
     "answer1": "The White House",
     "answer2": "Big Ben",
@@ -40,7 +40,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "How many underground stations were in London in 2007",
+    "question": "How many underground stations were there in London in 2007",
     "answer0": "275",
     "answer1": "0",
     "answer2": "35",
@@ -56,7 +56,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "In 2011, how many counties existed in England?",
+    "question": "How many counties are there in England?",
     "answer0": "37",
     "answer1": "67",
     "answer2": "17",
@@ -83,7 +83,7 @@
     "question": "Which tennis grand-slam is played in England",
     "answer0": "Queens",
     "answer1": "Wimbledon",
-    "answer2": "Rolland-Garros",
+    "answer2": "Roland-Garros",
     "answer3": "O2 masters",
     "answerIndex": "1"
   },
@@ -112,7 +112,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "In which year did england win the FIFA World Cup?",
+    "question": "In which year did England win the FIFA World Cup?",
     "answer0": "2002",
     "answer1": "1978",
     "answer2": "1998",
@@ -120,7 +120,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Which famous brand was not created in England",
+    "question": "Which famous brand was not created in England?",
     "answer0": "Durex",
     "answer1": "Walmart",
     "answer2": "Easyjet",
@@ -168,8 +168,8 @@
     "answerIndex": "2"
   },
   {
-    "question": "When is Boxing day?",
-    "answer0": "the day when Joshua fights",
+    "question": "When is Boxing Day?",
+    "answer0": "the day when  Anthony Joshua fights",
     "answer1": "Christmas day",
     "answer2": "26th December",
     "answer3": "21st September",
@@ -181,6 +181,22 @@
     "answer1": "2nd",
     "answer2": "3rd",
     "answer3": "4th",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Which artist put a cow in formaldehyde as an exhibit?",
+    "answer0": "Damien Hurst",
+    "answer1": "David Hockney",
+    "answer2": "Tracey Emin",
+    "answer3": "Andy Warhol",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which artist drew a girl with a red balloon in the streets of London?",
+    "answer0": "Inkie",
+    "answer1": "Andy Warhol",
+    "answer2": "Banksy",
+    "answer3": "Paul Insect",
     "answerIndex": "2"
   },
   {
@@ -224,7 +240,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "What is the NHS",
+    "question": "What does NHS stand for?",
     "answer0": "National Health Service",
     "answer1": "National Hospital Service",
     "answer2": "New Hope Singers",
@@ -232,15 +248,15 @@
     "answerIndex": "0"
   },
   {
-    "question": "When was Stonehenge constructed",
+    "question": "When was Stonehenge constructed?",
     "answer0": "about 5000 years ago",
     "answer1": "about 1000 years ago",
-    "answer2": "about 100 years ago",
+    "answer2": "about 100000 years ago",
     "answer3": "about 50 years ago",
     "answerIndex": "0"
   },
   {
-    "question": "Which city is more North?",
+    "question": "Which city is further North?",
     "answer0": "Manchester",
     "answer1": "Liverpool",
     "answer2": "Middlesbrough",
@@ -256,7 +272,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "In the Doctor Who series, what gadget does the Doctor always have in his pocket?",
+    "question": "In the Doctor Who series, what gadget does the Doctor always have?",
     "answer0": "Electric pen",
     "answer1": "Electronic Compass",
     "answer2": "Sonic Screwdriver",
@@ -264,7 +280,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "On average, how many days rain does England have in a year?",
+    "question": "On average, how many days of rain does England have in a year?",
     "answer0": "206 days",
     "answer1": "56 days",
     "answer2": "106 days",
@@ -288,7 +304,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "In what year did John Lennon die?",
+    "question": "In which year did John Lennon die?",
     "answer0": "1980",
     "answer1": "1970",
     "answer2": "1990",
@@ -312,9 +328,9 @@
     "answerIndex": "0"
   },
   {
-    "question": "Which of these scientists is not english?",
+    "question": "Which of these scientists is not English?",
     "answer0": "Stephen Hawkins",
-    "answer1": "Isaaw Newton",
+    "answer1": "Isaac Newton",
     "answer2": "Charles Darwin",
     "answer3": "Neil deGrasse Tyson",
     "answerIndex": "3"

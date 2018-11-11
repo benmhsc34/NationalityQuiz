@@ -1,13 +1,12 @@
-package com.example.benja.nationalityquiz.Utils;
+package com.internationalknowledge.benja.international.Utils;
 
 import android.content.Intent;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.example.benja.nationalityquiz.MainActivity;
-import com.example.benja.nationalityquiz.R;
-import com.example.benja.nationalityquiz.StartActivity;
+import com.internationalknowledge.benja.international.R;
+import com.internationalknowledge.benja.international.StartActivity;
 
 public class LogoActivity extends AppCompatActivity {
 

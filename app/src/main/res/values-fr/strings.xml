@@ -2,7 +2,7 @@
 <resources>
     <string name="app_name">International Knowledge</string>
     <string name="playButton">Jouer</string>
-    <string name="moreAppsButton">Sans pub 🚫</string>
+    <string name="moreAppsButton">Instagram</string>
     <string name="rateUs">Notez nous!</string>
     <string name="stats">Statistiques</string>
     <string name="moreApps">Plus d\'apps!</string>

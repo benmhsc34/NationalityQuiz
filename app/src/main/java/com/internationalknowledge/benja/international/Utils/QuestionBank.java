@@ -1,6 +1,4 @@
-package com.example.benja.nationalityquiz.Utils;
-
-import com.example.benja.nationalityquiz.Utils.Question;
+package com.internationalknowledge.benja.international.Utils;
 
 import java.util.Collections;
 import java.util.List;

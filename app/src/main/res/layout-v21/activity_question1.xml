@@ -174,7 +174,7 @@
             android:layout_alignParentBottom="true"
             android:layout_marginTop="20dp"
             ads:adSize="BANNER"
-            ads:adUnitId="ca-app-pub-3940256099942544/6300978111">
+            ads:adUnitId="ca-app-pub-7146853836816464/9346113690">
         </com.google.android.gms.ads.AdView>
     </RelativeLayout>
 </android.support.constraint.ConstraintLayout>

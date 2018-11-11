@@ -1,43 +1,60 @@
-package com.example.benja.nationalityquiz;
+package com.internationalknowledge.benja.international;
 
-import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.Handler;
+import android.net.Uri;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.animation.Animation;
-import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.LinearLayout;
-import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.anjlab.android.iab.v3.BillingProcessor;
 import com.anjlab.android.iab.v3.TransactionDetails;
 
-import java.io.InputStream;
+import static com.internationalknowledge.benja.international.QuestionActivity.MY_PREFS_NAME;
 
-import static com.example.benja.nationalityquiz.QuestionActivity.MY_PREFS_NAME;
+public class StartActivity extends AppCompatActivity {
 
-public class StartActivity extends AppCompatActivity implements BillingProcessor.IBillingHandler {
+  //  BillingProcessor bp;
 
-    BillingProcessor bp;
-
-    Button iab;
+  // Button iab;
+   Button rateUs;
+   Button moreApps;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        iab = findViewById(R.id.moreAppsButton);
+        rateUs = findViewById(R.id.rateUs);
 
-        bp = new BillingProcessor(this, null, this);
+        rateUs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Uri uri = Uri.parse("http://play.google.com/store/apps/details?id=com.internationalknowledge.benja.international&fbclid=IwAR3seBH95oALOaJzLZI2J7YiMv0QAYMELj0ZIlRpgSZRqj_errdD6zDuI1k"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
+
+        moreApps = findViewById(R.id.moreAppsButton);
+        moreApps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Uri uri = Uri.parse("http://www.instagram.com/international_knowledge_quiz/"); // missing 'http://' will cause crashed
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
+
+
+     /*   iab = findViewById(R.id.moreAppsButton);
+
+        bp = new BillingProcessor(this, "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgnoVr2BZRaK8MvLo3XGNvHvQOyC7NBmuMaSy/TLfISiNL/tpbtX1Exijv4ZH/bmDw6l4bp3KLV0Idr5594owHAx7C7/7yyWuslzMRm588Qd8OBuB9C7+vDGR5qywG9+cJIQCrmufZqIoks/tSo+3HCevewNXc9AsMbSMFNOuyv/NPTFbtYBVVUc71YldkCMDr1BT0OglGhPb02noyp544BJOuduHcOa/DbRKnbZdPdS9c1lgSKTttNx2GQWFYbiGgV5CsbspIzlHDkVxFbhGfSEIczz3AgpnrCL9MSh3Gt6UuPz77VS2f9o3Ao0i5slTRR7zZZNltVMDi2eNbQGe3QIDAQAB", this);
 
         iab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,7 +62,7 @@ public class StartActivity extends AppCompatActivity implements BillingProcessor
                 bp.purchase(StartActivity.this, "android.test.purchased");
             }
         });
-
+*/
 
                 Button playButton = findViewById(R.id.playButton);
         playButton.setOnClickListener(new View.OnClickListener() {
@@ -80,7 +97,7 @@ public class StartActivity extends AppCompatActivity implements BillingProcessor
 
 
     }
-
+/*
     @Override
     public void onProductPurchased(@NonNull String productId, @Nullable TransactionDetails details) {
     iab.setText(R.string.moreApps);
@@ -122,4 +139,5 @@ public class StartActivity extends AppCompatActivity implements BillingProcessor
         }
         super.onDestroy();
     }
+    */
 }

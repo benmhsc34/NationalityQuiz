@@ -1,4 +1,4 @@
-package com.example.benja.nationalityquiz.Utils;
+package com.internationalknowledge.benja.international.Utils;
 
 public class ListItem {
 

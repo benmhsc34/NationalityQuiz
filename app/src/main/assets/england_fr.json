@@ -40,7 +40,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Combien de station de metro y'avait t-il à Londres en 2007?",
+    "question": "Combien de stations de metro y avait t-il à Londres en 2007?",
     "answer0": "275",
     "answer1": "0",
     "answer2": "35",
@@ -51,12 +51,12 @@
     "question": "Quel pays se trouve à la frontière Nord de l'Angleterre?",
     "answer0": "Le Pays de Galles",
     "answer1": "l'Ecosse",
-    "answer2": "L'Irland",
+    "answer2": "L'Ireland",
     "answer3": "La France",
     "answerIndex": "1"
   },
   {
-    "question": "En 2011, combien de région comptait l'Angleterre?",
+    "question": "En 2011, combien de régions comptait l'Angleterre?",
     "answer0": "37",
     "answer1": "67",
     "answer2": "17",
@@ -64,9 +64,9 @@
     "answerIndex": "1"
   },
   {
-    "question": "Quel est le sport national en Angleterre?",
-    "answer0": "Le football",
-    "answer1": "Le cricket",
+    "question": "Quel est le sport national de l'Angleterre?",
+    "answer0": "Le Football",
+    "answer1": "Le Cricket",
     "answer2": "Le Cheese Rolling",
     "answer3": "Le Hockey",
     "answerIndex": "1"
@@ -80,10 +80,10 @@
     "answerIndex": "1"
   },
   {
-    "question": "Quel Grand-Chlem de Tennis se joue en Angleterre",
+    "question": "Quel Grand-Chlem de Tennis se joue en Angleterre?",
     "answer0": "Queens",
     "answer1": "Wimbledon",
-    "answer2": "Rolland-Garros",
+    "answer2": "Roland-Garros",
     "answer3": "O2 masters",
     "answerIndex": "1"
   },
@@ -96,7 +96,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Quelle joueur a remporté le Golden Boot lors de la Coupe du Monde FIFA 2018",
+    "question": "Quelle joueur a remporté le Golden Boot lors de la Coupe du Monde FIFA 2018?",
     "answer0": "David Beckham",
     "answer1": "Harry Kane",
     "answer2": "Wayne Rooney",
@@ -112,7 +112,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "En quelle année l'Angleterre a-t-elle gagnée la Coupe du Monde de Football?",
+    "question": "En quelle année l'Angleterre a-t-elle gagné la Coupe du Monde de Football?",
     "answer0": "2002",
     "answer1": "1978",
     "answer2": "1998",
@@ -120,7 +120,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quelle célèbre marque n'a pas été créee en Angleterre?",
+    "question": "Quelle célèbre marque n'a pas été créée en Angleterre?",
     "answer0": "Durex",
     "answer1": "Walmart",
     "answer2": "Easyjet",
@@ -128,7 +128,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "En quelle année la Reine Elizabeth a-t-elle célébrée son jubilée de diamand pour ses 60 de reigne?",
+    "question": "En quelle année la Reine Elizabeth a-t-elle célébré son jubilée de diamand pour ses 60 de reigne?",
     "answer0": "1956",
     "answer1": "2012",
     "answer2": "1982",
@@ -136,7 +136,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Quelle ville est connue pour ces festivals",
+    "question": "Quelle ville est connue pour ces festivals?",
     "answer0": "Birmingham",
     "answer1": "Leeds",
     "answer2": "London",
@@ -208,7 +208,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Combien y'a t-il de Teletubbies?",
+    "question": "Combien y a t-il de Teletubbies?",
     "answer0": "4",
     "answer1": "3",
     "answer2": "8",
@@ -233,10 +233,10 @@
   },
   {
     "question": "Quand le Stonehenge a-t-il été construit?",
-    "answer0": "il y a environ 5000ans",
-    "answer1": "il y a environ 1000ans",
-    "answer2": "il y a environ 100ans",
-    "answer3": "il y a environ 50ans",
+    "answer0": "il y a environ 5 000 ans",
+    "answer1": "il y a environ 1000 ans",
+    "answer2": "il y a environ 10 000 ans",
+    "answer3": "il y a environ 50 ans",
     "answerIndex": "0"
   },
   {
@@ -256,15 +256,15 @@
     "answerIndex": "2"
   },
   {
-    "question": "Dans la série Doctor Who, quel gadget a-t-il toujours dans sa poche?",
-    "answer0": "style électrique",
+    "question": "Dans la série Doctor Who, quel gadget se trouve toujours dans la poche du Docteur?",
+    "answer0": "stylo électrique",
     "answer1": "boussole électronique",
     "answer2": "tournevis supersonic",
-    "answer3": "taille crayon acceleré",
+    "answer3": "taille-crayon acceleré",
     "answerIndex": "2"
   },
   {
-    "question": "En moyenne, combien y'a t-il de jour de pluie par an en Angleterre?",
+    "question": "En moyenne, combien y a t-il de jours de pluie par an en Angleterre?",
     "answer0": "206 jours",
     "answer1": "56 jours",
     "answer2": "106 jours",
@@ -314,7 +314,7 @@
   {
     "question": "Lequel de ces scientifiques n'est pas anglais?",
     "answer0": "Stephen Hawkins",
-    "answer1": "Isaaw Newton",
+    "answer1": "Isaac Newton",
     "answer2": "Charles Darwin",
     "answer3": "Neil deGrasse Tyson",
     "answerIndex": "3"
@@ -328,7 +328,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Quel sport est joué durant The Ashes",
+    "question": "Quel sport est joué durant The Ashes?",
     "answer0": "Cricket",
     "answer1": "Hockey",
     "answer2": "Tennis",
@@ -336,7 +336,23 @@
     "answerIndex": "0"
   },
   {
-    "question": "Quel est l'animal national de l'Angleterre",
+    "question": "Quel artise a exposé une vache coupé en deux dans du méthanal?",
+    "answer0": "Damien Hurst",
+    "answer1": "David Hockney",
+    "answer2": "Tracey Emin",
+    "answer3": "Andy Warhol",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel artist a dessiner une fille avec un ballon rouge dans une des rues de Londres?",
+    "answer0": "Inkie",
+    "answer1": "Andy Warhol",
+    "answer2": "Banksy",
+    "answer3": "Paul Insect",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel est l'animal national de l'Angleterre?",
     "answer0": "Licorne",
     "answer1": "Lion",
     "answer2": "Aigle",

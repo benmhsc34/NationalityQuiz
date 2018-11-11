@@ -1,4 +1,4 @@
-package com.example.benja.nationalityquiz;
+package com.internationalknowledge.benja.international;
 
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;

@@ -8,7 +8,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "What is the most watched sporting event in the US",
+    "question": "What is the most watched sporting event in the US?",
     "answer0": "The Olympics",
     "answer1": "the FIFA World Cup",
     "answer2": "The Super Bowl",
@@ -40,8 +40,8 @@
     "answerIndex": "0"
   },
   {
-    "question": "In which city is located the University of Princeton",
-    "answer0": "Miami",
+    "question": "In which city is the University of Princeton located?",
+    "answer0": "Chicago",
     "answer1": "Los Angeles",
     "answer2": "New York",
     "answer3": "New Jersey",
@@ -56,7 +56,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Where is located the Mall of America, the second biggest mall in the country?",
+    "question": "Where is the Mall of America, the second biggest mall in the country?",
     "answer0": "California",
     "answer1": "Ohio",
     "answer2": "Mississippi",
@@ -72,7 +72,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "How many red and white strips are there on the American flag?",
+    "question": "How many red and white stripes are there on the American flag?",
     "answer0": "13",
     "answer1": "15",
     "answer2": "9",
@@ -96,7 +96,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Quelle est la plus grande ville des Etats-Unis?",
+    "question": "Which city in America has the biggest population",
     "answer0": "New York",
     "answer1": "Miami",
     "answer2": "Los Angeles",
@@ -104,15 +104,15 @@
     "answerIndex": "0"
   },
   {
-    "question": "What is the total surface of ​​the United States?",
-    "answer0": "119,8 million km²",
-    "answer1": "19,8 million km²",
-    "answer2": "1,8 million km²",
-    "answer3": "9,8 million km²",
+    "question": "Which state has the biggest surface area?",
+    "answer0": "Florida",
+    "answer1": "California",
+    "answer2": "Texas",
+    "answer3": "Alaska",
     "answerIndex": "3"
   },
   {
-    "question": "What is the population of the US in 2018?",
+    "question": "What is the current population of the US?",
     "answer0": "163 million inhabitants",
     "answer1": "463 million inhabitants",
     "answer2": "363 million inhabitants",
@@ -121,14 +121,14 @@
   },
   {
     "question": "What are the 2 oceans in contact with the US?",
-    "answer0": "Atlantic et Pacific",
-    "answer1": "Atlantic et Indian",
-    "answer2": "Pacific et Indian",
-    "answer3": "Arctic et Indian",
+    "answer0": "Atlantic and Pacific",
+    "answer1": "Atlantic and Indian",
+    "answer2": "Pacific and Indian",
+    "answer3": "Arctic and Indian",
     "answerIndex": "0"
   },
   {
-    "question": "What is the name of the American state located to the North-West of Canada?",
+    "question": "What is the name of the American state to the North West of Canada?",
     "answer0": "Alabama",
     "answer1": "Nebraska",
     "answer2": "Arkansas",
@@ -152,7 +152,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "What monument is visible at the entrance to the port of New York City?",
+    "question": "Which monument can you see at the entrance to the port of New York City?",
     "answer0": "The Statue of Liberty",
     "answer1": "The Empire State Building",
     "answer2": "Central Park",
@@ -161,14 +161,14 @@
   },
   {
     "question": "What is the Liberty Bell?",
-    "answer0": "An american copy of the bell in the Cathedrale Notre-Dame in Paris",
-    "answer1": "The bell that rung just after the Declaration of Independence",
-    "answer2": "The bell that rung after the abolition of slavery",
+    "answer0": "A copy of the bell in Notre-Dame in Paris",
+    "answer1": "The bell that rang after the Declaration of Independence",
+    "answer2": "The bell that rang after the Abolition of Slavery",
     "answer3": "The biggest bell in the world",
     "answerIndex": "1"
   },
   {
-    "question": "What do the 13 strips on the American flag represent?",
+    "question": "What do the 13 stripes on the American flag represent?",
     "answer0": "The 13 main cities of the country",
     "answer1": "The 13 first presidents of the country",
     "answer2": "The 13 founding states of the country",
@@ -184,7 +184,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Which town is associated to the Hornets basketball team?",
+    "question": "Which town is associated with the Hornets basketball team?",
     "answer0": "Miami",
     "answer1": "Charlotte",
     "answer2": "Detroit",
@@ -192,7 +192,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Who sold Louisianna to the US?",
+    "question": "Who sold Louisiana to the US?",
     "answer0": "The king of Spain",
     "answer1": "The king of England",
     "answer2": "The king of France",
@@ -200,7 +200,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Which city is often refered as the Windy City?",
+    "question": "Which city is often referred to as the Windy City?",
     "answer0": "Chicago",
     "answer1": "Cincinnati",
     "answer2": "Portland",
@@ -211,7 +211,7 @@
     "question": "What is the Grand Ole Opry House",
     "answer0": "A blues concert hall in Memphis",
     "answer1": "A country concert hall in Nashville",
-    "answer2": "Barack Obama's current place of residence",
+    "answer2": "Barack Obama's place of residence",
     "answer3": "Bruce Lee's house?",
     "answerIndex": "1"
   },
@@ -224,11 +224,11 @@
     "answerIndex": "3"
   },
   {
-    "question": "Where is the Cap Canaveral situated?",
-    "answer0": "En Floride",
-    "answer1": "A Hawaï",
-    "answer2": "En Californie",
-    "answer3": "En Oregon",
+    "question": "Where is Cape Canaveral?",
+    "answer0": "In Florida",
+    "answer1": "In Hawaii",
+    "answer2": "In California",
+    "answer3": "In Oregon",
     "answerIndex": "0"
   },
   {
@@ -240,7 +240,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "In which city is the Metropolitan Museum of Art located?",
+    "question": "Where is the Metropolitan Museum of Art?",
     "answer0": "Washington",
     "answer1": "Chicago",
     "answer2": "New York",
@@ -258,13 +258,13 @@
   {
     "question": "What was the last state to join the Union in 1959",
     "answer0": "Arizona",
-    "answer1": "Hawaï",
+    "answer1": "Hawaii",
     "answer2": "Alaska",
     "answer3": "New-Mexico",
     "answerIndex": "1"
   },
   {
-    "question": "What singer is known as The Boss?",
+    "question": "Which singer is known as The Boss?",
     "answer0": "Elvis Presley",
     "answer1": "Bruce Springsteen",
     "answer2": "Michael Jackson",
@@ -272,7 +272,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "In what city did the 1996 summer Olympics take place?",
+    "question": "Where did the 1996 summer Olympics take place?",
     "answer0": "Los Angeles",
     "answer1": "Denver",
     "answer2": "Atlanta",
@@ -280,7 +280,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Who has the highest number of albums sales in the US?",
+    "question": "Who has the highest number of album sales in the US?",
     "answer0": "Michael Jackson",
     "answer1": "Garth Brooks",
     "answer2": "Eagles",
@@ -304,15 +304,15 @@
     "answerIndex": "1"
   },
   {
-    "question": "Who are the 4 presidents to be engraved in the Mount Rushmore ",
+    "question": "Who are the 4 presidents carved in Mount Rushmore?",
     "answer0": "Lincoln, Jefferson, Washington and T. Roosevelt",
-    "answer1": "Lincoln, Jefferson, Washington and F. Roosevelt",
-    "answer2": "Lincoln, Adams, Jefferson and Washington",
+    "answer1": "Lincoln, Jefferson, Washington and Obama",
+    "answer2": "Lincoln, Adams, Reagan and Washington",
     "answer3": "Lincoln, T.Roosevelt, Washington and Eisenhower",
     "answerIndex": "0"
   },
   {
-    "question": "In which states is the highest point of the United States?",
+    "question": "In which state is the highest point of the United States?",
     "answer0": "Nebraska",
     "answer1": "Nevada",
     "answer2": "Alaska",
@@ -320,15 +320,15 @@
     "answerIndex": "2"
   },
   {
-    "question": "For what purpose has the Hollywood motto been installed?",
-    "answer0": "Advertise for subdivisions under construction",
+    "question": "Why was the Hollywood sign installed?",
+    "answer0": "Ad for housing estates contructions",
     "answer1": "Attract young talent in movie studios",
     "answer2": "Allow helicopters to easily spot the neighborhood ",
-    "answer3": "To attract tourist",
+    "answer3": "To attract tourists",
     "answerIndex": "0"
   },
   {
-    "question": "In which city was John F Kennedy assassinated?",
+    "question": "Where was John F Kennedy assassinated?",
     "answer0": "Chicago",
     "answer1": "Washington",
     "answer2": "Phoenix",
@@ -345,18 +345,18 @@
   },
   {
     "question": "When did the McDonald brothers open their first restaurant?",
-    "answer0": "1900",
+    "answer0": "1880",
     "answer1": "1910",
     "answer2": "1940",
-    "answer3": "1950",
+    "answer3": "1970",
     "answerIndex": "2"
   },
   {
-    "question": "What is the first recipe of Coca Cola?",
-    "answer0": "Coca, kola and damiana",
-    "answer1": "Coca et kola",
-    "answer2": "Coca et cacao",
-    "answer3": "Kola et cacao",
+    "question": "What were the original ingredients of Coca-Cola?",
+    "answer0": "Coca, Kola nut and Damiana",
+    "answer1": "Coca and Kola",
+    "answer2": "Coca and  cocoa",
+    "answer3": "Kola nut and cocoa",
     "answerIndex": "0"
   },
   {
@@ -368,7 +368,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Who's signature features on the Converse All-Star",
+    "question": "Whose signature features on the Converse All-Star?",
     "answer0": "Tiger Woods'",
     "answer1": "Chuck Taylor's",
     "answer2": "Michael Jordan's",
@@ -384,7 +384,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Which of Michael Jackson's album was the most sold?",
+    "question": "Which Michael Jackson album was sold the most?",
     "answer0": "King of Pop",
     "answer1": "Bad",
     "answer2": "Thriller",
@@ -400,7 +400,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Who is the all-time high-scoring NBA player?",
+    "question": "Who is the all time high-scoring NBA player?",
     "answer0": "Kobe Bryant",
     "answer1": "Kareem-Abdul-Jabbar",
     "answer2": "Michael Jordan",

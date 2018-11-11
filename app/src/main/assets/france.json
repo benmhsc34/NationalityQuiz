@@ -1,6 +1,6 @@
 ﻿[
   {
-    "question": "En quelle année sort le film de Luc Besson le Grand Bleu",
+    "question": "En quelle année sort le film de Luc Besson le Grand Bleu?",
     "answer0": "1988",
     "answer1": "1968",
     "answer2": "1948",
@@ -8,7 +8,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Dans quelle ville Jeanne d’Arc est-elle brûlé vive?",
+    "question": "Dans quelle ville Jeanne d’Arc est-elle brûlée vive?",
     "answer0": "Amiens",
     "answer1": "Rouen",
     "answer2": "Paris",
@@ -16,7 +16,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Jacques Chirac est née à? ",
+    "question": "Jacques Chirac est né à? ",
     "answer0": "Paris",
     "answer1": "Lyon",
     "answer2": "Marseille",
@@ -24,7 +24,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "En quelle année a été inauguré DisneyLand Paris",
+    "question": "En quelle année a été inauguré DisneyLand Paris?",
     "answer0": "1985",
     "answer1": "1995",
     "answer2": "1990",
@@ -32,7 +32,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel est la hauteur du sommet du Mont Blanc",
+    "question": "Quelle est la hauteur du sommet du Mont Blanc?",
     "answer0": "4215m",
     "answer1": "4730m",
     "answer2": "4810m",
@@ -40,7 +40,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Quel est le prénom de la femme d’Emmanuel Macron",
+    "question": "Quel est le prénom de la femme d’Emmanuel Macron?",
     "answer0": "Ségolène",
     "answer1": "Elisabeth",
     "answer2": "Marine",
@@ -48,7 +48,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Qui était le président de la République en 2008",
+    "question": "Qui était le président de la République en 2008?",
     "answer0": "Jacques Chirac",
     "answer1": "Nicolas Sarkozy",
     "answer2": "François  Hollande",
@@ -56,7 +56,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Quel est le plus gros succès du cinéma français au box office français",
+    "question": "Quel est le plus gros succès du cinéma français au box office français?",
     "answer0": "Bienvenue chez les Ch’tis",
     "answer1": "Intouchables",
     "answer2": "Astérix et Obélix: Mission Cléopâtre",
@@ -64,7 +64,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Dans quel ville peut-on trouver la Cathérale Notre Dame?",
+    "question": "Dans quelle ville peut-on trouver la Cathérale Notre Dame?",
     "answer0": "Paris",
     "answer1": "Versailles",
     "answer2": "Lyon",
@@ -72,7 +72,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Lequel de ces quatres lieux n’est pas inscrit au patrimoine de l’unesco",
+    "question": "Lequel de ces quatres lieux n’est pas inscrit au patrimoine de l’unesco?",
     "answer0": "Pont du Gard",
     "answer1": "Arles, monuments romains",
     "answer2": "Basilique et colline de Vézelay",
@@ -96,7 +96,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Quel est le club de rugby le plus titré de france?",
+    "question": "Quel est le club de rugby le plus titré de France?",
     "answer0": "ASM Clermont",
     "answer1": "MHR",
     "answer2": "RC Toulon",
@@ -104,7 +104,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel est le club de foot qui a gagné le plus de Ligue1?",
+    "question": "Quel est le club de foot qui a gagné le plus de fois la Ligue 1?",
     "answer0": "Saint-Etienne",
     "answer1": "OM",
     "answer2": "OL",
@@ -112,7 +112,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Qui est le chanteur français qui a vendu le plus de disque?",
+    "question": "Qui est le chanteur français qui a vendu le plus de disques?",
     "answer0": "Johnny Hallyday",
     "answer1": "Michel Sardou",
     "answer2": "David Guetta",
@@ -128,7 +128,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Qui est l’inventeur de l’appareil photo",
+    "question": "Qui est l’inventeur de l’appareil photo?",
     "answer0": "Léonard de Vinci",
     "answer1": "Nicéphore Niépce",
     "answer2": "Thomas Edison",
@@ -144,7 +144,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Où se trouve le Mont-Saint-Michel?",
+    "question": "Où se trouve le Mont Saint-Michel?",
     "answer0": "Pays de la Loire",
     "answer1": "Aquitaine",
     "answer2": "Bretagne",
@@ -152,7 +152,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Où se situe la côte d’azur en France?",
+    "question": "Où se situe la Côte d’Azur en France?",
     "answer0": "Sud-ouest",
     "answer1": "Ouest",
     "answer2": "Sud-est",
@@ -160,7 +160,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Quel est le fleuve/ rivière le plus long de France?",
+    "question": "Quel est le fleuve le plus long de France?",
     "answer0": "Le Rhin",
     "answer1": "La Garonne",
     "answer2": "Le Rhône",
@@ -168,15 +168,15 @@
     "answerIndex": "0"
   },
   {
-    "question": "Le plus haut sommet d’Europe est le ?",
+    "question": "Le plus haut sommet de l'Union Européene est le:",
     "answer0": "Mont Elbrouz",
     "answer1": "Mont Blanc",
     "answer2": "Pointe Dufour",
     "answer3": "Cervin",
-    "answerIndex": "0"
+    "answerIndex": "1"
   },
   {
-    "question": "Combien de région la France compte-t-elle?",
+    "question": "Combien de régions la France compte-t-elle?",
     "answer0": "38",
     "answer1": "28",
     "answer2": "8",
@@ -184,7 +184,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "La france a une frontière avec?",
+    "question": "La France a une frontière avec:",
     "answer0": "10 pays",
     "answer1": "8 pays",
     "answer2": "6 pays",
@@ -192,7 +192,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Laquelle de ces îles n’est pas Française?",
+    "question": "Laquelle de ces îles n’est pas française?",
     "answer0": "La Guadeloupe",
     "answer1": "La Martinique",
     "answer2": "Mayotte",
@@ -219,7 +219,7 @@
     "question": "Où le rugby est-il traditionnellement joué?",
     "answer0": "Dans le Sud Ouest",
     "answer1": "Dans le Sud Est",
-    "answer2": "Dans le \n Nord Ouest",
+    "answer2": "Dans le Nord Ouest",
     "answer3": "Dans le Nord Est",
     "answerIndex": "0"
   },
@@ -240,7 +240,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Qui est le dernier français à avoir gagné Roland-Garros?",
+    "question": "Qui est le dernier Français à avoir gagné Roland-Garros?",
     "answer0": "Yannick Noah",
     "answer1": "Jo-Wilfried Tsonga",
     "answer2": "Gaël Monfils",
@@ -256,7 +256,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel discipline a historiquement rapporté le plus  de médaille olympique à la France?",
+    "question": "Quelle discipline a historiquement rapporté le plus de médailles olympiques à la France?",
     "answer0": "Le judo",
     "answer1": "Le football",
     "answer2": "La natation",
@@ -264,7 +264,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel sport compte le plus grand nombre de licencié en France?",
+    "question": "Quel sport compte le plus grand nombre de licenciés en France?",
     "answer0": "Le football",
     "answer1": "Le rugby",
     "answer2": "Le tennis",
@@ -272,7 +272,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Zidane n’a pas joué à :",
+    "question": "Zidane n’a pas joué à:",
     "answer0": "Turin",
     "answer1": "Marseille",
     "answer2": "Madrid",
@@ -280,7 +280,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Comment appelle-t-on la cueillette des raisins",
+    "question": "Comment appelle-t-on la cueillette de raisins?",
     "answer0": "La raisinine",
     "answer1": "La relève",
     "answer2": "Les vendanges",
@@ -296,7 +296,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Combien y a-t-il de jour férié en France?",
+    "question": "Combien y a-t-il de jours fériés en France?",
     "answer0": "11",
     "answer1": "15",
     "answer2": "8",
@@ -304,7 +304,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "En France à quel heure a lieu la pause déjeuné?",
+    "question": "En France à quelle heure a lieu la pause déjeuner?",
     "answer0": "10h à 12h ",
     "answer1": "12h à 14h",
     "answer2": "14h à 16h",
@@ -328,7 +328,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Il existe un quota minimum de diffusion de chansons françaises sur les radios en France de",
+    "question": "Il existe un quota minimum de diffusion de chansons françaises sur les radios en France de:",
     "answer0": "60%",
     "answer1": "50%",
     "answer2": "45%",
@@ -336,7 +336,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel est le titre de la reprise anglaise de la chanson Comme d’habitude de Claude François et Gilles Thibault",
+    "question": "Quel est le titre de la reprise anglaise de la chanson Comme d’habitude de Claude François et Gilles Thibault?",
     "answer0": "Get it",
     "answer1": "On my way",
     "answer2": "My move",
@@ -352,7 +352,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Quel est le nom de scène de la chanteuse Isabelle Geffroy",
+    "question": "Quel est le nom de scène de la chanteuse Isabelle Geffroy?",
     "answer0": "Zaz",
     "answer1": "Shy’m",
     "answer2": "Tal",
@@ -368,15 +368,15 @@
     "answerIndex": "2"
   },
   {
-    "question": "The artist est un film français avec:",
+    "question": "The Artist est un film français avec:",
     "answer0": "Jean du Jardin",
     "answer1": "Gérard Depardieu",
     "answer2": "Dany Boon",
     "answer3": "Omar Sy",
-    "answerIndex": "1"
+    "answerIndex": "0"
   },
   {
-    "question": "Quelle est la plus haute récompense décerné par le jury du festival de Cannes",
+    "question": "Quelle est la plus haute récompense décernée par le jury du festival de Cannes?",
     "answer0": "La coupe d’or",
     "answer1": "Le Ballon d’or",
     "answer2": "L’Oscar",

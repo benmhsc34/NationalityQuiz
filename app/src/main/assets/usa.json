@@ -8,7 +8,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Quel est l'événement sportif le plus regardé au USA.",
+    "question": "Quel est l'événement sportif le plus regardé aux USA?",
     "answer0": "Les Jeux Olympiques",
     "answer1": "La coupe du monde de football",
     "answer2": "Le Super Bowl",
@@ -24,7 +24,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Laquelle de ces célébrités n’est pas née au Etats-Unis",
+    "question": "Laquelle de ces célébrités n’est pas née aux Etats-Unis?",
     "answer0": "Madonna",
     "answer1": "Elvis Presley",
     "answer2": "Steven Spielberg",
@@ -40,7 +40,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Dans quelle ville se trouve l’université de Princeton",
+    "question": "Dans quelle ville se trouve l’université de Princeton?",
     "answer0": "Miami",
     "answer1": "Los Angeles",
     "answer2": "New York",
@@ -56,7 +56,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Où se trouve le Mall of America deuxième plus grand centre commerciale du pays?",
+    "question": "Où se trouve le Mall of America, deuxième plus grand centre commercial du pays?",
     "answer0": "Californie",
     "answer1": "Ohio",
     "answer2": "Mississippi",
@@ -72,7 +72,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Combien y a-t-il de bande rouges et blanches sur le drapeau des Etats-Unis?",
+    "question": "Combien y a-t-il de bandes rouges et blanches sur le drapeau des Etats-Unis?",
     "answer0": "13",
     "answer1": "15",
     "answer2": "9",
@@ -80,7 +80,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Combien d’étoile y a-t-il sur le drapeau des Etats-Unis?",
+    "question": "Combien d’étoiles y a-t-il sur le drapeau des Etats-Unis?",
     "answer0": "52",
     "answer1": "54",
     "answer2": "50",
@@ -112,7 +112,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quelle est la population totale des Etats-Unis en 2018",
+    "question": "Quelle est la population totale des Etats-Unis en 2018?",
     "answer0": "163 millions d’habitants",
     "answer1": "463 millions d’habitants",
     "answer2": "363 millions d’habitants",
@@ -128,7 +128,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Comment s’appelle l’états appartenant aux Etats-Unis se situant au Nord Ouest du Canada?",
+    "question": "Comment s’appelle l’état appartenant aux Etats-Unis se situant au Nord Ouest du Canada?",
     "answer0": "Alabama",
     "answer1": "Nebraska",
     "answer2": "Arkansas",
@@ -152,7 +152,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel monument peut on observer à l’entrée du port de New York?",
+    "question": "Quel monument peut-on observer à l’entrée du port de New York?",
     "answer0": "La Statue de la Liberté",
     "answer1": "L’Empire State Building",
     "answer2": "Central Park",
@@ -161,8 +161,8 @@
   },
   {
     "question": "Qu’est ce que la Liberty Bell?",
-    "answer0": "Une copie américaine d’une cloche de la cathédrale Notre-Dame de Paris",
-    "answer1": "La cloche qui a retenti juste après la Déclaration d’Indépendance",
+    "answer0": "Une copie américaine d’une cloche de Notre-Dame de Paris",
+    "answer1": "La cloche qui a retenti après la Déclaration d’Indépendance",
     "answer2": "la cloche qui a sonné après l’abolition de l’esclavage",
     "answer3": "La plus grosse cloche du monde",
     "answerIndex": "1"
@@ -171,7 +171,7 @@
     "question": "Que représente les 13 bandes du drapeau?",
     "answer0": "Les 13 principales grandes villes du pays",
     "answer1": "Les 13 premiers présidents",
-    "answer2": "Les 13 états fondateur du pays",
+    "answer2": "Les 13 états fondateurs du pays",
     "answer3": "Les 13 premiers hommes proclamés américains",
     "answerIndex": "2"
   },
@@ -184,7 +184,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "A quelle ville est associé l’équipe de basket des Hornets",
+    "question": "A quelle ville est associée l’équipe de basket des Hornets?",
     "answer0": "Miami",
     "answer1": "Charlotte",
     "answer2": "Detroit",
@@ -192,11 +192,11 @@
     "answerIndex": "1"
   },
   {
-    "question": "Qui a vendu la Louisiane aux Etats-Unis",
-    "answer0": "Un roi d’espagne",
-    "answer1": "Un roi d’angleterre",
+    "question": "Qui a vendu la Louisiane aux Etats-Unis?",
+    "answer0": "Un roi d’Espagne",
+    "answer1": "Un roi d’Angleterre",
     "answer2": "Un roi français",
-    "answer3": "Un roi Italien",
+    "answer3": "Un roi italien",
     "answerIndex": "2"
   },
   {
@@ -216,7 +216,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Que signifie le sigle NFL?",
+    "question": "Que signifie NFL?",
     "answer0": "National Federal League",
     "answer1": "North America Football League",
     "answer2": "North America Federal League",
@@ -224,7 +224,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Où se trouve Cap Canaveral?",
+    "question": "Où se trouve le Cap Canaveral?",
     "answer0": "En Floride",
     "answer1": "A Hawaï",
     "answer2": "En Californie",
@@ -232,7 +232,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Quel est la date de la Déclaration d’Indépendance des Etats-Unis?",
+    "question": "Quelle est la date de la Déclaration d’Indépendance des Etats-Unis?",
     "answer0": "4 Juillet 1776",
     "answer1": "4 Juillet 1777",
     "answer2": "4 Juillet 1786",
@@ -240,7 +240,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Dans quelle ville trouve-t-on le Metropolitan Museum of Art",
+    "question": "Dans quelle ville trouve-t-on le Metropolitan Museum of Art?",
     "answer0": "Washington",
     "answer1": "Chicago",
     "answer2": "New York",
@@ -248,7 +248,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Quel est la capitale du Texas",
+    "question": "Quelle est la capitale du Texas?",
     "answer0": "Saint Paul",
     "answer1": "Denver",
     "answer2": "Trenton",
@@ -256,7 +256,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel est le dernier Etat à avoir été admis dans l’Union en 1959",
+    "question": "Quel est le dernier Etat à avoir été admis dans l’Union en 1959?",
     "answer0": "Arizona",
     "answer1": "Hawaï",
     "answer2": "Alaska",
@@ -272,7 +272,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Dans quelle ville sont déroulés les Jeux Olympiques d’été en 1996?",
+    "question": "Dans quelle ville se sont déroulés les Jeux Olympiques d’été en 1996?",
     "answer0": "Los Angeles",
     "answer1": "Denver",
     "answer2": "Atlanta",
@@ -280,7 +280,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Qui est le chanteur/ groupe américain qui a vendu le plus de disques aux Etats-Unis?",
+    "question": "Qui est le chanteur/groupe américain qui a vendu le plus de disques aux Etats-Unis?",
     "answer0": "Michael Jackson",
     "answer1": "Garth Brooks",
     "answer2": "Eagles",
@@ -304,15 +304,15 @@
     "answerIndex": "1"
   },
   {
-    "question": "Quels sont les 4 présidents gravés dans le Mont Rushmore? ",
+    "question": "Quels sont les 4 présidents gravés dans le Mont Rushmore?",
     "answer0": "Lincoln, Jefferson, Washington et T. Roosevelt",
-    "answer1": "Lincoln, Jefferson, Washington et F. Roosevelt",
+    "answer1": "Lincoln, Jefferson, Washington et Obama",
     "answer2": "Lincoln, Adams, Jefferson et Washington",
     "answer3": "Lincoln, T.Roosevelt, Washington et Eisenhower",
     "answerIndex": "0"
   },
   {
-    "question": "Dans quel états se situe le point culminant des Etats-Unis?",
+    "question": "Dans quel état se situe le point culminant des Etats-Unis?",
     "answer0": "Nebraska",
     "answer1": "Nevada",
     "answer2": "Alaska",
@@ -320,15 +320,15 @@
     "answerIndex": "2"
   },
   {
-    "question": "Dans quel but a été installé la devise Hollywood?",
-    "answer0": "Faire de la publicité pour des lotissements en construction",
-    "answer1": "Attirer les jeunes talents dans les studios de cinéma",
-    "answer2": "Permettre aux hélicoptères de repérer facilement le quartier ",
+    "question": "Dans quel but a été installé le panneau Hollywood?",
+    "answer0": "Pour faire de la publicité pour des lotissements en construction",
+    "answer1": "Pour attirer les jeunes talents dans les studios de cinéma",
+    "answer2": "Pour permettre aux hélicoptères de repérer facilement le quartier ",
     "answer3": "Pour attirer d'avantage de touristes",
     "answerIndex": "0"
   },
   {
-    "question": "Dans quel ville John F Kennedy a été assassiné?",
+    "question": "Dans quelle ville John F Kennedy a été assassiné?",
     "answer0": "Chicago",
     "answer1": "Washington",
     "answer2": "Phoenix",
@@ -352,11 +352,11 @@
     "answerIndex": "2"
   },
   {
-    "question": "Quel est la recette d’origine du Coca Cola?",
-    "answer0": "Coca, kola et damiana",
-    "answer1": "Coca et kola",
+    "question": "Quelle est la recette d’origine du Coca Cola?",
+    "answer0": "Coca, noix de kola et damiana",
+    "answer1": "Coca et noix de kola",
     "answer2": "Coca et cacao",
-    "answer3": "Kola et cacao",
+    "answer3": "Noix de kola et cacao",
     "answerIndex": "0"
   },
   {
@@ -364,7 +364,7 @@
     "answer0": "Danseuse",
     "answer1": "Actrice",
     "answer2": "Gymnaste",
-    "answer3": "Présidente",
+    "answer3": "Ecrivain",
     "answerIndex": "1"
   },
   {
@@ -392,7 +392,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Qui a créer la série Les Simpsons?",
+    "question": "Qui a crée la série Les Simpsons?",
     "answer0": "Matt Groening",
     "answer1": "Ben Hardaway",
     "answer2": "Linwood Boomer",

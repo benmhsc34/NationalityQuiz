@@ -8,7 +8,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "In which town was Jeanne d'Arc burnt alive?",
+    "question": "In which town was Jeanne d'Arc burnt?",
     "answer0": "Amiens",
     "answer1": "Rouen",
     "answer2": "Paris",
@@ -24,7 +24,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "In what year was DisneyLand Paris inaugurated",
+    "question": "In which year was DisneyLand Paris inaugurated?",
     "answer0": "1985",
     "answer1": "1995",
     "answer2": "1990",
@@ -32,7 +32,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "What is the height of the Mont Blanc?",
+    "question": "What is the height of Mont Blanc?",
     "answer0": "about 4200m",
     "answer1": "about 4500m",
     "answer2": "about 4800m",
@@ -40,7 +40,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "What is Emmanuel Macron's wife's firstname?",
+    "question": "What is Emmanuel Macron's wife's first name?",
     "answer0": "Ségolène",
     "answer1": "Elisabeth",
     "answer2": "Marine",
@@ -56,7 +56,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "What was the biggest success of french cinema for the french box office?",
+    "question": "What was the biggest success in French cinema for the French box office?",
     "answer0": "Bienvenue chez les Ch’tis",
     "answer1": "Intouchables",
     "answer2": "Astérix et Obélix: Mission Cléopâtre",
@@ -72,7 +72,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Which of these four are not part in the Unesco heritage",
+    "question": "Which of these four are not part of the Unesco heritage?",
     "answer0": "Pont du Gard",
     "answer1": "Arles, monuments romains",
     "answer2": "Basilique et colline de Vézelay",
@@ -80,7 +80,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Who was the last french team to win the Champions League?",
+    "question": "Who was the last French team to win the Champions League?",
     "answer0": "OL",
     "answer1": "OM",
     "answer2": "PSG",
@@ -88,7 +88,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "Who was the last frenchman to win the Tour de France?",
+    "question": "Who was the last Frenchman to win the Tour de France?",
     "answer0": "Bernard Hinault",
     "answer1": "Christopher Froome",
     "answer2": "Lance Armstrong",
@@ -112,7 +112,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Which french sing has sold more albums?",
+    "question": "Which French singer has sold more albums?",
     "answer0": "Johnny Hallyday",
     "answer1": "Michel Sardou",
     "answer2": "David Guetta",
@@ -137,33 +137,33 @@
   },
   {
     "question": "What geometrical shape is France known as?",
-    "answer0": "the polygone",
-    "answer1": "the octogone",
-    "answer2": "the hexagone",
-    "answer3": "the heptagone",
+    "answer0": "the polygon",
+    "answer1": "the octagon",
+    "answer2": "the hexagon",
+    "answer3": "the heptagon",
     "answerIndex": "2"
   },
   {
-    "question": "Where is the Mont-Saint-Michel located?",
+    "question": "Where is the Mont Saint-Michel located?",
     "answer0": "Pays de la Loire",
     "answer1": "Aquitaine",
-    "answer2": "Bretagne",
-    "answer3": "Normandie",
+    "answer2": "Brittany",
+    "answer3": "Normandy",
     "answerIndex": "3"
   },
   {
-    "question": "Where is the Côte d'Azure in France?",
-    "answer0": "South-West",
+    "question": "Where is the Côte d'Azur in France?",
+    "answer0": "South West",
     "answer1": "West",
-    "answer2": "South-East",
-    "answer3": "North-East",
+    "answer2": "South East",
+    "answer3": "North East",
     "answerIndex": "2"
   },
   {
     "question": "What is the longest river in France?",
     "answer0": "The Rhine",
     "answer1": "The Garonne",
-    "answer2": "The Rhône",
+    "answer2": "The Rhone",
     "answer3": "The Loire",
     "answerIndex": "0"
   },
@@ -176,7 +176,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "How many different regions does France have",
+    "question": "How many different regions does France have?",
     "answer0": "38",
     "answer1": "28",
     "answer2": "8",
@@ -217,10 +217,10 @@
   },
   {
     "question": "Which part of France is the most involved in rugby?",
-    "answer0": "South-West",
-    "answer1": "South-East",
-    "answer2": "North-West",
-    "answer3": "Nort-East",
+    "answer0": "South West",
+    "answer1": "South East",
+    "answer2": "North West",
+    "answer3": "North East",
     "answerIndex": "0"
   },
   {
@@ -240,7 +240,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "Who was the last frenchman to win Roland-Garros?",
+    "question": "Who was the last Frenchman to win Roland-Garros?",
     "answer0": "Yannick Noah",
     "answer1": "Jo-Wilfried Tsonga",
     "answer2": "Gaël Monfils",
@@ -248,7 +248,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "In what town were the last winter Olympics to be held in France (1992)?",
+    "question": "In which city were the last winter Olympics held in France (1992)?",
     "answer0": "Alpe d’Huez",
     "answer1": "Grenoble",
     "answer2": "Paris",
@@ -256,7 +256,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Since the start of the Olympics, which event has given the most Olympic medals to France?",
+    "question": "Since the start of the Olympics, which event has France won the most medals in?",
     "answer0": "judo",
     "answer1": "football",
     "answer2": "swimming",
@@ -272,7 +272,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "What club did Zinédine Zidane not play for?",
+    "question": "Which club did Zinédine Zidane not play for?",
     "answer0": "Turin",
     "answer1": "Marseille",
     "answer2": "Madrid",
@@ -280,7 +280,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "What name is given to grape picking?",
+    "question": "Which name is given to grape picking?",
     "answer0": "The raisinine",
     "answer1": "The relève",
     "answer2": "The vendanges",
@@ -288,15 +288,15 @@
     "answerIndex": "2"
   },
   {
-    "question": "What day are shops closed in France?",
-    "answer0": "saturday",
-    "answer1": "friday",
-    "answer2": "monday",
-    "answer3": "sunday",
+    "question": "Which day are shops closed in France?",
+    "answer0": "Saturday",
+    "answer1": "Friday",
+    "answer2": "Monday",
+    "answer3": "Sunday",
     "answerIndex": "3"
   },
   {
-    "question": "How many bank holidays on there in France?",
+    "question": "How many bank holidays are there in France?",
     "answer0": "11",
     "answer1": "15",
     "answer2": "8",
@@ -321,14 +321,14 @@
   },
   {
     "question": "Les Vieilles Charrues is a festival that is held in:",
-    "answer0": "Bretagne",
-    "answer1": "Normandie",
+    "answer0": "Brittany",
+    "answer1": "Normandy",
     "answer2": "Occitanie",
-    "answer3": "Nouvelle-Aquitaine",
+    "answer3": "Aquitaine",
     "answerIndex": "0"
   },
   {
-    "question": "Legally, what ratio must French songs be played by French radio stations?",
+    "question": "Legally, what ratio of French songs must be played by French radio stations?",
     "answer0": "60%",
     "answer1": "50%",
     "answer2": "45%",
@@ -336,7 +336,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "What is the name of the english cover of Comme d’habitude by Claude François and Gilles Thibault",
+    "question": "What is the name of the English cover of Comme d’habitude by Claude François and Gilles Thibault?",
     "answer0": "Get it",
     "answer1": "On my way",
     "answer2": "My move",
@@ -344,7 +344,7 @@
     "answerIndex": "3"
   },
   {
-    "question": "Which tennis player started making music in the 90s",
+    "question": "Which tennis player started making music in the 90s?",
     "answer0": "Jo-Wilfried Tsonga",
     "answer1": "Yannick Noah",
     "answer2": "Rafael Nadal",
@@ -368,15 +368,15 @@
     "answerIndex": "2"
   },
   {
-    "question": "The artist is a french film starring:",
+    "question": "The Artist is a French film starring:",
     "answer0": "Jean du Jardin",
     "answer1": "Gérard Depardieu",
     "answer2": "Dany Boon",
     "answer3": "Omar Sy",
-    "answerIndex": "1"
+    "answerIndex": "0"
   },
   {
-    "question": "What is the highest prize given out by the jury during the Festival de Cannes?",
+    "question": "What is the highest prize given during the Cannes Film Festival?",
     "answer0": "La coupe d’or",
     "answer1": "Le Ballon d’or",
     "answer2": "L’Oscar",

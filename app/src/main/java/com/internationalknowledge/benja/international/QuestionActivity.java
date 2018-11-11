@@ -1,4 +1,4 @@
-package com.example.benja.nationalityquiz;
+package com.internationalknowledge.benja.international;
 
 import android.annotation.SuppressLint;
 import android.content.DialogInterface;
@@ -11,7 +11,6 @@ import android.support.annotation.RequiresApi;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
@@ -19,8 +18,8 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 
-import com.example.benja.nationalityquiz.Utils.Question;
-import com.example.benja.nationalityquiz.Utils.QuestionBank;
+import com.internationalknowledge.benja.international.Utils.Question;
+import com.internationalknowledge.benja.international.Utils.QuestionBank;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -88,7 +87,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             mAdView.setVisibility(View.INVISIBLE);
         }
         mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-3940256099942544/1033173712");
+        mInterstitialAd.setAdUnitId("ca-app-pub-7146853836816464/4055356048");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
 
@@ -133,11 +132,11 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         if (str.equals("USA") && language.equals("English")) {
             mQuestionBank = this.get_json_usa_en();
         }
-        if (str.equals("Spain") && language.equals("Français")) {
-            mQuestionBank = this.get_json_france();
+        if (str.equals("India") && language.equals("Français")) {
+            mQuestionBank = this.get_json_india();
         }
-        if (str.equals("Spain") && language.equals("English")) {
-            mQuestionBank = this.get_json_france();
+        if (str.equals("India") && language.equals("English")) {
+            mQuestionBank = this.get_json_india_en();
         }
 
 
@@ -310,16 +309,16 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.putInt("france_games", games + 1);
             editor.apply();
         }
-        if (str.equals("Spain")) {
+        if (str.equals("India")) {
 
             SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("spain_games", 0);
-            int score = prefs.getInt("spain_score", 0);
+            int games = prefs.getInt("india_games", 0);
+            int score = prefs.getInt("india_score", 0);
 
 
             SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("spain_score", score + mScore);
-            editor.putInt("spain_games", games + 1);
+            editor.putInt("india_score", score + mScore);
+            editor.putInt("india_games", games + 1);
             editor.apply();
         }
         if (str.equals("Germany")) {
@@ -367,6 +366,9 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             editor.apply();
         }
 
+
+
+
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
         builder.setTitle("Well done!")
@@ -390,6 +392,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                 .setCancelable(false)
                 .create()
                 .show();
+
+
     }
 
     private void displayQuestion(final Question question) {
@@ -442,6 +446,31 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         String json;
         try {
             InputStream is = getAssets().open("france.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+    public QuestionBank get_json_india_en() {
+        String json;
+        try {
+            InputStream is = getAssets().open("ind_en.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);
@@ -572,6 +601,32 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         String json;
         try {
             InputStream is = getAssets().open("usa_en.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+
+    public QuestionBank get_json_india() {
+        String json;
+        try {
+            InputStream is = getAssets().open("ind_fr.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);

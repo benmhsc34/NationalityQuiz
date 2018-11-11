@@ -1,4 +1,4 @@
-package com.example.benja.nationalityquiz;
+package com.internationalknowledge.benja.international;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,26 +1,17 @@
-package com.example.benja.nationalityquiz;
+package com.internationalknowledge.benja.international;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.TextView;
 
-import com.example.benja.nationalityquiz.Utils.ListItem;
-import com.example.benja.nationalityquiz.Utils.ListStatsItems;
-import com.example.benja.nationalityquiz.Utils.MyAdapter;
-import com.example.benja.nationalityquiz.Utils.MyStatsAdapter;
+import com.internationalknowledge.benja.international.Utils.ListStatsItems;
+import com.internationalknowledge.benja.international.Utils.MyStatsAdapter;
 
-import java.math.RoundingMode;
-import java.text.DecimalFormat;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class StatsActivity extends AppCompatActivity {
@@ -58,8 +49,8 @@ public class StatsActivity extends AppCompatActivity {
         float france_games = prefs.getInt("france_games", -1);
         float france_score = prefs.getInt("france_score", 0);
 
-        float spain_games = prefs.getInt("spain_games", -1);
-        float spain_score = prefs.getInt("spain_score", 0);
+        float india_games = prefs.getInt("india_games", -1);
+        float india_score = prefs.getInt("india_score", 0);
 
         int japan_games = prefs.getInt("japan_games", -1);
         int japan_score = prefs.getInt("japan_score", 0);
@@ -98,9 +89,9 @@ public class StatsActivity extends AppCompatActivity {
         if (japan_games == -1) {
             japanPourcentage = "N/A";
         }
-        String spainPourcentage = Math.round((spain_score / spain_games)) * 10 + "%";
-        if (spain_games == -1) {
-            spainPourcentage = "N/A";
+        String indiaPourcentage = Math.round((india_score / india_games)) * 10 + "%";
+        if (india_games == -1) {
+            indiaPourcentage = "N/A";
         }
         String germanyPourcentage = Math.round((germany_score / germany_games)) * 10 + "%";
         if (germany_games == -1) {
@@ -108,9 +99,9 @@ public class StatsActivity extends AppCompatActivity {
         }
 
 
-        String[] statsList = {englandPourcentage, francePourcentage, usaPourcentage, spainPourcentage};
-        String[] arrayCountries = {"England", "France", "USA", "Spain"};
-        int[] arrayFlags = {R.drawable.gb, R.drawable.fr, R.drawable.us, R.drawable.es};
+        String[] statsList = {englandPourcentage, francePourcentage, usaPourcentage, indiaPourcentage};
+        String[] arrayCountries = {"England", "France", "USA", "India"};
+        int[] arrayFlags = {R.drawable.gb, R.drawable.fr, R.drawable.us, R.drawable.in};
 
 
         recyclerView = findViewById(R.id.recyclerView);

@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.benja.nationalityquiz">
+    package="com.internationalknowledge.benja.international">
 
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <supports-screens
         android:largeScreens="true"
-        android:smallScreens="true"
-        android:xlargeScreens="true"
         android:normalScreens="true"
-        />
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
         android:allowBackup="true"
@@ -23,8 +24,7 @@
         tools:ignore="GoogleAppIndexingWarning">
         <meta-data
             android:name="com.google.android.gms.ads.ca-app-pub-7146853836816464~9147761003"
-            android:value="[ca-app-pub-7146853836816464/9346113690]"/>
-
+            android:value="[ca-app-pub-7146853836816464/9346113690]" />
 
         <activity
             android:name=".MainActivity"
@@ -34,9 +34,7 @@
             android:screenOrientation="portrait" />
         <activity
             android:name=".StartActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
+            android:screenOrientation="portrait"></activity>
         <activity
             android:name=".StatsActivity"
             android:screenOrientation="portrait" />
@@ -48,8 +46,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ScoreActivity"></activity>
     </application>
-    
-    <uses-permission android:name="com.android.vending.BILLING" />
 
 </manifest>
