@@ -400,6 +400,14 @@
     "answerIndex": "0"
   },
   {
+    "question": "Which artist released an album called Beerbong & Bentleys?",
+    "answer0": "Lil Pump",
+    "answer1": "Kanye West",
+    "answer2": "Drake",
+    "answer3": "Post Malone",
+    "answerIndex": "3"
+  },
+  {
     "question": "Who is the all time high-scoring NBA player?",
     "answer0": "Kobe Bryant",
     "answer1": "Kareem-Abdul-Jabbar",

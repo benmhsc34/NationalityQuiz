@@ -104,11 +104,11 @@
     "answerIndex": "0"
   },
   {
-    "question": "Quelle est la superficie totale des Etats-Unis?",
-    "answer0": "119,8 millions km²",
-    "answer1": "19,8 millions km²",
-    "answer2": "1,8 millions km²",
-    "answer3": "9,8 millions km²",
+    "question": "What artist released an album called Beerbong & Bentleys?",
+    "answer0": "Lil Pump",
+    "answer1": "Eminem",
+    "answer2": "Drake",
+    "answer3": "Post Malone",
     "answerIndex": "3"
   },
   {
@@ -123,7 +123,7 @@
     "question": "Quels sont les deux océans qui bordent les Etats-Unis?",
     "answer0": "Atlantique et Pacifique",
     "answer1": "Atlantique et Indien",
-    "answer2": "Pacifique et Indien",
+    "answer2": "Pacifique et Artique",
     "answer3": "Arctique et Indien",
     "answerIndex": "0"
   },
@@ -237,6 +237,14 @@
     "answer1": "4 Juillet 1777",
     "answer2": "4 Juillet 1786",
     "answer3": " 4 Juillet 1787",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel est le plus grand état en surface?",
+    "answer0": "Alaska",
+    "answer1": "Texas",
+    "answer2": "Californie",
+    "answer3": "Floride",
     "answerIndex": "0"
   },
   {

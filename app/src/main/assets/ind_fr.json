@@ -97,7 +97,7 @@
 "answer3" : "La République sociale Indienne",
 "answerIndex" : "1"
 },
-{"question" : "En 1956, Quel film le Festival de Cannes a-t-il présentait le premier film du grand cinéaste indien Satyajit Ray?",
+{"question" : "En 1956, quel film écrit par l'indien Satyajit Ray le Festival de Cannes a-t-il présenté?",
 "answer0" : "Charulata",
 "answer1" : "Agantuk",
 "answer2" : "Pather Panchali",
@@ -280,11 +280,11 @@
 "answer3" : "c’est bon",
 "answerIndex" : "2"
 },
-{"question" : "Combien de personnes prennent le train chaque jour à Mumbai?",
-"answer0" : "1 millions",
-"answer1" : "2 millions",
-"answer2" : "4 millions",
-"answer3" : "5 millions",
+{"question" : "Quel moyen de transport est le plus utilisé à Mumbai?",
+"answer0" : "Train",
+"answer1" : "Moto",
+"answer2" : "Taxi",
+"answer3" : "Chameau",
 "answerIndex" : "0"
 },
 {"question" : "Comment appelle-t-on le thé en Inde?",

@@ -8,11 +8,11 @@
     "answerIndex": "2"
   },
   {
-    "question": "What large WWII battle cruiser is permanently docked on the south side of the River Thames?",
-    "answer0": "HMS Belfast",
-    "answer1": "HMS Great Battler",
-    "answer2": "Titanic",
-    "answer3": "HMS Nevertheless",
+    "question": "Who wrote The Tragedy of McBeth?",
+    "answer0": "Shakespeare",
+    "answer1": "Charles Dickens",
+    "answer2": "J.R.R Tolkien",
+    "answer3": "Agatha Christie",
     "answerIndex": "0"
   },
   {
@@ -32,11 +32,11 @@
     "answerIndex": "0"
   },
   {
-    "question": "King William III of England suffered from which of these conditions?",
-    "answer0": "Diabetes",
-    "answer1": "Cancer",
-    "answer2": "Asthma",
-    "answer3": "Dyspraxia",
+    "question": "What iconic line is found in Oliver Twist?",
+    "answer0": "Courage is found in unlikely places.",
+    "answer1": "Is love a tender thing?",
+    "answer2": "Can I have some more?",
+    "answer3": "Hell is empty and all the devils are here.",
     "answerIndex": "2"
   },
   {
@@ -208,12 +208,12 @@
     "answerIndex": "0"
   },
   {
-    "question": "What happens at Ascot?",
-    "answer0": "Formula 1 racing",
-    "answer1": "Golf Competition",
-    "answer2": "Tennis Tournament",
-    "answer3": "Horse Racing",
-    "answerIndex": "3"
+    "question": "Which team did David Becham not play for?",
+    "answer0": "Los Angeles Galaxy",
+    "answer1": "Real Madrid",
+    "answer2": "Juventus",
+    "answer3": "PSG",
+    "answerIndex": "2"
   },
   {
     "question": "Who was the first female Prime Minister?",
@@ -258,8 +258,8 @@
   {
     "question": "Which city is further North?",
     "answer0": "Manchester",
-    "answer1": "Liverpool",
-    "answer2": "Middlesbrough",
+    "answer1": "Sheffield",
+    "answer2": "Leeds",
     "answer3": "London",
     "answerIndex": "2"
   },

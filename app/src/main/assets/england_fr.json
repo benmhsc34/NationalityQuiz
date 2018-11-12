@@ -8,12 +8,12 @@
     "answerIndex": "2"
   },
   {
-    "question": "Quel grand croiseur de la Seconde Guerre mondiale est amarré en permanence sur le côté sud de la Tamise?",
-    "answer0": "HMS Belfast",
-    "answer1": "HMS Great Battler",
-    "answer2": "Titanic",
-    "answer3": "HMS Nevertheless",
-    "answerIndex": "0"
+    "question": "Qui a écrit MacBeth?",
+    "answer0": "J.R.R Tolkien",
+    "answer1": "Charles Dickens",
+    "answer2": "Agatha Christie",
+    "answer3": "Shakespeare",
+    "answerIndex": "3"
   },
   {
     "question": "Quel est le plus vieux pont qui traverse la Tamise?",
@@ -32,11 +32,11 @@
     "answerIndex": "0"
   },
   {
-    "question": "Le roi William III souffrait de quelle maladie?",
-    "answer0": "Diabete",
-    "answer1": "Cancer",
-    "answer2": "Asthme",
-    "answer3": "Dyspraxie",
+    "question": "Quelle célèbre réplique se trouve dans Oliver Twist??",
+    "answer0": "Le courage est trouvé dans des endroits improbables.",
+    "answer1": "L'amour est-elle une chose tendre?",
+    "answer2": "Puis-je en avoir un peu plus?",
+    "answer3": "L'enfer est vide, tous les diables sont ici",
     "answerIndex": "2"
   },
   {
@@ -192,12 +192,12 @@
     "answerIndex": "0"
   },
   {
-    "question": "Que se passe-t-il lors de l'Ascot?",
-    "answer0": "Une course de Fomula 1",
-    "answer1": "Une compétition de golf",
-    "answer2": "Un tournois de Tennis",
-    "answer3": "Une course de cheval",
-    "answerIndex": "3"
+    "question": "Pour quel club David Beckham n'a t-il jamais joué?",
+    "answer0": "Los Angeles Galaxy",
+    "answer1": "Real Madrid",
+    "answer2": "Juventus",
+    "answer3": "PSG",
+    "answerIndex": "2"
   },
   {
     "question": "Qui était la première femme Premier Ministre en Angleterre?",
@@ -242,8 +242,8 @@
   {
     "question": "Quelle ville se trouve plus au Nord?",
     "answer0": "Manchester",
-    "answer1": "Liverpool",
-    "answer2": "Middlesbrough",
+    "answer1": "Sheffield",
+    "answer2": "Leeds",
     "answer3": "London",
     "answerIndex": "2"
   },
@@ -259,7 +259,7 @@
     "question": "Dans la série Doctor Who, quel gadget se trouve toujours dans la poche du Docteur?",
     "answer0": "stylo électrique",
     "answer1": "boussole électronique",
-    "answer2": "tournevis supersonic",
+    "answer2": "tournevis supersonique",
     "answer3": "taille-crayon acceleré",
     "answerIndex": "2"
   },
