@@ -236,7 +236,7 @@
 "answer1" : "2e pays le plus peuplé",
 "answer2" : "3e pays le plus peuplé",
 "answer3" : "4e pays le plus peuplé",
-"answerIndex" : "0"
+"answerIndex" : "1"
 },
 {"question" : "La population totale est d’environ(2018)?",
 "answer0" : "1,1 milliards d’habitants",
@@ -334,7 +334,7 @@
 "answer1" : "Le jaguar",
 "answer2" : "Le puma",
 "answer3" : "Le tigre du Bengale",
-"answerIndex" : "0"
+"answerIndex" : "3"
 },
 {"question" : "Que fête-t-on le 26 janvier en Inde?",
 "answer0" : "Le Jour de la République",

@@ -1,0 +1,324 @@
+﻿[
+  {
+    "question": "Quel personnage célèbre a marqué l’histoire de l’espagne?",
+    "answer0": "Henry Ford",
+    "answer1": "Napoléon",
+    "answer2": "Confucius",
+    "answer3": "Christophe Colomb",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Dans quelle ville se trouve la célèbre Sagrada Familia?",
+    "answer0": "Sevilla",
+    "answer1": "Barcelona",
+    "answer2": "Madrid",
+    "answer3": "Girona",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Que sont les callos?",
+    "answer0": "Des tripes d’animaux servis en plat",
+    "answer1": "La traduction de laids",
+    "answer2": "Un quartier connu à Madrid",
+    "answer3": "Une cérémonie qui se déroule à Valencia",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel dictateur a régné en espagne pendant 40 ans?",
+    "answer0": "Franco",
+    "answer1": "Manolete",
+    "answer2": "Salazar",
+    "answer3": "Mussolini",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel type de vêtement portent les toreros lors d’une corrida?",
+    "answer0": "Un smoking",
+    "answer1": "Un jeans rouge",
+    "answer2": "Un habit de lumière",
+    "answer3": "Une gilet par balle",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Que font les espagnols le 28 décembre?",
+    "answer0": "Ils se réunissent en famille",
+    "answer1": "Ils se racontent des blagues",
+    "answer2": "Ils dansent au centre du village",
+    "answer3": "Ils mangent de la dinde",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Qu’est ce qu’une Encierro?",
+    "answer0": "Un taureau que l’on observe courir dans une arène",
+    "answer1": "Un lâcher de taureaux dans la ville",
+    "answer2": "Un taureau combattant un torero",
+    "answer3": "Une course entre des taureaux et des chevaux",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel ingrédient ne fait pas partie de la paella?",
+    "answer0": "Viande",
+    "answer1": "Poisson",
+    "answer2": "Riz",
+    "answer3": "Amandes",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Que disent les espagnols lorsqu’une personne éternue?",
+    "answer0": "Jesus",
+    "answer1": "Christ",
+    "answer2": "Avestruz",
+    "answer3": "Deseo",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Qu’est ce que le flamenco?",
+    "answer0": "Le nom d’une langue ancienne",
+    "answer1": "Le nom d’une couleur",
+    "answer2": "Le nom d’un genre  de musique et danse",
+    "answer3": "Le nom d’un animal",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quelle ville est la capitale de l’Espagne?",
+    "answer0": "Madrid",
+    "answer1": "Barcelona",
+    "answer2": "Sevilla",
+    "answer3": "Valencia",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Où se trouve Barcelone?",
+    "answer0": "En Catalogne",
+    "answer1": "En Andalousie",
+    "answer2": "En Aragon",
+    "answer3": "En Galice",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Que sépare le détroit de Gibraltar?",
+    "answer0": "L’espagne et la France",
+    "answer1": "L’espagne et le Portugal",
+    "answer2": "L’espagne et le Maroc",
+    "answer3": "L’espagne et l’Algérie",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Qui est actuellement le roi d’Espagne(2018)?",
+    "answer0": "Felipe V",
+    "answer1": "Felipe VI",
+    "answer2": "Juan Carlos I",
+    "answer3": "Juan Carlos II",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel est le plus grand stade en espagne?",
+    "answer0": "Metropolinato",
+    "answer1": "Santiago Bernabéu",
+    "answer2": "Camp Nou",
+    "answer3": "Stade Olympique de Séville",
+    "answerIndex": "2"
+  },
+  {
+    "question": "En quelle année l'Espagne a gagné la Coupe du Monde FIFA?",
+    "answer0": "2014",
+    "answer1": "2010",
+    "answer2": "2006",
+    "answer3": "2002",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Combien de pays ont une frontière avec l'Espagne?",
+    "answer0": "5",
+    "answer1": "3",
+    "answer2": "2",
+    "answer3": "4",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel est le Grand-Chlem préferé de Rafael Nadal?",
+    "answer0": "Wimbledon",
+    "answer1": "Roland-Garros",
+    "answer2": "Open d'Australie",
+    "answer3": "US Open",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Dans quel musée peut-on trouver le Guernica de Picasso?",
+    "answer0": "Gaudi",
+    "answer1": "Reina Sofia",
+    "answer2": "Prado",
+    "answer3": "Picasso",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quand s’acheva la reconquista?",
+    "answer0": "1492",
+    "answer1": "800 ap. J-C",
+    "answer2": "18e siècle",
+    "answer3": "Elle a toujours lieu",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quelle était la monnaie espagnol avant l’euro?",
+    "answer0": "Escudo",
+    "answer1": "Lire",
+    "answer2": "Peseta",
+    "answer3": "Peso",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel peintre espagnol a dédié sa vie au mouvement surréaliste?",
+    "answer0": "Joaguin Agrasot",
+    "answer1": "Salvadore Dali",
+    "answer2": "Pablo Picasso",
+    "answer3": "Diego Vélasquez",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Où est né Picasso?",
+    "answer0": "Malaga",
+    "answer1": "Valencia",
+    "answer2": "Madrid",
+    "answer3": "Santander",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Comment s’appelle l’hymne espagnol?",
+    "answer0": "Porque Te Vas",
+    "answer1": "Marcha Real",
+    "answer2": "Hijo de la luna",
+    "answer3": "Mala Vida",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel est le club de football espagnol le plus titré?",
+    "answer0": "Atletico Bilbao",
+    "answer1": "Real Madrid",
+    "answer2": "FC Barcelone",
+    "answer3": "Atletico Madrid",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel ingrédient ne fait pas partie de la tortilla?",
+    "answer0": "pomme de terre",
+    "answer1": "oignon",
+    "answer2": "oeuf",
+    "answer3": "tomate",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quelle ville est appelé ville aux trois cultures?",
+    "answer0": "Tolède",
+    "answer1": "Madrid",
+    "answer2": "Barcelone",
+    "answer3": "Gérone",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel est le plus grand fleuve d’Espagne?",
+    "answer0": "Tajo",
+    "answer1": "Elbro",
+    "answer2": "Duero",
+    "answer3": "Guadiana",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel est la ville la plus peuplé d’Espagne?",
+    "answer0": "Valence",
+    "answer1": "Madrid",
+    "answer2": "Barcelone",
+    "answer3": "Séville",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quelle chaîne de montagnes se trouve au Nord de l'Espagne ?",
+    "answer0": "Brenta",
+    "answer1": "Pyrénées",
+    "answer2": "Alpes",
+    "answer3": "Dolomites",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Qui est le seul acteur espagnol a avoir reçu un oscar?",
+    "answer0": "Jennifer Lopez",
+    "answer1": "Pénelope Cruz",
+    "answer2": "Javier Bardem",
+    "answer3": "Sofia Vergara",
+    "answerIndex": "2"
+  },
+  {
+    "question": "la superficie de l’espagne est:",
+    "answer0": "supérieur à celle de l'Allemagne",
+    "answer1": "supérieur à celle du Ukraine",
+    "answer2": "supérieur à celle de la Belgique",
+    "answer3": "supérieur à celle de la France",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Plus de 90% de la population est:",
+    "answer0": "Catholique",
+    "answer1": "Protestan",
+    "answer2": "Islam",
+    "answer3": "Bouddhiste",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Dans quelle ville se trouve les Ramblas?",
+    "answer0": "Gerone",
+    "answer1": "Valencia",
+    "answer2": "Madrid",
+    "answer3": "Barcelone",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Qui a écrit Don Quichotte de la Mancha?",
+    "answer0": "Fransisco Franco",
+    "answer1": "Cervantes",
+    "answer2": "Lope de Vega",
+    "answer3": "Azorin",
+    "answerIndex": ""
+  },
+  {
+    "question": "Dans quelle ville peut-on trouver le musée Guggenheim",
+    "answer0": "Valencia",
+    "answer1": "Barcelone",
+    "answer2": "Madrid",
+    "answer3": "Bilbao",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Dans quelle ville se trouve l’Alhambra?",
+    "answer0": "Barcelone",
+    "answer1": "Valencia",
+    "answer2": "Bilbao",
+    "answer3": "Grenade",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Que figue au milieu du drapeau espagnole?",
+    "answer0": "Un soleil",
+    "answer1": "Un royaume",
+    "answer2": "Une roue",
+    "answer3": "Une couronne",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quand a lieu El Dia de los Difuntos?",
+    "answer0": "21 septembre",
+    "answer1": "25 décemvbre",
+    "answer2": "2 novembre",
+    "answer3": "28 octobre",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Combien de fois l'Espagne a-t-elle gagné la Coupe Davis(au tennis)",
+    "answer0": "0",
+    "answer1": "5",
+    "answer2": "8",
+    "answer3": "11",
+    "answerIndex": "1"
+  }
+]
+
+

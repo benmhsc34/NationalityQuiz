@@ -52,6 +52,9 @@ public class StatsActivity extends AppCompatActivity {
         float india_games = prefs.getInt("india_games", -1);
         float india_score = prefs.getInt("india_score", 0);
 
+        float spain_games = prefs.getInt("spain_games", -1);
+        float spain_score = prefs.getInt("spain_score", 0);
+
         int japan_games = prefs.getInt("japan_games", -1);
         int japan_score = prefs.getInt("japan_score", 0);
 
@@ -77,6 +80,10 @@ public class StatsActivity extends AppCompatActivity {
         if (usa_games == -1) {
             usaPourcentage = "N/A";
         }
+        String spainPourcentage = Math.round((spain_score / spain_games) * 10) + "%";
+        if (spain_games == -1) {
+            spainPourcentage = "N/A";
+        }
         String australiaPourcentage = Math.round((australia_score / australia_games) * 10) + "%";
         if (australia_games == -1) {
             australiaPourcentage = "N/A";
@@ -99,9 +106,9 @@ public class StatsActivity extends AppCompatActivity {
         }
 
 
-        String[] statsList = {englandPourcentage, francePourcentage, usaPourcentage, indiaPourcentage};
-        String[] arrayCountries = {"England", "France", "USA", "India"};
-        int[] arrayFlags = {R.drawable.gb, R.drawable.fr, R.drawable.us, R.drawable.in};
+        String[] statsList = {englandPourcentage, francePourcentage, usaPourcentage, indiaPourcentage, spainPourcentage};
+        String[] arrayCountries = {"England", "France", "USA", "India", "Spain"};
+        int[] arrayFlags = {R.drawable.gb, R.drawable.fr, R.drawable.us, R.drawable.in, R.drawable.es};
 
 
         recyclerView = findViewById(R.id.recyclerView);

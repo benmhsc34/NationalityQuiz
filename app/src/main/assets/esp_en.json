@@ -1,0 +1,324 @@
+﻿[
+  {
+    "question": "Which famous person has marked Spain's history?",
+    "answer0": "Henry Ford",
+    "answer1": "Napoléon",
+    "answer2": "Confucius",
+    "answer3": "Christophe Colomb",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Where is the Sagrada Familia?",
+    "answer0": "Sevilla",
+    "answer1": "Barcelona",
+    "answer2": "Madrid",
+    "answer3": "Girona",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What are the callos?",
+    "answer0": "Animal guts served as a dish",
+    "answer1": "The translation of ugly",
+    "answer2": "A famous distric in Madrid",
+    "answer3": "A ceremony in Valencia",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which dictator reigned over Spain for 40 years?",
+    "answer0": "Franco",
+    "answer1": "Manolete",
+    "answer2": "Salazar",
+    "answer3": "Mussolini",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What kind of clothes do bullfighters wear?",
+    "answer0": "A tuxedo",
+    "answer1": "Red jeans",
+    "answer2": "A suit of lights",
+    "answer3": "A bullet proof vest",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What do the Spanish do on December 28?",
+    "answer0": "They have big family meet ups",
+    "answer1": "They tell jokes",
+    "answer2": "They dance in public",
+    "answer3": "They eat turkey",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is an Encierro?",
+    "answer0": "A bull in an arena",
+    "answer1": "The release of bulls in the city",
+    "answer2": "A bull fighting a bullfighter",
+    "answer3": "A race between bulls and horses",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What ingredient is not found in a paella?",
+    "answer0": "Meat",
+    "answer1": "Fish",
+    "answer2": "Rice",
+    "answer3": "Almonds",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What do the Spanish say after someone sneezes?",
+    "answer0": "Jesus",
+    "answer1": "Christ",
+    "answer2": "Avestruz",
+    "answer3": "Deseo",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the flamenco?",
+    "answer0": "An old language",
+    "answer1": "A shade of pink",
+    "answer2": "A type of music and dance",
+    "answer3": "An animal",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the capital of Spain?",
+    "answer0": "Madrid",
+    "answer1": "Barcelona",
+    "answer2": "Sevilla",
+    "answer3": "Valencia",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Where is Barcelona?",
+    "answer0": "In Catalonia",
+    "answer1": "In Andalusia",
+    "answer2": "In Aragon",
+    "answer3": "In Galicia",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What does the Strait of Gilbratar separate?",
+    "answer0": "Spain and France",
+    "answer1": "Spain and Portugal",
+    "answer2": "Spain and Morocco",
+    "answer3": "Spain and Algeria",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Who is the current Spanish king?",
+    "answer0": "Felipe V",
+    "answer1": "Felipe VI",
+    "answer2": "Juan Carlos I",
+    "answer3": "There is no current king",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the biggest stadium in Spain?",
+    "answer0": "Metropolinato",
+    "answer1": "Santiago Bernabéu",
+    "answer2": "New Camp",
+    "answer3": "Olympic Stadium in Seville",
+    "answerIndex": "2"
+  },
+  {
+    "question": "In which year did Spain win the FIFA World Cup?",
+    "answer0": "2014",
+    "answer1": "2010",
+    "answer2": "2006",
+    "answer3": "2002",
+    "answerIndex": "1"
+  },
+  {
+    "question": "How many countries border with Spain's mainland?",
+    "answer0": "5",
+    "answer1": "3",
+    "answer2": "2",
+    "answer3": "4",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel est le Grand-Chlem préferé de Rafael Nadal?",
+    "answer0": "Wimbledon",
+    "answer1": "Roland-Garros",
+    "answer2": "Australian Open",
+    "answer3": "US Open",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In what museam can you find the Guernica  by Picasso?",
+    "answer0": "Gaudi",
+    "answer1": "Reina Sofia",
+    "answer2": "Prado",
+    "answer3": "Guggenheim  ",
+    "answerIndex": "1"
+  },
+  {
+    "question": "When did la reconquista end?",
+    "answer0": "1492",
+    "answer1": "800 AC",
+    "answer2": "18th century",
+    "answer3": "It's still going on",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What was the spanish currency before the euro?",
+    "answer0": "Escudo",
+    "answer1": "Lire",
+    "answer2": "Peseta",
+    "answer3": "Peso",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What Spanish painter dedicated his life to the surrealist movement?",
+    "answer0": "Joaguin Agrasot",
+    "answer1": "Salvadore Dali",
+    "answer2": "Pablo Picasso",
+    "answer3": "Diego Vélasquez",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Where was Picasso born?",
+    "answer0": "Malaga",
+    "answer1": "Valencia",
+    "answer2": "Madrid",
+    "answer3": "Santander",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the name of the Spanish national anthem?",
+    "answer0": "Porque Te Vas",
+    "answer1": "Marcha Real",
+    "answer2": "Hijo de la luna",
+    "answer3": "Mala Vida",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What football club has the most Liga titles?",
+    "answer0": "Atletico Bilbao",
+    "answer1": "Real Madrid",
+    "answer2": "FC Barcelona",
+    "answer3": "Atletico Madrid",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What ingerdient is not found in an tortilla",
+    "answer0": "Potatoes",
+    "answer1": "Onions",
+    "answer2": "Eggs",
+    "answer3": "Tomatoes",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which city is called a city with three cultures?",
+    "answer0": "Toledo",
+    "answer1": "Madrid",
+    "answer2": "Barcelona",
+    "answer3": "Gerona",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the longest river in Spain?",
+    "answer0": "Tajo",
+    "answer1": "Elbro",
+    "answer2": "Duero",
+    "answer3": "Guadiana",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is the most populated city in Spain?",
+    "answer0": "Valence",
+    "answer1": "Madrid",
+    "answer2": "Barcelone",
+    "answer3": "Séville",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Which Mountain Range is in Northern Spain?",
+    "answer0": "Brenta",
+    "answer1": "Pyrenees",
+    "answer2": "Alpes",
+    "answer3": "Dolomites",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Who is the only Spanish actor to have won an Oscar?",
+    "answer0": "Jennifer Lopez",
+    "answer1": "Pénelope Cruz",
+    "answer2": "Javier Bardem",
+    "answer3": "Sofia Vergara",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Spains surface is bigger than:",
+    "answer0": "Germany's",
+    "answer1": "Ukraine's",
+    "answer2": "Russia's",
+    "answer3": "France's",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What religion is more than 90% of the population?",
+    "answer0": "Catholic",
+    "answer1": "Protestan",
+    "answer2": "Islamic",
+    "answer3": "Buddhist",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Where is las Ramblas?",
+    "answer0": "Gerona",
+    "answer1": "Valencia",
+    "answer2": "Madrid",
+    "answer3": "Barcelona",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Who wrote Don Quichotte de la Mancha?",
+    "answer0": "Fransisco Franco",
+    "answer1": "Cervantes",
+    "answer2": "Lope de Vega",
+    "answer3": "Azorin",
+    "answerIndex": ""
+  },
+  {
+    "question": "Where is the Guggenheim museum?",
+    "answer0": "Valencia",
+    "answer1": "Barcelona",
+    "answer2": "Madrid",
+    "answer3": "Bilbao",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Where is the Alhambra?",
+    "answer0": "Barcelona",
+    "answer1": "Valencia",
+    "answer2": "Bilbao",
+    "answer3": "Grenada",
+    "answerIndex": "0"
+  },
+  {
+    "question": "What is in the middle of the spanish flag?",
+    "answer0": "A sun",
+    "answer1": "A kingdom",
+    "answer2": "A wheel",
+    "answer3": "A crown",
+    "answerIndex": "1"
+  },
+  {
+    "question": "When is El Dia de los Difuntos?",
+    "answer0": "September 2nd",
+    "answer1": "Novermber 28th",
+    "answer2": "November 2nd",
+    "answer3": "October 28th",
+    "answerIndex": "2"
+  },
+  {
+    "question": "How many times have Spain won the Davis Cup(in tennis)?",
+    "answer0": "0",
+    "answer1": "5",
+    "answer2": "8",
+    "answer3": "11",
+    "answerIndex": "1"
+  }
+]
+
+

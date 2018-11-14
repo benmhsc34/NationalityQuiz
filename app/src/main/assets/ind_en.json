@@ -236,7 +236,7 @@
 "answer1" : "the 2nd most populated country",
 "answer2" : "the 3rd most populated country",
 "answer3" : "the 4th most populated country",
-"answerIndex" : "0"
+"answerIndex" : "1"
 },
 {"question" : "What is India's approximate population?",
 "answer0" : "1,1 billion",
@@ -333,8 +333,8 @@
 "answer0" : "a black panther",
 "answer1" : "a lion",
 "answer2" : "a cow",
-"answer3" : "a tiger",
-"answerIndex" : "0"
+"answer3" : "Bengal tiger",
+"answerIndex" : "3"
 },
 {"question" : "What is celebrated on January 26th?",
 "answer0" : "Republic day",
