@@ -16,6 +16,14 @@
     "answerIndex": "1"
   },
   {
+    "question": "Quel est le site le plus visité en Espagne?",
+    "answer0": "Sagrada Familia",
+    "answer1": "Alhambra",
+    "answer2": "Musée du Prado",
+    "answer3": "Camp Nou",
+    "answerIndex": "1"
+  },
+  {
     "question": "Que sont les callos?",
     "answer0": "Des tripes d’animaux servis en plat",
     "answer1": "La traduction de laids",
@@ -113,7 +121,7 @@
   },
   {
     "question": "Quel est le plus grand stade en espagne?",
-    "answer0": "Metropolinato",
+    "answer0": "AT&T Stadium",
     "answer1": "Santiago Bernabéu",
     "answer2": "Camp Nou",
     "answer3": "Stade Olympique de Séville",
@@ -136,12 +144,12 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel est le Grand-Chlem préferé de Rafael Nadal?",
+    "question": "Quel est le Grand-Chelem préferé de Rafael Nadal?",
     "answer0": "Wimbledon",
     "answer1": "Roland-Garros",
     "answer2": "Open d'Australie",
     "answer3": "US Open",
-    "answerIndex": "0"
+    "answerIndex": "1"
   },
   {
     "question": "Dans quel musée peut-on trouver le Guernica de Picasso?",
@@ -251,7 +259,7 @@
     "question": "la superficie de l’espagne est:",
     "answer0": "supérieur à celle de l'Allemagne",
     "answer1": "supérieur à celle du Ukraine",
-    "answer2": "supérieur à celle de la Belgique",
+    "answer2": "supérieur à celle de la Russie",
     "answer3": "supérieur à celle de la France",
     "answerIndex": "0"
   },

@@ -6,6 +6,20 @@
     <string name="rateUs">Rate us!</string>
     <string name="stats">Statistics</string>
     <string name="moreApps">More apps!</string>
+    <string name="percentage">Your percentage for</string>
+    <string name="isNow">is now:</string>
+    <string name="amazing">Amazing!</string>
+    <string name="prettyAmazing">So close to perfect</string>
+    <string name="prettyAmazzing">Pretty amazing</string>
+    <string name="wellDone">Well done!</string>
+    <string name="solidStuff">Solid stuff</string>
+    <string name="cdbcdw">Could do better, could do worse</string>
+    <string name="ciot">Could improve on that</string>
+    <string name="itycdb">I think you can do better</string>
+    <string name="ysnalow">You still need a lot of training</string>
+    <string name="ikyabtt">I know you\'re better than that</string>
+    <string name="dyet">Did you even try?</string>
+    <string name="youScored">You scored:</string>
 
     <string-array name="languages">
         <item>English</item>

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">International Knowledge</string>
-    <string name="stats">Estadística</string>
-    <string name="playButton">Jugar</string>
-    <string name="rateUs">" ¡Nos califica!"</string>
-    <string name="moreAppsButton">Instagram</string>
-    <string name="moreApps">mas aplicaciones !</string>
-</resources>

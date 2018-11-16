@@ -2,9 +2,9 @@
   {
     "question": "Which famous person has marked Spain's history?",
     "answer0": "Henry Ford",
-    "answer1": "Napoléon",
+    "answer1": "Napoleon",
     "answer2": "Confucius",
-    "answer3": "Christophe Colomb",
+    "answer3": "Christopher Columbus",
     "answerIndex": "3"
   },
   {
@@ -13,6 +13,13 @@
     "answer1": "Barcelona",
     "answer2": "Madrid",
     "answer3": "Girona",
+    "answerIndex": "1"
+  },  {
+    "question": "What is the most visited site in Spain?",
+    "answer0": "Sagrada Familia",
+    "answer1": "Alhambra",
+    "answer2": "Prado museum",
+    "answer3": "New Camp",
     "answerIndex": "1"
   },
   {
@@ -96,7 +103,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "What does the Strait of Gilbratar separate?",
+    "question": "What does the Strait of Gibraltar separate?",
     "answer0": "Spain and France",
     "answer1": "Spain and Portugal",
     "answer2": "Spain and Morocco",
@@ -113,7 +120,7 @@
   },
   {
     "question": "What is the biggest stadium in Spain?",
-    "answer0": "Metropolinato",
+    "answer0": "AT&T Stadium",
     "answer1": "Santiago Bernabéu",
     "answer2": "New Camp",
     "answer3": "Olympic Stadium in Seville",
@@ -136,15 +143,15 @@
     "answerIndex": "3"
   },
   {
-    "question": "Quel est le Grand-Chlem préferé de Rafael Nadal?",
+    "question": "What is Nadal's favorite Grand Slam?",
     "answer0": "Wimbledon",
     "answer1": "Roland-Garros",
     "answer2": "Australian Open",
     "answer3": "US Open",
-    "answerIndex": "0"
+    "answerIndex": "1"
   },
   {
-    "question": "In what museam can you find the Guernica  by Picasso?",
+    "question": "In which museum can you find the Guernica  by Picasso?",
     "answer0": "Gaudi",
     "answer1": "Reina Sofia",
     "answer2": "Prado",
@@ -152,7 +159,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "When did la reconquista end?",
+    "question": "When did La Reconquista end?",
     "answer0": "1492",
     "answer1": "800 AC",
     "answer2": "18th century",
@@ -160,7 +167,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "What was the spanish currency before the euro?",
+    "question": "What was the Spanish currency before the euro?",
     "answer0": "Escudo",
     "answer1": "Lire",
     "answer2": "Peseta",
@@ -170,7 +177,7 @@
   {
     "question": "What Spanish painter dedicated his life to the surrealist movement?",
     "answer0": "Joaguin Agrasot",
-    "answer1": "Salvadore Dali",
+    "answer1": "Salvador Dali",
     "answer2": "Pablo Picasso",
     "answer3": "Diego Vélasquez",
     "answerIndex": "1"
@@ -200,7 +207,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "What ingerdient is not found in an tortilla",
+    "question": "What ingredient is not found in a tortilla",
     "answer0": "Potatoes",
     "answer1": "Onions",
     "answer2": "Eggs",
@@ -212,7 +219,7 @@
     "answer0": "Toledo",
     "answer1": "Madrid",
     "answer2": "Barcelona",
-    "answer3": "Gerona",
+    "answer3": "Girona",
     "answerIndex": "0"
   },
   {
@@ -235,7 +242,7 @@
     "question": "Which Mountain Range is in Northern Spain?",
     "answer0": "Brenta",
     "answer1": "Pyrenees",
-    "answer2": "Alpes",
+    "answer2": "Alps",
     "answer3": "Dolomites",
     "answerIndex": "1"
   },
@@ -265,7 +272,7 @@
   },
   {
     "question": "Where is las Ramblas?",
-    "answer0": "Gerona",
+    "answer0": "Girona",
     "answer1": "Valencia",
     "answer2": "Madrid",
     "answer3": "Barcelona",

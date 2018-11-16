@@ -1,9 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">International Knowledge</string>
     <string name="playButton">Jouer</string>
     <string name="moreAppsButton">Instagram</string>
     <string name="rateUs">Notez nous!</string>
     <string name="stats">Statistiques</string>
     <string name="moreApps">Plus d\'apps!</string>
+    <string name="percentage">Ton pourcentage</string>
+    <string name="isNow">est maintenant</string>
+    <string name="amazing">Excellent!</string>
+    <string name="prettyAmazing">Très proche du parfait</string>
+    <string name="prettyAmazzing">Pas mal!</string>
+    <string name="wellDone">Bien joué</string>
+    <string name="solidStuff">Plutôt solide</string>
+    <string name="cdbcdw">Peux faire mieux,  peux faire mire</string>
+    <string name="ciot">Tu peux t\'améliorer</string>
+    <string name="itycdb">Je sais que tu peux faire mieux</string>
+    <string name="ysnalow">T\'as encore besoin de beaucoup d\'entrainement</string>
+    <string name="ikyabtt">Je sais que tu es plus fort que ça</string>
+    <string name="dyet">T\'as vraiment essayé?</string>
+    <string name="youScored">Tu as eu:</string>
 </resources>

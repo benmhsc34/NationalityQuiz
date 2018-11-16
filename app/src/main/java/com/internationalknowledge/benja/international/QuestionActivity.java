@@ -137,7 +137,8 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         if (str.equals("India") && language.equals("English")) {
             mQuestionBank = this.get_json_india_en();
-        }if (str.equals("Spain") && language.equals("Français")) {
+        }
+        if (str.equals("Spain") && language.equals("Français")) {
             mQuestionBank = this.get_json_spain();
         }
         if (str.equals("Spain") && language.equals("English")) {
@@ -277,112 +278,118 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
 
     private void endGame() {
         Intent intent = getIntent();
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         String str = intent.getStringExtra("countryName");
-        if (str.equals("England")) {
+        int number = intent.getIntExtra("countryFlag", 0);
 
-            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("england_games", 0);
-            int score = prefs.getInt("england_score", 0);
+        switch (str) {
+            case "England": {
+
+                int games = prefs.getInt("england_games", 0);
+                int score = prefs.getInt("england_score", 0);
 
 
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("england_score", score + mScore);
-            editor.putInt("england_games", games + 1);
-            editor.apply();
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("england_score", score + mScore);
+                editor.putInt("england_games", games + 1);
+                editor.apply();
+                break;
+            }
+            case "USA": {
+
+                int games = prefs.getInt("usa_games", 0);
+                int score = prefs.getInt("usa_score", 0);
+
+
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("usa_score", score + mScore);
+                editor.putInt("usa_games", games + 1);
+                editor.apply();
+                break;
+            }
+            case "France": {
+
+                int games = prefs.getInt("france_games", 0);
+                int score = prefs.getInt("france_score", 0);
+
+
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("france_score", score + mScore);
+                editor.putInt("france_games", games + 1);
+                editor.apply();
+                break;
+            }
+            case "India": {
+
+                int games = prefs.getInt("india_games", 0);
+                int score = prefs.getInt("india_score", 0);
+
+
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("india_score", score + mScore);
+                editor.putInt("india_games", games + 1);
+                editor.apply();
+                break;
+            }
+            case "Spain": {
+
+                int games = prefs.getInt("spain_games", 0);
+                int score = prefs.getInt("spain_score", 0);
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("spain_score", score + mScore);
+                editor.putInt("spain_games", games + 1);
+                editor.apply();
+                break;
+            }
+            case "Germany": {
+
+                int games = prefs.getInt("germany_games", 0);
+                int score = prefs.getInt("germany_score", 0);
+
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("germany_score", score + mScore);
+                editor.putInt("germany_games", games + 1);
+                editor.apply();
+                break;
+            }
+            case "Japan": {
+
+                int games = prefs.getInt("japan_games", 0);
+                int score = prefs.getInt("japan_score", 0);
+
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("japan_score", score + mScore);
+                editor.putInt("japan_games", games + 1);
+                editor.apply();
+                break;
+            }
+            case "China": {
+
+                int games = prefs.getInt("china_games", 0);
+                int score = prefs.getInt("china_score", 0);
+
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("china_score", score + mScore);
+                editor.putInt("china_games", games + 1);
+                editor.apply();
+                break;
+            }
+            case "Australia": {
+
+                int games = prefs.getInt("australia_games", 0);
+                int score = prefs.getInt("australia_score", 0);
+
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("australia_score", score + mScore);
+                editor.putInt("australia_games", games + 1);
+                editor.apply();
+                break;
+            }
         }
-        if (str.equals("USA")) {
-
-            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("usa_games", 0);
-            int score = prefs.getInt("usa_score", 0);
-
-
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("usa_score", score + mScore);
-            editor.putInt("usa_games", games + 1);
-            editor.apply();
-        }
-        if (str.equals("France")) {
-
-            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("france_games", 0);
-            int score = prefs.getInt("france_score", 0);
-
-
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("france_score", score + mScore);
-            editor.putInt("france_games", games + 1);
-            editor.apply();
-        }
-        if (str.equals("India")) {
-
-            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("india_games", 0);
-            int score = prefs.getInt("india_score", 0);
-
-
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("india_score", score + mScore);
-            editor.putInt("india_games", games + 1);
-            editor.apply();
-        } if (str.equals("Spain")) {
-
-            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("spain_games", 0);
-            int score = prefs.getInt("spain_score", 0);
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("spain_score", score + mScore);
-            editor.putInt("spain_games", games + 1);
-            editor.apply();
-        }
-        if (str.equals("Germany")) {
-
-            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("germany_games", 0);
-            int score = prefs.getInt("germany_score", 0);
-
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("germany_score", score + mScore);
-            editor.putInt("germany_games", games + 1);
-            editor.apply();
-        }
-        if (str.equals("Japan")) {
-
-            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("japan_games", 0);
-            int score = prefs.getInt("japan_score", 0);
-
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("japan_score", score + mScore);
-            editor.putInt("japan_games", games + 1);
-            editor.apply();
-        }
-        if (str.equals("China")) {
-
-            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("china_games", 0);
-            int score = prefs.getInt("china_score", 0);
-
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("china_score", score + mScore);
-            editor.putInt("china_games", games + 1);
-            editor.apply();
-        }
-        if (str.equals("Australia")) {
-
-            SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-            int games = prefs.getInt("australia_games", 0);
-            int score = prefs.getInt("australia_score", 0);
-
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("australia_score", score + mScore);
-            editor.putInt("australia_games", games + 1);
-            editor.apply();
-        }
 
 
 
-
+/*
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
 
         builder.setTitle("Well done!")
@@ -406,9 +413,17 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                 .setCancelable(false)
                 .create()
                 .show();
+*/
+        Intent myIntent = new Intent(QuestionActivity.this, ScoreActivity.class);
+        myIntent.putExtra("score", mScore);
+        myIntent.putExtra("country", str);
+        myIntent.putExtra("image", number);
+        QuestionActivity.this.startActivityForResult(myIntent, 0);
+        finish();
 
 
     }
+
 
     private void displayQuestion(final Question question) {
         mQuestionTextView.setText(question.getQuestion());
@@ -481,6 +496,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
     public QuestionBank get_json_india_en() {
         String json;
         try {
@@ -688,6 +704,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
     public QuestionBank get_json_spain_en() {
         String json;
         try {

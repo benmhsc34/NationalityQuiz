@@ -39,71 +39,12 @@ public class StatsActivity extends AppCompatActivity {
 
 
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-        float usa_games = prefs.getInt("usa_games", -1);
-        float usa_score = prefs.getInt("usa_score", 0);
 
-
-        float england_games = prefs.getInt("england_games", -1);
-        float england_score = prefs.getInt("england_score", 0);
-
-        float france_games = prefs.getInt("france_games", -1);
-        float france_score = prefs.getInt("france_score", 0);
-
-        float india_games = prefs.getInt("india_games", -1);
-        float india_score = prefs.getInt("india_score", 0);
-
-        float spain_games = prefs.getInt("spain_games", -1);
-        float spain_score = prefs.getInt("spain_score", 0);
-
-        int japan_games = prefs.getInt("japan_games", -1);
-        int japan_score = prefs.getInt("japan_score", 0);
-
-        int china_games = prefs.getInt("china_games", -1);
-        int china_score = prefs.getInt("china_score", 0);
-
-        int germany_games = prefs.getInt("germany_games", -1);
-        int germany_score = prefs.getInt("germany_score", 0);
-
-        int australia_games = prefs.getInt("australia_games", -1);
-        int australia_score = prefs.getInt("australia_score", 0);
-
-
-        String englandPourcentage = Math.round(england_score / england_games * 10) + "%";
-        if (england_games == -1) {
-            englandPourcentage = "N/A";
-        }
-        String francePourcentage = Math.round((france_score / france_games) * 10) + "%";
-        if (france_games == -1) {
-            francePourcentage = "N/A";
-        }
-        String usaPourcentage = Math.round((usa_score / usa_games) * 10) + "%";
-        if (usa_games == -1) {
-            usaPourcentage = "N/A";
-        }
-        String spainPourcentage = Math.round((spain_score / spain_games) * 10) + "%";
-        if (spain_games == -1) {
-            spainPourcentage = "N/A";
-        }
-        String australiaPourcentage = Math.round((australia_score / australia_games) * 10) + "%";
-        if (australia_games == -1) {
-            australiaPourcentage = "N/A";
-        }
-        String chinaPourcentage = Math.round((china_score / china_games) * 10) + "%";
-        if (china_games == -1) {
-            chinaPourcentage = "N/A";
-        }
-        String japanPourcentage = Math.round((japan_score / japan_games) * 10) + "%";
-        if (japan_games == -1) {
-            japanPourcentage = "N/A";
-        }
-        String indiaPourcentage = Math.round((india_score / india_games)) * 10 + "%";
-        if (india_games == -1) {
-            indiaPourcentage = "N/A";
-        }
-        String germanyPourcentage = Math.round((germany_score / germany_games)) * 10 + "%";
-        if (germany_games == -1) {
-            germanyPourcentage = "N/A";
-        }
+        String englandPourcentage =  prefs.getString("england_pourcentage", "N/A");
+        String francePourcentage = prefs.getString("france_pourcentage", "N/A");
+        String usaPourcentage = prefs.getString("usa_pourcentage", "N/A");
+        String spainPourcentage = prefs.getString("spain_pourcentage", "N/A");
+        String indiaPourcentage = prefs.getString("india_pourcentage", "N/A");
 
 
         String[] statsList = {englandPourcentage, francePourcentage, usaPourcentage, indiaPourcentage, spainPourcentage};
