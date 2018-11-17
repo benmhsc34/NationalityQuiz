@@ -256,7 +256,7 @@
     "answerIndex": "2"
   },
   {
-    "question": "la superficie de l’espagne est:",
+    "question": "La superficie de l’espagne est:",
     "answer0": "supérieur à celle de l'Allemagne",
     "answer1": "supérieur à celle du Ukraine",
     "answer2": "supérieur à celle de la Russie",
@@ -301,7 +301,7 @@
     "answer1": "Valencia",
     "answer2": "Bilbao",
     "answer3": "Grenade",
-    "answerIndex": "0"
+    "answerIndex": "3"
   },
   {
     "question": "Que figue au milieu du drapeau espagnole?",
@@ -314,7 +314,7 @@
   {
     "question": "Quand a lieu El Dia de los Difuntos?",
     "answer0": "21 septembre",
-    "answer1": "25 décemvbre",
+    "answer1": "25 décembre",
     "answer2": "2 novembre",
     "answer3": "28 octobre",
     "answerIndex": "2"

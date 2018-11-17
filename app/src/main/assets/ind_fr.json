@@ -14,11 +14,11 @@
 "answerIndex" : "2"
 },
 {"question" : "Dans le système des castes hindouistes, comment appelle-t-on les prêtres?",
-"answer0" : "dalit",
+"answer0" : "Dalit",
 "answer1" : "Brahmane",
 "answer2" : "Veda",
 "answer3" : "Bouddhiste",
-"answerIndex" : "2"
+"answerIndex" : "1"
 },
 {"question" : "Quelle secte sanguinaire ayant existé Indiana Jones combat-il dans Le Temple maudit?",
 "answer0" : "Les Thugs",
@@ -44,7 +44,7 @@
 {"question" : "Qu’a-t-on découvert en Inde, en juillet 2011, dans un temple dédiée à Vishnou?",
 "answer0" : "Une source",
 "answer1" : "Le tombeau de Bouddha",
-"answer2" : "Un trésor valant des milliards",
+"answer2" : "Un trésor",
 "answer3" : "Un éléphant blanc",
 "answerIndex" : "2"
 },
@@ -83,7 +83,7 @@
 "answer3" : "31",
 "answerIndex" : "1"
 },
-{"question" : "Que fêtent le indiens le 2 octobre?",
+{"question" : "Que fêtent les indiens le 2 octobre?",
 "answer0" : "La naissance du Mahatma Gandhi",
 "answer1" : "L’indépendance de l’Inde",
 "answer2" : "La naissance de la République",
@@ -91,11 +91,11 @@
 "answerIndex" : "0"
 },
 {"question" : "L’Etat se nomme?",
-"answer0" : "La République populaire Indienne",
+"answer0" : "La République de l'Inde",
 "answer1" : "L’Union Indienne",
-"answer2" : "La République démocratique Indienne",
-"answer3" : "La République sociale Indienne",
-"answerIndex" : "1"
+"answer2" : "Démocratie Indienne",
+"answer3" : "La République Indienne",
+"answerIndex" : "0"
 },
 {"question" : "En 1956, quel film écrit par l'indien Satyajit Ray le Festival de Cannes a-t-il présenté?",
 "answer0" : "Charulata",
@@ -168,7 +168,7 @@
 "answer3" : "Bangalore",
 "answerIndex" : "1"
 },
-{"question" : "Durant quelle décennie le Taj Mahal a-t-il été construit??",
+{"question" : "Durant quel siècle le Taj Mahal a-t-il été construit?",
 "answer0" : "19e",
 "answer1" : "17e",
 "answer2" : "15e",
@@ -183,7 +183,7 @@
 "answerIndex" : "0"
 },
 {"question" : "A quel événement historique correspond la date du 15 août 1947?",
-"answer0" : "L’arrivé de l’informatique en Inde",
+"answer0" : "L’arrivée de l’informatique en Inde",
 "answer1" : "La mort de Gandhi",
 "answer2" : "La victoire de l’Inde aux JO",
 "answer3" : "L’indépendance de l’Inde",
@@ -277,12 +277,12 @@
 "answer0" : "Merci",
 "answer1" : "Au revoir",
 "answer2" : "Bonjour",
-"answer3" : "c’est bon",
+"answer3" : "C’est bon",
 "answerIndex" : "2"
 },
 {"question" : "Quel moyen de transport est le plus utilisé à Mumbai?",
 "answer0" : "Train",
-"answer1" : "Moto",
+"answer1" : "Vélo",
 "answer2" : "Taxi",
 "answer3" : "Chameau",
 "answerIndex" : "0"
@@ -301,7 +301,7 @@
 "answer3" : "Un style de musique",
 "answerIndex" : "1"
 },
-{"question" : "Qui est le président Indien actuel?",
+{"question" : "Qui est le président Indien actuel (2018)?",
 "answer0" : "Venkaiah Naidu",
 "answer1" : "Pranab Mukherjee",
 "answer2" : "Narendra Modi",

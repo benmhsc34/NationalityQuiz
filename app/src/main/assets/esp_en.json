@@ -234,8 +234,8 @@
     "question": "What is the most populated city in Spain?",
     "answer0": "Valence",
     "answer1": "Madrid",
-    "answer2": "Barcelone",
-    "answer3": "Séville",
+    "answer2": "Barcelona",
+    "answer3": "Seville",
     "answerIndex": "1"
   },
   {
@@ -300,7 +300,7 @@
     "answer1": "Valencia",
     "answer2": "Bilbao",
     "answer3": "Grenada",
-    "answerIndex": "0"
+    "answerIndex": "3"
   },
   {
     "question": "What is in the middle of the spanish flag?",

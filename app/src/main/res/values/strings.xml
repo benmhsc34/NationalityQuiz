@@ -6,8 +6,8 @@
     <string name="rateUs">Rate us!</string>
     <string name="stats">Statistics</string>
     <string name="moreApps">More apps!</string>
-    <string name="percentage">Your percentage for</string>
-    <string name="isNow">is now:</string>
+    <string name="percentage">Your percentage for </string>
+    <string name="isNow">" is now: "</string>
     <string name="amazing">Amazing!</string>
     <string name="prettyAmazing">So close to perfect</string>
     <string name="prettyAmazzing">Pretty amazing</string>
@@ -20,6 +20,7 @@
     <string name="ikyabtt">I know you\'re better than that</string>
     <string name="dyet">Did you even try?</string>
     <string name="youScored">You scored:</string>
+    <string name="tapAnywhere">TAP ANYWHERE TO CONTINUE</string>
 
     <string-array name="languages">
         <item>English</item>

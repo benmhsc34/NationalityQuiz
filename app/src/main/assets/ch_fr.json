@@ -1,0 +1,394 @@
+﻿[
+  {
+    "question": "Quelle religion étrangère a prospéré en Chine?",
+    "answer0": "Taoïsme",
+    "answer1": "Légisme",
+    "answer2": "Shintoïsme",
+    "answer3": "Bouddhisme",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quelle dynastie correspond à l’âge d’or de la Chine?",
+    "answer0": "La dynastie Qing",
+    "answer1": "La dynastie Tang",
+    "answer2": "La dynastie Sui",
+    "answer3": "La dynastie Han",
+    "answerIndex": "1"
+  },
+  {
+    "question": "La Chine en 2017 est le:",
+    "answer0": "4e pays le plus peuplé",
+    "answer1": "3e pays le plus peuplé",
+    "answer2": "2e pays le plus peuplé",
+    "answer3": "1e pays le plus peuplé",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel homme est considéré comme le père de la Chine moderne?",
+    "answer0": "Deng Xiao Ping",
+    "answer1": "Tchang Kaï-chek",
+    "answer2": "Sun Yat-Sen",
+    "answer3": "Yuan Shikai",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel est le nom de famille le plus commun en Chine?",
+    "answer0": "Li",
+    "answer1": "Wang",
+    "answer2": "Chen",
+    "answer3": "Yang",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel objet est tombé du ciel et a formé les 118 lacs de Jiuzhaigou?",
+    "answer0": "Un verre d’eau",
+    "answer1": "Un miroir",
+    "answer2": "Un bol de riz",
+    "answer3": "Un éventail",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Qu’est ce qui est unique dans la culture des Dong?",
+    "answer0": "Ils fuient tous les étrangers",
+    "answer1": "Ils ne mangent pas de légumes",
+    "answer2": "Ils n’ont pas de langage écrit",
+    "answer3": "Ils ne chantent pas",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Le premier Mcdonald's a ouvert en Chine en:",
+    "answer0": "1970",
+    "answer1": "1980",
+    "answer2": "1990",
+    "answer3": "2000",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Dans la province du Yunnan,à quoi sont dressés les Cormorans?",
+    "answer0": "Attraper les poissons",
+    "answer1": "Donner l’alerte en cas d’incendie",
+    "answer2": "Aller chercher des objets",
+    "answer3": "Garder les troupeaux de moutons",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel ingrédient est utilisé pour lutter contre les maladies?",
+    "answer0": "Kiwi",
+    "answer1": "Réglisse",
+    "answer2": "Fraise",
+    "answer3": "Sucre",
+    "answerIndex": "1"
+  },
+  {
+    "question": "De quoi se nourrissent principalement les pandas? ",
+    "answer0": "Noix",
+    "answer1": "Bambou",
+    "answer2": "Viande",
+    "answer3": "Poisson",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Qu’est ce qui est considéré comme signe de bonne fortune en Chine?",
+    "answer0": "Le panda",
+    "answer1": "La fleur de lotus",
+    "answer2": "Le dragon",
+    "answer3": "La couleur blanche",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quelle ville est la capitale de la Chine?",
+    "answer0": "Hong-Kong",
+    "answer1": "Pékin",
+    "answer2": "Nankin",
+    "answer3": "Macao",
+    "answerIndex": "1"
+  },
+  {
+    "question": "La chine est le:",
+    "answer0": "1e pays le plus vaste",
+    "answer1": "2e pays le plus vaste",
+    "answer2": "3e pays le plus vaste",
+    "answer3": "4e pays le plus vaste",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel événement a eu lieu en 2008 en Chine?",
+    "answer0": "La coupe du monde de football",
+    "answer1": "Les jeux olympiques",
+    "answer2": "L’exposition universelle",
+    "answer3": "Un Grand Chelem de tennis",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Comment s’appelle le chef d’Etat Chinois (2018)?",
+    "answer0": "Jiang Zemin",
+    "answer1": "Tao Chang",
+    "answer2": "Hu Jintao",
+    "answer3": "Xi Jinping",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel est l'autre nom de la République de Chine?",
+    "answer0": "Bhoutan",
+    "answer1": "Taïwan",
+    "answer2": "Laos",
+    "answer3": "Bengale",
+    "answerIndex": "1"
+  },
+  {
+    "question": "En quelle année s’est créée la République populaire de Chine?",
+    "answer0": "1929",
+    "answer1": "1949",
+    "answer2": "1979",
+    "answer3": "1989",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel pays n’a pas de frontières avec la Chine?",
+    "answer0": "Russie",
+    "answer1": "Cambodge",
+    "answer2": "Pakistan",
+    "answer3": "Corée du Nord",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Combien y a-t-il environ d’habitant en Chine?",
+    "answer0": "1 milliard",
+    "answer1": "800 millions",
+    "answer2": "1,1 milliard",
+    "answer3": "1,4 milliard",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quelle est la densité de population Chinoise (2018)?",
+    "answer0": "136 habitants/km²",
+    "answer1": "16 habitants/km² ",
+    "answer2": "86 habitants/km²",
+    "answer3": "216 habitants/km²",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Combien de ville en Chine compte plus de 10 millions d’habitants?",
+    "answer0": "1",
+    "answer1": "3",
+    "answer2": "5",
+    "answer3": "12",
+    "answerIndex": "2"
+  },
+  {
+    "question": "De quand date l’actuelle Constitution chinoise?",
+    "answer0": "4 décembre 1982",
+    "answer1": "26 février 1983",
+    "answer2": "18 août 1984",
+    "answer3": "25 juillet 1988",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Pour combien de temps est élu le président chinois?",
+    "answer0": "7 ans",
+    "answer1": "5 ans",
+    "answer2": "9 ans",
+    "answer3": "12 ans",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel est le jour de la fête nationale chinoise?",
+    "answer0": "18 Juin",
+    "answer1": "22 Juillet",
+    "answer2": "1er Octobre",
+    "answer3": "3 Décembre",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel jour férié fête la date de fondation du parti communiste chinois?",
+    "answer0": "12 Juin",
+    "answer1": "1er Juillet",
+    "answer2": "24 Septembre",
+    "answer3": "15 Novembre",
+    "answerIndex": "1"
+  },
+  {
+    "question": "En quelle année la Chine finit elle pour la première fois 1ère aux classement des JO?",
+    "answer0": "2000",
+    "answer1": "2004",
+    "answer2": "2008",
+    "answer3": "2012",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Confucius vécut:",
+    "answer0": "Au VIe siècle  av J-C",
+    "answer1": "Au IIe siècle",
+    "answer2": "AU Xe siècle",
+    "answer3": "Au XVIIe siècle",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Nankin était:",
+    "answer0": "L’ancienne capitale du sud de la Chine",
+    "answer1": "L’ancien nom de Canton",
+    "answer2": "la ville où se fabrique le tissu Nankin",
+    "answer3": "Le plus grand port du pays",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Durant quel siècle les chinois ont-ils inventé la pâte à papier?",
+    "answer0": "1e siècle",
+    "answer1": "2e siècle",
+    "answer2": "3e siècle",
+    "answer3": "4e siècle",
+    "answerIndex": "1"
+  },
+  {
+    "question": "En quelle année Mao Zedong a t-il pris le pouvoir?",
+    "answer0": "1940",
+    "answer1": "1949",
+    "answer2": "1933",
+    "answer3": "1945",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quelle est la longueur totale du réseau de ligne à grande vitesse en Chine?",
+    "answer0": "5000km environ",
+    "answer1": "15000km environ",
+    "answer2": "25000km environ",
+    "answer3": "30000km environ",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel est le plus long fleuve de Chine?",
+    "answer0": "Amour",
+    "answer1": "Fleuve Jaune",
+    "answer2": "Mékong",
+    "answer3": "Yangzi Jiang",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Dans quelle ville s’est tenu l’exposition universelle de 2010?",
+    "answer0": "Pékin",
+    "answer1": "Hong-Kong",
+    "answer2": "Shanghaï",
+    "answer3": "Canton",
+    "answerIndex": "2"
+  },
+  {
+    "question": "En quelle année la Chine a elle participé pour la première fois au JO d’été?",
+    "answer0": "1974",
+    "answer1": "1984",
+    "answer2": "1994",
+    "answer3": "2004",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quand a eu lieu la dernière exposition universelle en Chine?",
+    "answer0": "2001",
+    "answer1": "2005",
+    "answer2": "2010",
+    "answer3": "2016",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quelle est la langue officielle du pays?",
+    "answer0": "Le chinois mandarin",
+    "answer1": "le cantonais",
+    "answer2": "Le xiang",
+    "answer3": "Le wu",
+    "answerIndex": "0"
+  },
+  {
+    "question": "la population chinoise est concentré à:",
+    "answer0": "L'Ouest",
+    "answer1": "L’Est",
+    "answer2": "Le Sud",
+    "answer3": "Le Nord",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Pékin est aussi connu sous le nom de?",
+    "answer0": "Hong-Kong",
+    "answer1": "Canton",
+    "answer2": "Tianjin",
+    "answer3": "Beijing",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Comment s’appelle le palais au centre de Pékin?",
+    "answer0": "Le palais Royal",
+    "answer1": "Le palais Impérial",
+    "answer2": "La cité Interdite",
+    "answer3": "La cité d’or",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel édifice a cru était percevable de la lune?",
+    "answer0": "Le Palais d’été à Pékin",
+    "answer1": "Le grand Bouddha de Hong-Kong",
+    "answer2": "Le Temple du Ciel",
+    "answer3": "La Grande Muraille de Chine",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Laquelle de ces inventions ne provient pas de la civilisation chinoise?",
+    "answer0": "La boussole",
+    "answer1": "La roue",
+    "answer2": "Le papier",
+    "answer3": "La soie",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Dans quel domaine naturel cultive-t-on surtout le riz?",
+    "answer0": "La Chine montagneuse",
+    "answer1": "La Chine aride",
+    "answer2": "La Chine tropicale",
+    "answer3": "La Chine tempérée",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Dans quel domaine naturel cultive-t-on surtout le blé?",
+    "answer0": "La Chine montagneuse",
+    "answer1": "La Chine aride",
+    "answer2": "La Chine tropicale",
+    "answer3": "La Chine tempérée",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quelle installation permet de fournir 2% de l’énergie?",
+    "answer0": "Des éoliennes dans le désert",
+    "answer1": "Une centrale nucléaire sur la Yangzi Jiang",
+    "answer2": "Une plateforme pétrolière en Mer de Chine",
+    "answer3": "Le barrage des Trois Gorges",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel est l’indicatif téléphonique de la Chine?",
+    "answer0": "+33",
+    "answer1": "+21",
+    "answer2": "+86",
+    "answer3": "+41",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quelle est la monnaie de la République populaire de Chine?",
+    "answer0": "La livre",
+    "answer1": "Le Yuan",
+    "answer2": "Le Yen",
+    "answer3": "Le Won",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Combien y a-t-il de signe dans l’horoscope Chinois?",
+    "answer0": "8",
+    "answer1": "12",
+    "answer2": "14",
+    "answer3": "18",
+    "answerIndex": "1"
+  },
+  {
+    "question": "De quelle couleur était le petit livre de Mao?",
+    "answer0": "Rouge",
+    "answer1": "Vert",
+    "answer2": "Bleu",
+    "answer3": "Blanc",
+    "answerIndex": "0"
+  }
+]

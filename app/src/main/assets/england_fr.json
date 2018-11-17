@@ -17,7 +17,7 @@
   },
   {
     "question": "Quel est le plus vieux pont qui traverse la Tamise?",
-    "answer0": "London Bridge",
+    "answer0": "Richmond bridge",
     "answer1": "Tower Bridge",
     "answer2": "Westminster Bridge",
     "answer3": "Millenium Bridge",
@@ -65,14 +65,14 @@
   },
   {
     "question": "Quel est le sport national de l'Angleterre?",
-    "answer0": "Le Football",
+    "answer0": "Le Ping-Pong",
     "answer1": "Le Cricket",
     "answer2": "Le Cheese Rolling",
     "answer3": "Le Hockey",
     "answerIndex": "1"
   },
   {
-    "question": "Quel club de foot était champion d'Angleterre lors de la saison 2011/2012?",
+    "question": "Quel club de foot était champion d'Angleterre lors de la saison 2015/2016?",
     "answer0": "Chelsea",
     "answer1": "Leicester",
     "answer2": "Manchester United",
@@ -128,7 +128,7 @@
     "answerIndex": "1"
   },
   {
-    "question": "En quelle année la Reine Elizabeth a-t-elle célébré son jubilée de diamant pour ses 60 de reigne?",
+    "question": "En quelle année la Reine Elizabeth a-t-elle célébré son jubilée de diamant pour ses 60 ans de reigne?",
     "answer0": "1956",
     "answer1": "2012",
     "answer2": "1982",
@@ -169,7 +169,7 @@
   },
   {
     "question": "Quel jour a lieu le Boxing Day?",
-    "answer0": "le jour quand Joshua a un match de boxe",
+    "answer0": "Le jour où Anthony Joshua combat",
     "answer1": "Noël",
     "answer2": "26 decembre",
     "answer3": "21 septembre",
@@ -257,14 +257,14 @@
   },
   {
     "question": "Dans la série Doctor Who, quel gadget se trouve toujours dans la poche du Docteur?",
-    "answer0": "stylo électrique",
-    "answer1": "boussole électronique",
-    "answer2": "tournevis supersonique",
-    "answer3": "taille-crayon acceleré",
+    "answer0": "Stylo électrique",
+    "answer1": "Boussole électronique",
+    "answer2": "Tournevis supersonique",
+    "answer3": "Taille-crayon acceleré",
     "answerIndex": "2"
   },
   {
-    "question": "En moyenne, combien y a t-il de jours de pluie par an en Angleterre?",
+    "question": "En moyenne, combien y a t-il de jours de pluie par ans en Angleterre?",
     "answer0": "206 jours",
     "answer1": "56 jours",
     "answer2": "106 jours",
@@ -344,7 +344,7 @@
     "answerIndex": "0"
   },
   {
-    "question": "Quel artist a dessiner une fille avec un ballon rouge dans une des rues de Londres?",
+    "question": "Quel artiste a dessiné une fille avec un ballon rouge dans une des rues de Londres?",
     "answer0": "Inkie",
     "answer1": "Andy Warhol",
     "answer2": "Banksy",

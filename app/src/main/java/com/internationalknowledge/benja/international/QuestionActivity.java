@@ -64,6 +64,11 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     private AdView mAdView;
     private InterstitialAd mInterstitialAd;
 
+    TextView questionNumber;
+    int questionNumero = 1;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -90,6 +95,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         mInterstitialAd.setAdUnitId("ca-app-pub-7146853836816464/4055356048");
         mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
+        questionNumber = findViewById(R.id.questionNumber);
 
         Intent intent = getIntent();
         int number = intent.getIntExtra("countryFlag", 0);
@@ -144,7 +150,12 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         if (str.equals("Spain") && language.equals("English")) {
             mQuestionBank = this.get_json_spain_en();
         }
-
+        if (str.equals("China") && language.equals("Français")) {
+            mQuestionBank = this.get_json_china();
+        }
+        if (str.equals("China") && language.equals("English")) {
+            mQuestionBank = this.get_json_china_en();
+        }
 
         if (savedInstanceState != null) {
             mScore = savedInstanceState.getInt(BUNDLE_STATE_SCORE);
@@ -232,7 +243,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             // Wrong answer
         }
 
-
         mEnableTouchEvents = false;
 
         new Handler().postDelayed(new Runnable() {
@@ -247,7 +257,9 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                     // End the game
                     endGame();
                 } else {
+                    questionNumero++;
                     mCurrentQuestion = mQuestionBank.getQuestion();
+                    questionNumber.setText(questionNumero + "/10");
                     displayQuestion(mCurrentQuestion);
                     mAnswerButton4.setBackgroundResource(R.drawable.rounder_cornes_questions1);
                     mAnswerButton3.setBackgroundResource(R.drawable.rounder_cornes_questions1);
@@ -553,6 +565,55 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         String json;
         try {
             InputStream is = getAssets().open("england.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+    public QuestionBank get_json_china() {
+        String json;
+        try {
+            InputStream is = getAssets().open("ch_fr.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }  public QuestionBank get_json_china_en() {
+        String json;
+        try {
+            InputStream is = getAssets().open("ch_en.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);

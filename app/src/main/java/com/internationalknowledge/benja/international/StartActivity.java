@@ -45,7 +45,7 @@ public class StartActivity extends AppCompatActivity {
         moreApps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri uri = Uri.parse("http://www.instagram.com/international_knowledge_quiz/"); // missing 'http://' will cause crashed
+                Uri uri = Uri.parse("http://www.instagram.com/blitzzerentreprises/"); // missing 'http://' will cause crashed
                 Intent intent = new Intent(Intent.ACTION_VIEW, uri);
                 startActivity(intent);
             }

@@ -45,11 +45,12 @@ public class StatsActivity extends AppCompatActivity {
         String usaPourcentage = prefs.getString("usa_pourcentage", "N/A");
         String spainPourcentage = prefs.getString("spain_pourcentage", "N/A");
         String indiaPourcentage = prefs.getString("india_pourcentage", "N/A");
+        String chinaPourcentage = prefs.getString("china_pourcentage", "N/A");
 
 
-        String[] statsList = {englandPourcentage, francePourcentage, usaPourcentage, indiaPourcentage, spainPourcentage};
-        String[] arrayCountries = {"England", "France", "USA", "India", "Spain"};
-        int[] arrayFlags = {R.drawable.gb, R.drawable.fr, R.drawable.us, R.drawable.in, R.drawable.es};
+        String[] statsList = {englandPourcentage, francePourcentage, usaPourcentage, indiaPourcentage, spainPourcentage, chinaPourcentage};
+        String[] arrayCountries = {"England", "France", "USA", "India", "Spain","China"};
+        int[] arrayFlags = {R.drawable.gb, R.drawable.fr, R.drawable.us, R.drawable.in, R.drawable.es,R.drawable.cn};
 
 
         recyclerView = findViewById(R.id.recyclerView);

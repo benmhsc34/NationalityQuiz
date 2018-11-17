@@ -1,0 +1,387 @@
+﻿[
+  {
+    "question": "Which foreign religion has flourished in China?",
+    "answer0": "Taoism",
+    "answer1": "Legalism",
+    "answer2": "Shinto",
+    "answer3": "Buddhism",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which dynasty corresponds to the golden age of China?",
+    "answer0": "Qing dynasty",
+    "answer1": "Tang dynasty",
+    "answer2": "Sui dynasty",
+    "answer3": "Han dynasty",
+    "answerIndex": "1"
+  },
+  {
+    "question": "China is the:",
+    "answer0": "4th most populated country",
+    "answer1": "3rd most populated country",
+    "answer2": "2nd most populated country",
+    "answer3": "Most populated country",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which man is considered the father of modern China?",
+    "answer0": "Deng Xiao Ping",
+    "answer1": "Tchang Kaï-chek",
+    "answer2": "Sun Yat-Sen",
+    "answer3": "Yuan Shikai",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the most common surname in China?",
+    "answer0": "Li",
+    "answer1": "Wang",
+    "answer2": "Chen",
+    "answer3": "Yang",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What object fell from the sky and formed the 118 lakes of Jiuzhaigou?",
+    "answer0": "A glass of water",
+    "answer1": "A mirror",
+    "answer2": "A bowl of rice",
+    "answer3": "A Handheld fan",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is unique in Dong culture?",
+    "answer0": "They flee from all foreigners",
+    "answer1": "They do not eat vegetables",
+    "answer2": "They do not have a written language",
+    "answer3": "They do not sing",
+    "answerIndex": "2"
+  },
+  {
+    "question": "The first Mcdonald's to open in China was in:",
+    "answer0": "1970",
+    "answer1": "1980",
+    "answer2": "1990",
+    "answer3": "2000",
+    "answerIndex": "2"
+  },
+  {
+    "question": "In Yunnan Province, what are the Cormorants trained to do?",
+    "answer0": "Catch fish",
+    "answer1": "Alert in case of fire",
+    "answer2": "Collect objects",
+    "answer3": "Keeping flocks of sheep",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Which ingredient is used to fight disease?",
+    "answer0": "Kiwi",
+    "answer1": "licorice",
+    "answer2": "Strawberries",
+    "answer3": "Sugar",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What do pandas generally eat?",
+    "answer0": "Nuts",
+    "answer1": "Bamboo",
+    "answer2": "Meat",
+    "answer3": "Fish",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is considered a sign of good fortune in China?",
+    "answer0": "A panda",
+    "answer1": "A Lotus flower",
+    "answer2": "A dragon",
+    "answer3": "The color white",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the capital of China?",
+    "answer0": "Hong-Kong",
+    "answer1": "Beijing",
+    "answer2": "Nankin",
+    "answer3": "Macao",
+    "answerIndex": "1"
+  },
+  {
+    "question": "In surface area, China is the:",
+    "answer0": "biggest country",
+    "answer1": "2nd biggest country",
+    "answer2": "3rd biggest country",
+    "answer3": "4th biggest country",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What event took place in 2008 in China?",
+    "answer0": "The FIFA World Cup",
+    "answer1": "The Olympic Games",
+    "answer2": "World Expo",
+    "answer3": "A tennis grand slam",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the name of the Chinese head of state (2018)?",
+    "answer0": "Jiang Zemin",
+    "answer1": "Tao Chang",
+    "answer2": "Hu Jintao",
+    "answer3": "Xi Jinping",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What is the other name of the Republic of China?",
+    "answer0": "Bhoutan",
+    "answer1": "Taiwan",
+    "answer2": "Laos",
+    "answer3": "Bengal",
+    "answerIndex": "1"
+  },
+  {
+    "question": "In which year was the People's Republic of China created?",
+    "answer0": "1929",
+    "answer1": "1949",
+    "answer2": "1979",
+    "answer3": "1989",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Which country does not border with China?",
+    "answer0": "Russia",
+    "answer1": "Cambodia",
+    "answer2": "Pakistan",
+    "answer3": "North Korea",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the approximate population of China?",
+    "answer0": "1 billion",
+    "answer1": "800 million",
+    "answer2": "1,1 billion",
+    "answer3": "1,4 billion",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What is the density of the population?",
+    "answer0": "136/km²",
+    "answer1": "16/km²",
+    "answer2": "86/km²",
+    "answer3": "216/km²",
+    "answerIndex": "0"
+  },
+  {
+    "question": "How many Chinese cities have more than 10 million inhabitants?",
+    "answer0": "1",
+    "answer1": "3",
+    "answer2": "5",
+    "answer3": "12",
+    "answerIndex": "2"
+  },
+  {
+    "question": "When was the current Chinese Constitution created?",
+    "answer0": "4 December 1982",
+    "answer1": "26 February 1987",
+    "answer2": "18 August 1968",
+    "answer3": "25 July 1998",
+    "answerIndex": "0"
+  },
+  {
+    "question": "For how long is the Chinese president elected?",
+    "answer0": "7 years",
+    "answer1": "5 years",
+    "answer2": "9 years",
+    "answer3": "12 years",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the Chinese National Day?",
+    "answer0": "June 18th",
+    "answer1": "July 22nd",
+    "answer2": "October 1st",
+    "answer3": "December 3rd",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Which bank holiday celebrates the foundation of the Chinese Communist Party?",
+    "answer0": "June 12th",
+    "answer1": "July 1st",
+    "answer2": "September 24th",
+    "answer3": "November 13th",
+    "answerIndex": "1"
+  },
+  {
+    "question": "In which year did China finish 1st for the first time in the Olympics?",
+    "answer0": "2000",
+    "answer1": "2004",
+    "answer2": "2008",
+    "answer3": "2012",
+    "answerIndex": "2"
+  },
+  {
+    "question": "When did Confucius live?",
+    "answer0": "6th century BC",
+    "answer1": "2nd century",
+    "answer2": "10th century",
+    "answer3": "17th century",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Nanjing was:",
+    "answer0": "The ancient capital of southern China",
+    "answer1": "The old name of Canton",
+    "answer2": "The city where Nanjing fabric was made",
+    "answer3": "The biggest port in the country",
+    "answerIndex": "0"
+  },
+  {
+    "question": "In which century did the Chinese invent Pulp (paper)?",
+    "answer0": "1st century",
+    "answer1": "2nd century",
+    "answer2": "5th century",
+    "answer3": "6th century",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What year did Mao Zedong seize power?",
+    "answer0": "1955",
+    "answer1": "1949",
+    "answer2": "1933",
+    "answer3": "1945",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the total length of China's high-speed line network?",
+    "answer0": "5000km",
+    "answer1": "15000km",
+    "answer2": "25000km",
+    "answer3": "30000km",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the longest river in China?",
+    "answer0": "Amour",
+    "answer1": "Yellow River",
+    "answer2": "Mekong",
+    "answer3": "Yangtze",
+    "answerIndex": "3"
+  },
+  {
+    "question": "In which city did the 2010 World Expo take place?",
+    "answer0": "Beijing",
+    "answer1": "Hong-Kong",
+    "answer2": "Shanghai",
+    "answer3": "Canton",
+    "answerIndex": "2"
+  },
+  {
+    "question": "In which year did China participate for the first time in the summer Olympics?",
+    "answer0": "1974",
+    "answer1": "1984",
+    "answer2": "1994",
+    "answer3": "2004",
+    "answerIndex": "1"
+  },
+  {
+    "question": "When was the last world exhibition in China?",
+    "answer0": "2001",
+    "answer1": "2005",
+    "answer2": "2010",
+    "answer3": "2016",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the official language of the country?",
+    "answer0": "Mandarin",
+    "answer1": "Cantonese",
+    "answer2": "Xiang",
+    "answer3": "Wu",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Where is the Chinese population concentrated?",
+    "answer0": "The West",
+    "answer1": "The East",
+    "answer2": "The South",
+    "answer3": "The North",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What is the name of the palace in the center of Beijing?",
+    "answer0": "The Royal Palace",
+    "answer1": "The Imperial Palace",
+    "answer2": "The Forbidden City",
+    "answer3": "The city of gold",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Which construction was thought to be visible from the Moon?",
+    "answer0": "Summer Palace in Beijing",
+    "answer1": "The big Buddha of Hong Kong",
+    "answer2": "The Temple of Heaven",
+    "answer3": "The Great Wall of China",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which of these inventions does not come from Chinese civilization?",
+    "answer0": "Compass",
+    "answer1": "Wheel",
+    "answer2": "Paper",
+    "answer3": "Silk",
+    "answerIndex": "1"
+  },
+  {
+    "question": "In which natural area do we mainly grow rice?",
+    "answer0": "Mountainous",
+    "answer1": "Arid",
+    "answer2": "Tropical",
+    "answer3": "Tempered",
+    "answerIndex": "2"
+  },
+  {
+    "question": "In which natural area do we mainly grow corn?",
+    "answer0": "Mountainous",
+    "answer1": "Arid",
+    "answer2": "Tropical",
+    "answer3": "Tempered",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Which facility provides 2% of the Chinese energy?",
+    "answer0": "Wind turbines in the desert",
+    "answer1": "A nuclear power plant on the Yangtze River",
+    "answer2": "An oil platform in the China Sea",
+    "answer3": "The Three Gorges Dam",
+    "answerIndex": "3"
+  },
+  {
+    "question": "What is the country telephone code for China?",
+    "answer0": "+33",
+    "answer1": "+21",
+    "answer2": "+86",
+    "answer3": "+41",
+    "answerIndex": "2"
+  },
+  {
+    "question": "What is the currency of the People's Republic of China?",
+    "answer0": "Chinese dollar",
+    "answer1": "Yuan",
+    "answer2": "Yen",
+    "answer3": "Won",
+    "answerIndex": "1"
+  },
+  {
+    "question": "How many signs are there in the Chinese horoscope?",
+    "answer0": "8",
+    "answer1": "12",
+    "answer2": "14",
+    "answer3": "18",
+    "answerIndex": "1"
+  },
+  {
+    "question": "What colour was Mao's little book?",
+    "answer0": "Red",
+    "answer1": "Green",
+    "answer2": "Blue",
+    "answer3": "Black",
+    "answerIndex": "0"
+  }
+
+]

@@ -18,7 +18,7 @@
 "answer1" : "Brahmans",
 "answer2" : "Veda",
 "answer3" : "Buddhist",
-"answerIndex" : "2"
+"answerIndex" : "1"
 },
 {"question" : "What existing bloodthirsty sect did Indiana Jones fight against in the Temple of Doom?",
 "answer0" : "The Thugs",
@@ -282,7 +282,7 @@
 },
 {"question" : "What is the most popular means of transportation in Mumbai?",
 "answer0" : "Trains",
-"answer1" : "Motorbikes",
+"answer1" : "Bikes",
 "answer2" : "Taxis",
 "answer3" : "Camels",
 "answerIndex" : "0"

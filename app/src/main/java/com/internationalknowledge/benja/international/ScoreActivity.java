@@ -35,6 +35,9 @@ public class ScoreActivity extends AppCompatActivity {
         TextView pourcentageNumberTV = findViewById(R.id.pourcentageNumberTV);
         ImageView imageView = findViewById(R.id.Logo);
         RelativeLayout relativeLayout = findViewById(R.id.relativeLayoutMain);
+        TextView tapAnywhere = findViewById(R.id.tapAnywhere);
+
+        tapAnywhere.setText(R.string.tapAnywhere);
 
         MobileAds.initialize(this, "ca-app-pub-7146853836816464~9147761003");
         mInterstitialAd = new InterstitialAd(this);
@@ -102,6 +105,13 @@ public class ScoreActivity extends AppCompatActivity {
                 prefs.edit().putString("india_pourcentage", indiaPourcentage).apply();
                 pourcentageNumberTV.setText(indiaPourcentage);
                 break;
+            case "China":
+                float china_games = prefs.getInt("china_games", -1);
+                float china_score = prefs.getInt("china_score", 0);
+                String chinaPourcentage = Math.round(china_score / china_games * 10) + "%";
+                prefs.edit().putString("china_pourcentage", chinaPourcentage).apply();
+                pourcentageNumberTV.setText(chinaPourcentage);
+                break;
         }
 
         imageView.setImageResource(image);
@@ -109,7 +119,7 @@ public class ScoreActivity extends AppCompatActivity {
 
         yourScore.setText(R.string.youScored);
 
-        pourcentageTV.setText(getString(R.string.percentage) + country + getString(R.string.isNow));
+        pourcentageTV.setText(getString(R.string.percentage) + " " + country + getString(R.string.isNow));
 
         scoreNumberTV.setText(Integer.toString(score));
 
