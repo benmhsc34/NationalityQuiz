@@ -115,7 +115,6 @@
                         android:layout_weight="1"
                         android:background="@drawable/rounder_cornes_questions1"
                         android:fontFamily="sans-serif-smallcaps"
-                        android:text="@string/moreAppsButton"
                         android:textColor="#000"
                         android:textSize="20sp"
                         android:textStyle="bold" />

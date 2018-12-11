@@ -12,12 +12,12 @@
     <string name="prettyAmazzing">Pas mal!</string>
     <string name="wellDone">Bien joué</string>
     <string name="solidStuff">Plutôt solide</string>
-    <string name="cdbcdw">Peux faire mieux,  peux faire mire</string>
+    <string name="cdbcdw">Peux faire mieux, peux faire pire</string>
     <string name="ciot">Tu peux t\'améliorer</string>
     <string name="itycdb">Je sais que tu peux faire mieux</string>
-    <string name="ysnalow">T\'as encore besoin de beaucoup d\'entrainement</string>
+    <string name="ysnalow">Tu as encore besoin de beaucoup d\'entrainement</string>
     <string name="ikyabtt">Je sais que tu es plus fort que ça</string>
-    <string name="dyet">T\'as vraiment essayé?</string>
+    <string name="dyet">Tu as vraiment essayé?</string>
     <string name="youScored">Tu as eu:</string>
     <string name="tapAnywhere">CLIQUE POUR PASSER</string>
 </resources>

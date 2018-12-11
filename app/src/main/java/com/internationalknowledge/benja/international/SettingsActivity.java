@@ -11,6 +11,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 import static com.internationalknowledge.benja.international.QuestionActivity.MY_PREFS_NAME;
 
@@ -24,6 +25,13 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
         setContentView(R.layout.activity_settings);
 
         Button resetButton = findViewById(R.id.resetButton);
+
+
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+        int flags = prefs.getInt("flags", 0);
+
+        TextView yinYang = findViewById(R.id.yinYang);
+        yinYang.setText(flags + " ☯");
 
         resetButton.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("CommitPrefEdits")
@@ -52,7 +60,6 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
         spinner.setOnItemSelectedListener(this);
 
 
-        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         int position = prefs.getInt("position", 0);
         spinner.setSelection(position, true);
     }

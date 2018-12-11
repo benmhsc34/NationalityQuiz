@@ -11,34 +11,44 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/backButton"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:background="@drawable/round_button"
-        android:textColor="#000"
-        android:textAlignment="center"
-        android:layout_alignParentTop="true"
-        android:layout_margin="5dp"
-        android:textStyle="bold"
-        android:paddingLeft="7dp"
-        android:textSize="30sp"
-        android:paddingStart="7dp"
-        android:paddingBottom="2dp"
-        tools:ignore="RtlSymmetry" />
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/round_button"
+            android:paddingStart="7dp"
+            android:paddingLeft="7dp"
+            android:paddingBottom="2dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            tools:ignore="RtlSymmetry" />
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/recyclerView"
-        android:layout_below="@+id/backButton"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/yinYang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:padding="5dp"
+            android:textColor="#FFF"
+            android:textSize="40sp" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/backButton" />
     </RelativeLayout>
+
     <TextView
         android:layout_width="60dp"
         android:layout_height="45dp"
+        android:gravity="center"
         android:text=" ← "
         android:textColor="#000"
-        android:textSize="30sp"
-        android:gravity="center"/>
+        android:textSize="30sp" />
 </android.support.constraint.ConstraintLayout>
 

@@ -64,6 +64,7 @@
         </RelativeLayout>
 
         <RelativeLayout
+            android:id="@+id/RL2"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_below="@+id/RL1"
@@ -90,6 +91,38 @@
                 android:layout_centerVertical="true"
                 android:layout_marginEnd="10dp"
                 android:text="Reset" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/RL2"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/rounder_cornes_questions1">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/lato"
+                android:text="Yin yangs"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/yinYang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="10dp"
+                android:text="0 ☯"
+                android:textColor="#000"
+                android:textSize="30sp" />
 
         </RelativeLayout>
     </RelativeLayout>

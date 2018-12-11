@@ -68,8 +68,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     int questionNumero = 1;
 
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -155,6 +153,18 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         if (str.equals("China") && language.equals("English")) {
             mQuestionBank = this.get_json_china_en();
+        }
+        if (str.equals("Canada") && language.equals("Français")) {
+            mQuestionBank = this.get_json_canada();
+        }
+        if (str.equals("Canada") && language.equals("English")) {
+            mQuestionBank = this.get_json_canada_en();
+        }
+        if (str.equals("Brazil") && language.equals("English")) {
+            mQuestionBank = this.get_json_brazil_en();
+        }
+        if (str.equals("Brazil") && language.equals("Français")) {
+            mQuestionBank = this.get_json_brazil_fr();
         }
 
         if (savedInstanceState != null) {
@@ -386,14 +396,24 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
                 editor.apply();
                 break;
             }
-            case "Australia": {
+            case "Canada": {
 
-                int games = prefs.getInt("australia_games", 0);
-                int score = prefs.getInt("australia_score", 0);
+                int games = prefs.getInt("canada_games", 0);
+                int score = prefs.getInt("canada_score", 0);
 
                 SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-                editor.putInt("australia_score", score + mScore);
-                editor.putInt("australia_games", games + 1);
+                editor.putInt("canada_score", score + mScore);
+                editor.putInt("canada_games", games + 1);
+                editor.apply();
+                break;
+            }  case "Brazil": {
+
+                int games = prefs.getInt("brazil_games", 0);
+                int score = prefs.getInt("brazil_score", 0);
+
+                SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                editor.putInt("brazil_score", score + mScore);
+                editor.putInt("brazil_games", games + 1);
                 editor.apply();
                 break;
             }
@@ -586,6 +606,7 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         }
         return new QuestionBank(questionList);
     }
+
     public QuestionBank get_json_china() {
         String json;
         try {
@@ -610,7 +631,9 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
             e.printStackTrace();
         }
         return new QuestionBank(questionList);
-    }  public QuestionBank get_json_china_en() {
+    }
+
+    public QuestionBank get_json_china_en() {
         String json;
         try {
             InputStream is = getAssets().open("ch_en.json");
@@ -770,6 +793,108 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         String json;
         try {
             InputStream is = getAssets().open("esp_en.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+    public QuestionBank get_json_brazil_en() {
+        String json;
+        try {
+            InputStream is = getAssets().open("bresil_en.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+    public QuestionBank get_json_brazil_fr() {
+        String json;
+        try {
+            InputStream is = getAssets().open("bresil_fr.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+
+    public QuestionBank get_json_canada_en() {
+        String json;
+        try {
+            InputStream is = getAssets().open("can_en.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+
+            json = new String(buffer, "UTF-8");
+            JSONArray jsonArray = new JSONArray(json);
+            for (int i = 0; i < jsonArray.length(); i++) {
+                JSONObject obj = jsonArray.getJSONObject(i);
+                Question theQuestion = new Question(obj.getString("question"), Arrays.asList(obj.getString("answer0"), obj.getString("answer1"), obj.getString("answer2"), obj.getString("answer3")), obj.getInt("answerIndex"));
+                questionList.add(theQuestion);
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        return new QuestionBank(questionList);
+    }
+
+    public QuestionBank get_json_canada() {
+        String json;
+        try {
+            InputStream is = getAssets().open("can_fr.json");
             int size = is.available();
             byte[] buffer = new byte[size];
             is.read(buffer);

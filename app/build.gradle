@@ -6,8 +6,8 @@ android {
         applicationId "com.internationalknowledge.benja.international"
         minSdkVersion 17
         targetSdkVersion 28
-        versionCode 8
-        versionName "1.7"
+        versionCode 12
+        versionName "1.11.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         lintOptions {
 
@@ -38,6 +38,9 @@ dependencies {
     implementation 'com.google.firebase:firebase-core:16.0.0'
     implementation 'com.google.firebase:firebase-ads:15.0.1'
     implementation 'com.anjlab.android.iab.v3:library:1.0.44'
+
+    implementation 'pl.droidsonroids.gif:android-gif-drawable:1.2.+'
+
 
 
 }

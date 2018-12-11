@@ -1,11 +1,13 @@
 package com.internationalknowledge.benja.international;
 
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 import com.internationalknowledge.benja.international.Utils.ListItem;
 import com.internationalknowledge.benja.international.Utils.MyAdapter;
@@ -13,11 +15,13 @@ import com.internationalknowledge.benja.international.Utils.MyAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
+import static com.internationalknowledge.benja.international.QuestionActivity.MY_PREFS_NAME;
+
 
 public class MainActivity extends AppCompatActivity {
 
-    String datesList[] = {"England", "France", "USA", "India","Spain","China"};
-    Integer flagList[] = {R.drawable.gb, R.drawable.fr, R.drawable.us,R.drawable.in,R.drawable.es,R.drawable.cn};
+    String datesList[] = {"Brazil", "Canada","England", "France", "USA", "India","Spain","China"};
+    Integer flagList[] = {R.drawable.br, R.drawable.ca,R.drawable.gb, R.drawable.fr, R.drawable.us,R.drawable.in,R.drawable.es,R.drawable.cn};
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
@@ -28,6 +32,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        TextView yinYang = findViewById(R.id.yinYang);
+
+        SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
+
+        int flags =  prefs.getInt("flags", 0);
+        yinYang.setText(flags + " ☯");
 
         Button backButton = findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {

@@ -1,0 +1,250 @@
+﻿[
+  {
+    "question": "Quelle est la capitale du Brésil?",
+    "answer0": "Salvador",
+    "answer1": "Sao Paulo",
+    "answer2": "Rio de Janeiro",
+    "answer3": "Brasilia",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quel est le plat traditionnel du Brésil?",
+    "answer0": "Les pâtes",
+    "answer1": "La paëlla",
+    "answer2": "La feijoada",
+    "answer3": "la bacalhau",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Combien de fois le Brésil a gagné la Coupe du Monde de football?",
+    "answer0": "2",
+    "answer1": "3",
+    "answer2": "4",
+    "answer3": "5",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quelles sont les couleurs du drapeau du Brésil?",
+    "answer0": "Bleu, Blanc, Rouge",
+    "answer1": "Blanc,Jaune",
+    "answer2": "Blanc, Jaune, Bleu, Vert",
+    "answer3": "Jaune, Bleu, Vert",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Qui est Ivete Sangalo:",
+    "answer0": "Une artiste",
+    "answer1": "Une chanteuse",
+    "answer2": "Une sportive",
+    "answer3": "Une femme politique",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Qui est Luis Fernando Verissimo:",
+    "answer0": "Un sportif",
+    "answer1": "Un joueur de poker",
+    "answer2": "Un acteur",
+    "answer3": "Un écrivain",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Qu’est ce qu’un/une Brahma?",
+    "answer0": "Un parfum",
+    "answer1": "Une bière",
+    "answer2": "Un café",
+    "answer3": "Une série télévisée",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel personnage de Disney représente le Brésil?",
+    "answer0": "Zé Carioca",
+    "answer1": "Mickey",
+    "answer2": "Oncle Picsou",
+    "answer3": "Pluto",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel est le jour de l’indépendance du Brésil?",
+    "answer0": "25 août",
+    "answer1": "12 juillet",
+    "answer2": "7 septembre",
+    "answer3": "3 mai",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Sur quel sommet se trouve la statue du Christ Rédempteur?",
+    "answer0": "Corcovado",
+    "answer1": "Pico da Neblina",
+    "answer2": "Pedra da Gavea",
+    "answer3": "Pedra da Mina",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Parmis ces pays, lequel n’a pas de frontière avec avec le Brésil?",
+    "answer0": "Argentine",
+    "answer1": "Bolivie",
+    "answer2": "Colombie",
+    "answer3": "Chili",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quelle viande est utilisée dans la feijoada?",
+    "answer0": "Boeuf",
+    "answer1": "Agneau",
+    "answer2": "Poulet",
+    "answer3": "Porc",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Comment s’appelle la monnaie utilisée au Brésil?",
+    "answer0": "Le lek",
+    "answer1": "Le réal",
+    "answer2": "Le pula",
+    "answer3": "La livre",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quelle est la plage la plus célèbre au Brésil?",
+    "answer0": "Cueira",
+    "answer1": "Copacabana",
+    "answer2": "Baia do Espelho",
+    "answer3": "Patacho",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quel groupe sortie la musique Samba de Janeiro?",
+    "answer0": "Bellini",
+    "answer1": "Belline",
+    "answer2": "Bellina",
+    "answer3": "Bellino",
+    "answerIndex": "0"
+  },
+  {
+    "question": "La principale religion au Brésil est?",
+    "answer0": "Hindouisme",
+    "answer1": "Islamisme",
+    "answer2": "Bouddhisme",
+    "answer3": "Catholicisme",
+    "answerIndex": "3"
+  },
+  {
+    "question": "La langue officielle est:",
+    "answer0": "L’anglais",
+    "answer1": "Le portugais",
+    "answer2": "Le français",
+    "answer3": "L’espagnol",
+    "answerIndex": "1"
+  },
+  {
+    "question": "L’océan qui borde le Brésil est:",
+    "answer0": "L’Océan Atlantique",
+    "answer1": "L’Océan Indien",
+    "answer2": "L’Océan Pacifique",
+    "answer3": "L’Océan Arctique",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quelle forêt recouvre principalement le Brésil?",
+    "answer0": "La Taïga",
+    "answer1": "L’Amazonie",
+    "answer2": "La Forêt de Gola",
+    "answer3": "L’Adela",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Combien d’état comporte le Brésil?",
+    "answer0": "12",
+    "answer1": "20",
+    "answer2": "26",
+    "answer3": "32",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Comment s’appellent les séries télévisées au Brésil?",
+    "answer0": "Teleserias",
+    "answer1": "Telefavoritas",
+    "answer2": "Telenovelas",
+    "answer3": "Telenuevas",
+    "answerIndex": "2"
+  },
+  {
+    "question": "La population totale du Brésil (en 2017) est de:",
+    "answer0": "350 millions d’habitants",
+    "answer1": "210 millions d’habitants",
+    "answer2": "180 millions d’habitants",
+    "answer3": "160 millions d’habitants",
+    "answerIndex": "1"
+  },
+  {
+    "question": "En quelle année fut votée la loi contre l’esclavage?",
+    "answer0": "1848",
+    "answer1": "1888",
+    "answer2": "1928",
+    "answer3": "1968",
+    "answerIndex": "1"
+  },
+  {
+    "question": "Quelle est la devise national?",
+    "answer0": "Todos Iguales",
+    "answer1": "El Exito y el Progreso",
+    "answer2": "Ordem e progresso",
+    "answer3": "Tudo bem",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Quel est l’indicatif téléphonique du Brésil?",
+    "answer0": "+86",
+    "answer1": "+48",
+    "answer2": "+33",
+    "answer3": "+55",
+    "answerIndex": "3"
+  },
+  {
+    "question": "Quelle est la ville la plus peuplé du Brésil?",
+    "answer0": "Sao Paulo",
+    "answer1": "Rio de Janeiro",
+    "answer2": "Salvador da Bahia",
+    "answer3": "Brasilia",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Quel est le plus grand stade de football?",
+    "answer0": "Maracana",
+    "answer1": "Mineirao",
+    "answer2": "Joao Havelange",
+    "answer3": "Castelao",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Qui sera président du Brésil en 2019?",
+    "answer0": "Jair Bolsonaro",
+    "answer1": "Michel Temer",
+    "answer2": "Dilma Rousseff",
+    "answer3": "Geraldo Alckmin",
+    "answerIndex": "0"
+  },
+  {
+    "question": "Combien de pays sont plus grands que le Brésil?",
+    "answer0": "2",
+    "answer1": "3",
+    "answer2": "4",
+    "answer3": "5",
+    "answerIndex": "2"
+  },
+  {
+    "question": "Pour combien Neymar Jr a-t-il était acheté du FC Barcelone?",
+    "answer0": "2 milliard",
+    "answer1": "22 million",
+    "answer2": "222 million",
+    "answer3": "2 million",
+    "answerIndex": "2"
+  },
+  {
+    "question": "En quelle année Rio a accueilli les Jeux Olympiques d’été?",
+    "answer0": "2004",
+    "answer1": "2008",
+    "answer2": "2012",
+    "answer3": "2016",
+    "answerIndex": "3"
+  }
+]

@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextClock;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
@@ -36,6 +37,10 @@ public class ScoreActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.Logo);
         RelativeLayout relativeLayout = findViewById(R.id.relativeLayoutMain);
         TextView tapAnywhere = findViewById(R.id.tapAnywhere);
+        TextView perfectScorePresent = findViewById(R.id.perfectScorePresent);
+
+        perfectScorePresent.setText("");
+
 
         tapAnywhere.setText(R.string.tapAnywhere);
 
@@ -112,6 +117,20 @@ public class ScoreActivity extends AppCompatActivity {
                 prefs.edit().putString("china_pourcentage", chinaPourcentage).apply();
                 pourcentageNumberTV.setText(chinaPourcentage);
                 break;
+            case "Canada":
+                float canada_games = prefs.getInt("canada_games", -1);
+                float canada_score = prefs.getInt("canada_score", 0);
+                String canadaPourcentage = Math.round(canada_score / canada_games * 10) + "%";
+                prefs.edit().putString("canada_pourcentage", canadaPourcentage).apply();
+                pourcentageNumberTV.setText(canadaPourcentage);
+                break;
+            case "Brazil":
+                float brazil_games = prefs.getInt("brazil_games", -1);
+                float brazil_score = prefs.getInt("brazil_score", 0);
+                String brazilPourcentage = Math.round(brazil_score / brazil_games * 10) + "%";
+                prefs.edit().putString("brazil_pourcentage", brazilPourcentage).apply();
+                pourcentageNumberTV.setText(brazilPourcentage);
+                break;
         }
 
         imageView.setImageResource(image);
@@ -125,6 +144,17 @@ public class ScoreActivity extends AppCompatActivity {
 
         if (score == 10) {
             scoreTV.setText(R.string.amazing);
+
+
+
+            perfectScorePresent.setText("+10 ☯");
+
+            int flags =  prefs.getInt("flags", 0);
+
+            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+            editor.putInt("flags", flags + 10);
+            editor.apply();
+
         } else if (score == 9) {
             scoreTV.setText(R.string.prettyAmazing);
         } else if (score == 8) {

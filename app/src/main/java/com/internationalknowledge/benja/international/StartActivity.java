@@ -19,11 +19,7 @@ import static com.internationalknowledge.benja.international.QuestionActivity.MY
 
 public class StartActivity extends AppCompatActivity {
 
-  //  BillingProcessor bp;
-
-  // Button iab;
-   Button rateUs;
-   Button moreApps;
+    Button rateUs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,34 +37,25 @@ public class StartActivity extends AppCompatActivity {
             }
         });
 
-        moreApps = findViewById(R.id.moreAppsButton);
+        Button moreApps = findViewById(R.id.moreAppsButton);
+        moreApps.setText("Get more ☯");
+
         moreApps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri uri = Uri.parse("http://www.instagram.com/blitzzerentreprises/"); // missing 'http://' will cause crashed
-                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                startActivity(intent);
+                Intent myIntent = new Intent(StartActivity.this, YenActivity.class);
+                StartActivity.this.startActivity(myIntent);
             }
         });
 
 
-     /*   iab = findViewById(R.id.moreAppsButton);
 
-        bp = new BillingProcessor(this, "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgnoVr2BZRaK8MvLo3XGNvHvQOyC7NBmuMaSy/TLfISiNL/tpbtX1Exijv4ZH/bmDw6l4bp3KLV0Idr5594owHAx7C7/7yyWuslzMRm588Qd8OBuB9C7+vDGR5qywG9+cJIQCrmufZqIoks/tSo+3HCevewNXc9AsMbSMFNOuyv/NPTFbtYBVVUc71YldkCMDr1BT0OglGhPb02noyp544BJOuduHcOa/DbRKnbZdPdS9c1lgSKTttNx2GQWFYbiGgV5CsbspIzlHDkVxFbhGfSEIczz3AgpnrCL9MSh3Gt6UuPz77VS2f9o3Ao0i5slTRR7zZZNltVMDi2eNbQGe3QIDAQAB", this);
 
-        iab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                bp.purchase(StartActivity.this, "android.test.purchased");
-            }
-        });
-*/
 
-                Button playButton = findViewById(R.id.playButton);
+        Button playButton = findViewById(R.id.playButton);
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Button playButton = findViewById(R.id.playButton);
 
                 Intent myIntent = new Intent(StartActivity.this, MainActivity.class);
                 StartActivity.this.startActivity(myIntent);
@@ -97,47 +84,5 @@ public class StartActivity extends AppCompatActivity {
 
 
     }
-/*
-    @Override
-    public void onProductPurchased(@NonNull String productId, @Nullable TransactionDetails details) {
-    iab.setText(R.string.moreApps);
-    iab.setOnClickListener(new View.OnClickListener() {
-        @Override
-        public void onClick(View view) {
-            Toast.makeText(StartActivity.this, "More apps from Blitzzer coming very soon", Toast.LENGTH_LONG).show();
-        }
-    });
-    SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-    editor.putString("payment", "OK");
-    editor.apply();
-    }
 
-    @Override
-    public void onPurchaseHistoryRestored() {
-
-    }
-
-    @Override
-    public void onBillingError(int errorCode, @Nullable Throwable error) {
-
-    }
-
-    @Override
-    public void onBillingInitialized() {
-
-    }
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        if (!bp.handleActivityResult(requestCode, resultCode, data)) {
-            super.onActivityResult(requestCode, resultCode, data);
-        }
-    }
-    @Override
-    public void onDestroy() {
-        if (bp != null) {
-            bp.release();
-        }
-        super.onDestroy();
-    }
-    */
 }
