@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
 
     String datesList[] = {"Brazil", "Canada","England", "France", "USA", "India","Spain","China"};
     Integer flagList[] = {R.drawable.br, R.drawable.ca,R.drawable.gb, R.drawable.fr, R.drawable.us,R.drawable.in,R.drawable.es,R.drawable.cn};
+    Integer yensList[] = {100,50,10,0,0,0,0,0};
 
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
@@ -54,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         listItems = new ArrayList<>();
 
         for (int i = 0; i < datesList.length; i++) {
-            ListItem listItemb = new ListItem(flagList[i], datesList[i]);
+            ListItem listItemb = new ListItem(flagList[i], datesList[i], yensList[i]);
 
             listItems.add(listItemb);
         }

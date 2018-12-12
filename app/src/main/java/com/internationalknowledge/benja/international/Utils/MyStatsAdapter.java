@@ -66,7 +66,7 @@ public class MyStatsAdapter extends RecyclerView.Adapter<MyStatsAdapter.ViewHold
             textViewName = itemView.findViewById(R.id.textViewCountryName);
             imageViewFlag = itemView.findViewById(R.id.imageViewCountryFlag);
             relativeLayout = itemView.findViewById(R.id.parent_layout);
-            textViewStats = itemView.findViewById(R.id.textViewStats);
+            textViewStats = itemView.findViewById(R.id.textViewYens);
         }
     }
 }
