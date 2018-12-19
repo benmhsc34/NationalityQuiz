@@ -74,7 +74,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
             });
         }
 
-
         viewHolder.textViewYens.setText(listItem.getYens() + " ☯");
     }
 
