@@ -38,13 +38,14 @@ public class StartActivity extends AppCompatActivity {
         });
 
         Button moreApps = findViewById(R.id.moreAppsButton);
-        moreApps.setText("Get more ☯");
+        moreApps.setText("INSTAGRAM");
 
         moreApps.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(StartActivity.this, YenActivity.class);
-                StartActivity.this.startActivity(myIntent);
+                Uri uri = Uri.parse("http://www.instagram.com/blitzzerentreprises/"); // missing 'http://' will cause crashe
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
             }
         });
 

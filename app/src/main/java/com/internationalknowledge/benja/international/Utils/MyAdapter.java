@@ -45,16 +45,13 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ViewHolder viewHolder, int i) {
+    public void onBindViewHolder(@NonNull final ViewHolder viewHolder, int i) {
         final ListItem listItem = listItems.get(i);
-
-        SharedPreferences prefs = context.getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-        int flags = prefs.getInt("flags", 0);
 
         viewHolder.textViewName.setText(listItem.getName());
         Picasso.with(context).load(listItem.getFlag()).into(viewHolder.imageViewFlag);
 
-        if (flags >= listItem.getYens()) {
+
             viewHolder.relativeLayout.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -65,16 +62,6 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
 
                 }
             });
-        } else if (listItem.getYens() > flags){
-            viewHolder.relativeLayout.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Toast.makeText(context, "You don't have enough yens", Toast.LENGTH_LONG).show();
-                }
-            });
-        }
-
-        viewHolder.textViewYens.setText(listItem.getYens() + " ☯");
     }
 
     @Override

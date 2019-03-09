@@ -35,9 +35,6 @@ public class StatsActivity extends AppCompatActivity {
         TextView yinYang = findViewById(R.id.yinYang);
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
 
-        int flags =  prefs.getInt("flags", 0);
-        yinYang.setText(flags + " ☯");
-
         Button backButton = findViewById(R.id.backButton);
         backButton.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -28,10 +28,6 @@ public class SettingsActivity extends AppCompatActivity implements AdapterView.O
 
 
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-        int flags = prefs.getInt("flags", 0);
-
-        TextView yinYang = findViewById(R.id.yinYang);
-        yinYang.setText(flags + " ☯");
 
         resetButton.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("CommitPrefEdits")

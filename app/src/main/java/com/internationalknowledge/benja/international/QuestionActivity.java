@@ -61,8 +61,6 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
     private boolean mEnableTouchEvents;
     List<Question> questionList = new ArrayList<>();
     String name;
-    private AdView mAdView;
-    private InterstitialAd mInterstitialAd;
 
     TextView questionNumber;
     int questionNumero = 1;
@@ -73,25 +71,10 @@ public class QuestionActivity extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question1);
 
-        MobileAds.initialize(this, "ca-app-pub-7146853836816464~9147761003");
-        AdView adView = new AdView(this);
-        adView.setAdSize(AdSize.BANNER);
-        adView.setAdUnitId("ca-app-pub-7146853836816464/9346113690");
-        mAdView = findViewById(R.id.adView);
-        AdRequest adRequest = new AdRequest.Builder().build();
-        mAdView.loadAd(adRequest);
+
 
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
-        String payment = prefs.getString("payment", "NOT");
-        if (!(payment.equals("OK"))) {
-            mAdView.setVisibility(View.VISIBLE);
 
-        } else {
-            mAdView.setVisibility(View.INVISIBLE);
-        }
-        mInterstitialAd = new InterstitialAd(this);
-        mInterstitialAd.setAdUnitId("ca-app-pub-7146853836816464/4055356048");
-        mInterstitialAd.loadAd(new AdRequest.Builder().build());
 
         questionNumber = findViewById(R.id.questionNumber);
 

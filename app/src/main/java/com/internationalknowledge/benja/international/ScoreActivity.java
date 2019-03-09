@@ -83,7 +83,7 @@ public class ScoreActivity extends AppCompatActivity {
                 float france_games = prefs.getInt("france_games", -1);
                 float france_score = prefs.getInt("france_score", 0);
                 String francePourcentage = Math.round(france_score / france_games * 10) + "%";
-                prefs.edit().putString("england_pourcentage", francePourcentage).apply();
+                prefs.edit().putString("france_pourcentage", francePourcentage).apply();
                 pourcentageNumberTV.setText(francePourcentage);
 
                 break;
@@ -145,15 +145,6 @@ public class ScoreActivity extends AppCompatActivity {
         if (score == 10) {
             scoreTV.setText(R.string.amazing);
 
-
-
-            perfectScorePresent.setText("+10 ☯");
-
-            int flags =  prefs.getInt("flags", 0);
-
-            SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-            editor.putInt("flags", flags + 10);
-            editor.apply();
 
         } else if (score == 9) {
             scoreTV.setText(R.string.prettyAmazing);
